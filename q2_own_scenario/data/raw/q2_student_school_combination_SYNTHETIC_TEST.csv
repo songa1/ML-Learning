@@ -1,0 +1,1213 @@
+student_record_id,school_id,school_name,district,province,gender,age,s3_aggregate,math_grade,english_grade,science_grade,school_type,boarding_day,school_size,student_teacher_ratio,science_lab,ict_lab,library,tuition_fee,boarding_fee,distance_km,combination,previous_year_pass_rate,scholarship_flag,alevel_total_points,alevel_subject_points,university_admission,repeat_year
+S00000,HUYE,Huye Science School,Huye,Southern,Female,18,57,9,5,5,public,Boarding,1429,31.5,Yes,Yes,Yes,157778,179622,18.2,HEL,0.745,No,50.0,47.1,Not admitted,No
+S00001,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,62,8,8,8,government-aided,Day,973,36.9,Yes,Yes,No,92647,0,4.9,Mpc,0.566,No,52.0,51.7,Not admitted,No
+S00002,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,54,6,8,7,private,Boarding,696,41.0,Yes,Yes,Yes,130901,219190,2.3,TVET,0.635,No,45.4,44.6,Admitted,No
+S00003,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,43,6,7,7,private,Boarding,721,31.2,Yes,Yes,Yes,44837,95669,3.5,LEG,0.75,No,59.8,58.5,Not admitted,No
+S00004,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,40,5,5,3,public,Day,965,30.2,Yes,Yes,Yes,151596,0,6.8,HEL,0.621,No,40.7,36.4,Admitted,No
+S00005,GISA,Gisagara College,Gisagara,Southern,Male,19,43,8,5,7,private,Boarding,946,32.4,Yes,No,Yes,25000,205409,8.9,LEG,0.597,No,55.1,53.5,Not admitted,No
+S00006,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,35,5,5,7,government-aided,Day,761,36.9,Yes,Yes,Yes,64038,0,5.4,PCB,0.487,No,51.7,47.3,Not admitted,No
+S00007,HUYE,Huye Science School,Huye,Southern,Female,15,72,9,8,6,public,Boarding,663,27.5,Yes,Yes,Yes,173628,185993,6.5,LEG,0.535,Yes,40.1,39.9,Not admitted,No
+S00008,GISA,Gisagara College,Gisagara,Southern,Male,15,33,3,3,8,private,Boarding,1536,40.7,Yes,No,Yes,106384,172146,4.4,MCB,0.742,Yes,48.4,44.6,Not admitted,No
+S00009,MUSA,Musanze Technical School,Musanze,Northern,Male,19,51,9,7,6,government-aided,Day,829,37.4,No,Yes,No,39751,0,27.7,MEG,0.921,Yes,44.0,48.4,Not admitted,No
+S00010,GISA,Gisagara College,Gisagara,Southern,Male,16,43,6,5,6,private,Boarding,605,34.7,Yes,Yes,Yes,68622,89683,3.7,PCB,0.633,No,45.2,45.3,Admitted,No
+S00011,HUYE,Huye Science School,Huye,Southern,Female,16,60,9,9,8,public,Boarding,1683,32.2,Yes,Yes,Yes,119976,190975,55.4,TVET,0.943,No,42.5,38.1,Not admitted,Yes
+S00012,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,40,2,5,3,private,Boarding,1594,51.7,Yes,Yes,Yes,109815,51959,2.3,TVET,0.978,No,45.3,50.8,Admitted,Yes
+S00013,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,68,8,9,9,public,Day,506,31.0,Yes,Yes,Yes,100348,0,8.9,HEG,0.602,No,49.9,50.4,Admitted,No
+S00014,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,51,7,9,9,private,Boarding,895,27.9,Yes,Yes,Yes,180512,193392,10.8,TVET,0.436,No,55.6,52.3,Not admitted,No
+S00015,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,46,6,6,9,private,Boarding,967,32.1,Yes,Yes,Yes,25000,197959,29.4,LEG,0.465,No,50.3,50.1,Not admitted,No
+S00016,MUSA,Musanze Technical School,Musanze,Northern,Male,19,68,9,9,9,government-aided,Day,1261,40.6,Yes,Yes,Yes,169427,0,2.9,MEG,0.79,No,42.1,45.6,Admitted,No
+S00017,MUHA,Muhanga Academy,Muhanga,Southern,Male,15,47,4,5,9,private,Boarding,1463,28.4,No,Yes,Yes,78087,196840,18.6,MEG,0.765,No,55.4,55.6,Not admitted,No
+S00018,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,55,5,9,8,government-aided,Day,898,29.4,Yes,Yes,No,127892,0,9.2,HEL,0.559,No,46.3,47.5,Not admitted,No
+S00019,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,39,4,5,7,private,Boarding,833,44.6,Yes,No,Yes,243020,160638,1.5,PCB,0.905,No,55.2,59.1,Not admitted,No
+S00020,RUBA,Rubavu College,Rubavu,Western,Female,17,53,8,7,5,public,Boarding,1795,34.4,Yes,No,Yes,122603,228209,8.9,MEG,0.754,No,47.6,48.2,Admitted,No
+S00021,GISA,Gisagara College,Gisagara,Southern,Female,18,46,7,3,4,private,Boarding,619,15.3,Yes,No,No,125878,251245,21.4,TVET,0.67,Yes,54.8,58.9,Not admitted,No
+S00022,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,37,4,6,8,public,Day,1197,37.1,Yes,Yes,No,25000,0,15.5,HEL,0.595,No,44.6,42.6,Not admitted,No
+S00023,MUSA,Musanze Technical School,Musanze,Northern,Female,17,63,8,6,9,government-aided,Day,1256,42.9,Yes,Yes,Yes,222305,0,38.9,MCB,0.69,No,48.7,46.2,Not admitted,No
+S00024,RUBA,Rubavu College,Rubavu,Western,Female,17,28,1,2,3,public,Boarding,898,49.5,Yes,Yes,Yes,92610,155094,8.6,MCB,0.767,No,62.6,59.2,Not admitted,No
+S00025,RUBA,Rubavu College,Rubavu,Western,Male,17,49,7,6,6,public,Boarding,1489,37.4,No,Yes,Yes,151607,250970,9.9,MCB,0.64,No,47.6,50.4,Not admitted,Yes
+S00026,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,64,9,8,6,public,Day,815,29.7,No,No,Yes,140579,0,2.1,HEG,0.638,No,44.1,46.5,Not admitted,No
+S00027,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,67,8,8,9,private,Boarding,469,45.2,Yes,Yes,No,129202,284530,5.5,HEL,0.548,No,47.8,43.1,Admitted,No
+S00028,RUBA,Rubavu College,Rubavu,Western,Female,17,38,2,4,5,public,Boarding,1256,32.0,No,Yes,Yes,153876,221386,10.1,HEG,0.758,No,68.5,68.2,Not admitted,No
+S00029,HUYE,Huye Science School,Huye,Southern,Female,19,37,5,5,5,public,Boarding,525,41.2,Yes,Yes,No,145163,188158,2.3,MEG,0.67,No,47.3,47.9,Not admitted,No
+S00030,RUBA,Rubavu College,Rubavu,Western,Male,17,52,3,5,6,public,Boarding,1593,39.7,No,Yes,Yes,127949,287778,2.8,MEG,0.715,No,37.1,33.3,Not admitted,No
+S00031,RUBA,Rubavu College,Rubavu,Western,Female,19,26,4,2,5,public,Boarding,1110,28.9,No,No,Yes,25000,212662,3.2,PCB,0.713,No,62.3,59.9,Not admitted,No
+S00032,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,65,8,9,9,public,Day,1299,37.8,Yes,No,Yes,57767,0,1.1,MCB,0.906,No,40.3,34.5,Admitted,No
+S00033,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,54,8,5,8,private,Boarding,1798,35.4,Yes,Yes,Yes,25000,186507,5.4,HEG,0.939,Yes,62.2,58.9,Admitted,Yes
+S00034,GISA,Gisagara College,Gisagara,Southern,Male,17,62,8,6,8,private,Boarding,1088,31.3,No,Yes,Yes,141513,138409,1.0,HEG,0.79,No,43.7,39.7,Admitted,No
+S00035,GISA,Gisagara College,Gisagara,Southern,Female,19,53,8,7,8,private,Boarding,988,44.0,Yes,No,No,91052,141462,13.9,LEG,0.89,No,46.2,47.1,Not admitted,Yes
+S00036,RUBA,Rubavu College,Rubavu,Western,Female,19,38,1,3,3,public,Boarding,1049,42.9,Yes,Yes,Yes,172704,106682,3.6,MCB,0.758,No,57.5,57.5,Admitted,No
+S00037,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,33,2,5,4,government-aided,Day,1553,33.2,Yes,Yes,Yes,64241,0,23.8,MEG,0.72,No,45.6,42.2,Not admitted,No
+S00038,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,51,7,8,8,private,Boarding,421,16.0,Yes,Yes,Yes,25000,181932,15.6,PCB,0.932,Yes,51.4,48.7,Admitted,No
+S00039,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,69,9,8,9,private,Boarding,1488,37.5,Yes,Yes,Yes,150029,198855,1.8,HEG,0.692,Yes,36.3,41.3,Not admitted,No
+S00040,HUYE,Huye Science School,Huye,Southern,Male,19,48,7,5,7,public,Boarding,1036,23.6,Yes,Yes,No,164181,175801,9.0,LEG,0.686,No,44.6,44.1,Admitted,No
+S00041,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,26,3,5,5,government-aided,Day,1604,34.3,Yes,Yes,Yes,135860,0,20.7,LEG,0.834,No,47.3,46.3,Not admitted,Yes
+S00042,HUYE,Huye Science School,Huye,Southern,Male,18,41,4,6,5,public,Boarding,1308,36.2,No,Yes,Yes,51085,26834,1.7,PCB,0.684,No,52.2,55.8,Not admitted,No
+S00043,RUBA,Rubavu College,Rubavu,Western,Female,17,43,4,4,5,public,Boarding,566,48.7,Yes,No,Yes,250000 RWF,168469,8.2,MPC,0.731,No,56.1,54.0,Not admitted,No
+S00044,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,48,7,6,7,private,Boarding,1311,18.5,No,Yes,Yes,111787,180878,4.2,MCB,0.796,No,52.3,50.5,Admitted,Yes
+S00045,HUYE,Huye Science School,Huye,Southern,Male,17,48,3,3,6,public,Boarding,706,33.2,No,No,No,53889,92961,3.1,PCB,0.72,No,48.0,40.5,Not admitted,No
+S00046,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,48,6,8,5,public,Day,1389,37.8,Yes,Yes,No,106890,0,26.3,HEG,0.593,Yes,46.1,42.3,Admitted,No
+S00047,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,54,6,9,9,private,Boarding,1605,26.3,Yes,Yes,Yes,97515,114309,8.1,HEG,0.6,No,64.9,64.4,Not admitted,No
+S00048,GISA,Gisagara College,Gisagara,Southern,Female,15,53,9,9,8,private,Boarding,1109,24.8,Yes,Yes,Yes,126638,237047,10.9,MCB,0.848,No,49.7,50.7,Not admitted,No
+S00049,MUSA,Musanze Technical School,Musanze,Northern,Female,18,53,8,5,6,government-aided,Day,780,30.1,Yes,No,No,203928,0,8.2,TVET,0.54,No,47.8,43.7,Admitted,Yes
+S00050,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,44,6,6,7,public,Day,744,25.7,Yes,Yes,Yes,139409,0,10.7,HEL,0.466,Yes,56.8,57.9,Admitted,No
+S00051,GISA,Gisagara College,Rubavu ,Southern,Male,19,55,7,7,9,private,Boarding,1718,48.4,No,Yes,Yes,157175,183482,8.2,MCB,0.795,No,43.0,41.8,Not admitted,No
+S00052,MUSA,Musanze Technical School,Nyanza,Northern,Male,15,43,7,6,4,government-aided,Day,556,30.0,No,Yes,Yes,117869,0,5.9,LEG,0.633,No,53.9,54.8,Admitted,No
+S00053,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,21,3,2,4,private,Boarding,1762,35.6,Yes,Yes,Yes,114923,244029,4.7,HEL,0.793,No,55.1,58.0,Not admitted,No
+S00054,MUSA,Musanze Technical School,Musanze,Northern,Female,16,41,6,4,6,government-aided,Day,1404,32.4,No,Yes,Yes,195960,0,8.3,MPC,0.738,No,54.9,54.4,Admitted,No
+S00055,GISA,Gisagara College,Gisagara,Southern,Female,19,47,4,7,9,private,Boarding,464,32.4,Yes,Yes,No,64791,190875,21.2,PCB,0.98,No,62.6,63.3,Admitted,No
+S00056,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,43,3,3,7,government-aided,Day,906,29.2,Yes,Yes,Yes,78916,0,19.7,PCB,0.901,No,57.8,61.5,Not admitted,No
+S00057,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,34,5,2,3,government-aided,Day,895,40.7,No,No,Yes,101775,0,8.0,TVET,0.691,Yes,50.4,51.5,Admitted,Yes
+S00058,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,45,6,6,9,government-aided,Day,510,32.0,No,No,Yes,77278,0,22.3,MCB,0.657,No,50.2,50.3,Not admitted,No
+S00059,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,23,2,3,4,private,Boarding,383,30.9,Yes,No,Yes,167946,194085,4.7,LEG,0.778,No,61.8,66.2,Not admitted,No
+S00060,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,44,3,4,4,private,Boarding,1534,48.4,Yes,Yes,Yes,25000,166818,3.3,MEG,0.668,No,46.8,47.2,Admitted,No
+S00061,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,38,6,5,3,government-aided,Day,1636,36.9,Yes,No,Yes,170413,0,6.0,HEG,0.785,No,65.9,62.2,Not admitted,No
+S00062,RUBA,Rubavu College,Rubavu,Western,Female,15,42,6,5,4,public,Boarding,746,28.3,Yes,Yes,Yes,163771,140764,6.4,PCB,0.58,Yes,44.0,38.6,Not admitted,No
+S00063,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,63,9,9,7,government-aided,Day,871,39.8,No,Yes,No,84774,0,3.0,PCB,0.514,No,27.4,27.7,Admitted,No
+S00064,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,55,9,9,6,public,Day,805,29.8,Yes,Yes,No,25000,0,6.4,HEG,0.462,No,58.1,55.7,Not admitted,No
+S00065,GISA,Gisagara College,Gisagara,Southern,Female,16,47,9,5,8,private,Boarding,853,40.4,Yes,No,Yes,69016,221345,12.4,TVET,0.763,Yes,62.0,60.9,Not admitted,No
+S00066,RUBA,Rubavu College,Rubavu,Western,Female,15,67,9,9,9,public,Boarding,1570,17.9,Yes,Yes,No,42048,173373,36.7,PCB,0.795,No,42.1,40.9,Not admitted,No
+S00067,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,40,3,4,5,government-aided,Day,830,15.0,No,Yes,Yes,25000,0, ,HEG,0.853,No,52.5,49.0,Not admitted,No
+S00068,HUYE,Huye Science School,Huye,Southern,Female,16,70,9,9,7,public,Boarding,1319,27.9,Yes,Yes,Yes,127582,242722,9.3,MEG,0.458,Yes,49.2,43.6,Admitted,No
+S00069,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,70,9,9,9,government-aided,Day,1233,27.6,Yes,Yes,Yes,58218,0,46.9,TVET,0.726,No,47.1,46.8,Admitted,No
+S00070,MUSA,Musanze Technical School,Musanze,Northern,Female,19,56,9,8,7,government-aided,Day,1669,30.7,Yes,Yes,Yes,25000,0,14.7,MPC,0.627,No,38.7,42.7,Not admitted,No
+S00071,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,52,4,7,8,private,Boarding,1095,35.4,No,No,Yes,25000,152779,6.5,MCB,0.435,No,59.9,56.6,Not admitted,No
+S00072,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,41,6,3,9,government-aided,Day,588,32.5,No,No,Yes,97180,0,6.3,LEG,0.611,No,56.7,57.5,Not admitted,No
+S00073,MUSA,Musanze Technical School,Musanze,Northern,Male,16,72,7,9,9,government-aided,Day,390,51.8,Yes,No,Yes,103052,0,6.2,MPC,0.735,No,39.7,37.0,Not admitted,No
+S00074,MUSA,Musanze Technical School,Musanze,Northern,Female,18,44,4,4,3,government-aided,Day,1055,33.3,Yes,No,Yes,176646,0,4.3,HEG,0.73,No,60.9,60.5,Admitted,No
+S00075,HUYE,Huye Science School,Huye,Southern,Male,17,40,5,6,5,public,Boarding,1461,45.7,Yes,No,Yes,213192,200012,16.0,HEL,0.579,No,54.4,57.4,Not admitted,No
+S00076,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,26,3,5,3,public,Day,1408,32.5,Yes,Yes,No,93512,0,28.9,MPC,0.743,No,56.6,57.6,Not admitted,No
+S00077,MUSA,Musanze Technical School,Musanze,Northern,Female,16,51,7,6,7,government-aided,Day,1102,25.4,Yes,Yes,No,51745,0,13.1,HEL,0.515,No,44.8,48.8,Admitted,No
+S00078,GISA,Gisagara College,Gisagara,Southern,Female,16,47,9,6,6,private,Boarding,930,41.2,Yes,Yes,No,75681,266841,5.7,MPC,0.409,No,32.8,32.1,Not admitted,No
+S00079,GISA,Gisagara College,Gisagara,Southern,Female,17,45,3,7,7,private,Boarding,1130,41.9,No,Yes,Yes,156207,56885,3.5,MEG,0.892,No,58.6,59.3,Admitted,No
+S00080,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,38,6,6,2,private,Boarding,339,29.3,Yes,No,Yes,74926,229007,14.1,HEL,0.66,No,57.4,55.0,Not admitted,No
+S00081,RUBA,Rubavu College,Rubavu,Western,Male,16,49,8,4,7,public,Boarding,1452,36.7,Yes,No,Yes,116618,247014,1.3,LEG,0.728,No,49.2,50.9,Admitted,No
+S00082,GISA,Gisagara College,Gisagara,Southern,Female,18,59,6,7,6,private,Boarding,1585,32.6,Yes,No,Yes,132646,191702,26.1,HEL,0.531,No,56.2,60.0,Admitted,No
+S00083,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,50,6,6,7,public,Day,674,33.7,Yes,No,Yes,275283,0,1.8,HEG,0.725,Yes,52.9,53.0,Not admitted,No
+S00084,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,20,5,3,4,public,Day,723,27.4,No,Yes,No,174648,0,1.8,HEG,0.816,No,58.6,54.2,Not admitted,No
+S00085,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,30,4,4,6,private,Boarding,862,28.4,No,Yes,No,93790,158448,2.1,LEG,0.734,No,65.2,65.6,Not admitted,No
+S00086,GISA,Gisagara College,Gisagara,Southern,Female,18,62,7,9,8,private,Boarding,690,28.4,Yes,No,No,139751,159080,2.0,MPC,0.818,No,44.0,43.2,Admitted,No
+S00087,GISA,Gisagara College,Gisagara,Southern,Female,17,40,6,4,6,private,Boarding,864,41.0,Yes,No,Yes,38992,137768,2.7,LEG,0.737,No,71.2,66.0,Admitted,No
+S00088,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,20,3,5,2,public,Day,1242,42.2,No,No,Yes,150254,0,6.7,MPC,0.538,No,53.4,51.8,Admitted,No
+S00089,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,40,8,7,5,government-aided,Day,1532,29.8,No,Yes,No,113304,0,6.2,HEG,0.478,No,59.0,54.9,Admitted,No
+S00090,MUSA,Musanze Technical School,Musanze,Northern,Female,16,65,9,7,9,government-aided,Day,1577,29.4,No,Yes,Yes,72401,0,4.5,HEL,0.588,No,51.9,53.8,Not admitted,No
+S00091,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,33,3,3,2,government-aided,Day,942,32.8,Yes,Yes,Yes,269526,0,5.1,LEG,0.69,No,66.5,69.9,Not admitted,No
+S00092,RUBA,Rubavu College,Rubavu,Western,Male,17,65,9,9,5,public,Boarding,1678,39.5,Yes,No,Yes,131585,246086,2.0,HEG,0.679,No,42.2,36.6,Admitted,No
+S00093,RUBA,Rubavu College,Rubavu,Western,Male,15,42,5,6,5,public,Boarding,889,34.7,Yes,No,Yes,117183,242251,1.5,MCB,0.404,No,52.9,53.4,Not admitted,No
+S00094,HUYE,Huye Science School,Huye,Southern,Male,19,44,2,7,8,public,Boarding,1069,27.0,Yes,Yes,No,66813,159148,13.4,MEG,0.688,No,55.7,57.4,Not admitted,No
+S00095,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,37,4,5,6,public,Day,1568,23.5,Yes,No,Yes,93849,0,12.5,HEG,0.59,No,52.2,54.2,Admitted,No
+S00096,MUSA,Musanze Technical School,Musanze,Northern,Male,15,52,5,8,5,government-aided,Day,361,42.2,No,Yes,Yes,152318,0,5.5,HEG,0.713,No,42.8,41.0,Not admitted,No
+S00097,MUSA,Musanze Technical School,Musanze,Northern,Female,17,69,9,7,9,government-aided,Day,795,30.3,Yes,Yes,Yes,56504,0,8.7,MPC,0.461,No,49.7,47.4,Not admitted,No
+S00098,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,29,4,3,2,government-aided,Day,1684,42.6,No,Yes,No,51149,0,7.6,HEG,0.701,No,57.4,55.1,Not admitted,Yes
+S00099,HUYE,Huye Science School,Huye,Southern,Male,19,20,1,4,2,public,Boarding,1396,25.3,No,No,Yes,111969,91532,4.6,HEL,0.538,No,66.8,61.6,Not admitted,No
+S00100,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,67,9,7,8,private,Boarding,1208,23.8,Yes,Yes,No,94117,48800,4.0,HEG,0.553,Yes,61.9,62.1,Admitted,No
+S00101,HUYE,Huye Science School,Huye,Southern,Male,19,35,6,3,4,public,Boarding,429,35.3,Yes,Yes,Yes,74608,208956,8.9,PCB,0.668,No,60.4,59.7,Admitted,Yes
+S00102,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,57,5,8,9,private,Boarding,957,35.4,No,Yes,Yes,71771,154708,8.7,MCB,0.573,No,39.8,41.0,Not admitted,Yes
+S00103,RUBA,Rubavu College,Rubavu,Western,Male,18,52,7,7,6,public,Boarding,1770,30.4,Yes,Yes,Yes,37736,253587,6.9,TVET,0.524,No,54.3,50.5,Not admitted,No
+S00104,HUYE,Huye Science School,Huye,Southern,Female,15,67,9,9,8,public,Boarding,906,37.8,Yes,No,Yes,111161,81656,2.3,HEG,0.759,No,45.4,44.0,Not admitted,No
+S00105,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,49,8,6,8,private,Boarding,1295,36.4,Yes,Yes,Yes,73010,78459,3.3,HEG,0.772,No,52.9,49.5,Admitted,No
+S00106,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,52,8,6,4,private,Boarding,1351,25.3,No,Yes,Yes,135882,153368,6.4,PCB,0.815,Yes,56.4,55.8,Admitted,No
+S00107,MUSA,Musanze Technical School,Musanze,Northern,Female,16,48,4,6,6,government-aided,Day,775,26.7,Yes,Yes,Yes,123714,0,16.7,TVET,0.789,No,46.5,44.6,Not admitted,No
+S00108,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,57,8,9,9,private,Boarding,1690,19.5,No,No,Yes,75739,229031,5.9,MPC,0.608,No,44.5,42.1,Admitted,No
+S00109,MUSA,Musanze Technical School,Musanze,Northern,Female,15,50,7,6,7,government-aided,Day,669,35.7,Yes,Yes,Yes,70498,0,7.8,PCB,0.676,Yes,63.7,62.1,Admitted,No
+S00110,RUBA,Rubavu College,Rubavu,Western,Male,16,43,6,4,5,public,Boarding,1066,40.8,No,Yes,Yes,96730,364278,10.1,TVET,0.579,Yes,44.6,47.4,Admitted,No
+S00111,GISA,Gisagara College,Gisagara,Southern,Male,16,37,3,5,6,private,Boarding,751,27.5,Yes,Yes,Yes,63082,266081,12.3,MCB,0.765,Yes,76.8,71.7,Not admitted,No
+S00112,GISA,Gisagara College,Gisagara,Southern,Female,16,44,4,6,6,private,Boarding,1343,38.1,Yes,Yes,Yes,127893,44626,3.3,MEG,0.436,No,52.8,51.4,Admitted,No
+S00113,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,36,5,5,1,public,Day,655,34.1,Yes,Yes,Yes,105272,0,7.9,HEL,0.765,No,51.2,49.8,Not admitted,Yes
+S00114,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,59,9,9,6,private,Boarding,446,34.1,Yes,No,No,120097,121215,7.9,MPC,0.569,No,50.6,51.1,Admitted,No
+S00115,MUSA,Musanze Technical School,Musanze,Northern,Female,18,35,2,7,3,government-aided,Day,395,33.7,No,Yes,Yes,182615,0,3.9,HEL,0.485,No,57.3,55.4,Not admitted,Yes
+S00116,RUBA,Rubavu College,Rubavu,Western,Male,15,35,4,6,1,public,Boarding,926,24.5,Yes,Yes,Yes,145300,8589,3.9,LEG,0.699,No,60.1,62.5,Admitted,No
+S00117,MUSA,Musanze Technical School,Musanze,Northern,Male,17,52,5,8,8,government-aided,Day,657,15.0,Yes,Yes,Yes,25000,0,19.8,MCB,0.682,No,52.0,53.4,Not admitted,No
+S00118,MUSA,Musanze Technical School,Musanze,Northern,Male,16,29,4,5,6,government-aided,Day,696,43.3,Yes,No,No,87092,0,5.8,TVET,0.611,No,35.0,33.7,Not admitted,No
+S00119,RUBA,Rubavu College,Rubavu,Western,Female,17,63,9,9,9,public,Boarding,990,34.4,Yes,Yes,Yes,137274,331407,6.0,MCB,0.739,No,53.6,53.6,Admitted,No
+S00120,MUSA,Musanze Technical School,Musanze,Northern,Male,19,50,8,5,4,government-aided,Day,483,33.7,Yes,No,No,160898,0,17.1,MEG,0.798,No,46.7,40.5,Admitted,No
+S00121,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,39,7,6,6,government-aided,Day,1478,33.7,No,No,Yes,123254,0,9.6,PCB,0.849,No,63.2,60.2,Admitted,No
+S00122,RUBA,Rubavu College,Rubavu,Western,Female,17,61,8,7,9,public,Boarding,441,32.1,No,Yes,No,25000,210311,4.2,LEG,0.686,No,44.8,47.2,Not admitted,No
+S00123,RUBA,Rubavu College,Rubavu,Western,Male,18,28,5,5,3,public,Boarding,1796,39.6,Yes,Yes,Yes,51208,144066,6.4,MEG,0.59,No,53.6,56.5,Not admitted,No
+S00124,MUSA,Musanze Technical School,Musanze,Northern,Male,18,37,2,5,4,government-aided,Day,1603,29.7,Yes,Yes,Yes,35725,0,18.0,TVET,0.87,No,48.6,50.4,Not admitted,No
+S00125,GISA,Gisagara College,Gisagara,Southern,Female,17,42,6,7,9,private,Boarding,1713,33.9,Yes,Yes,Yes,58992,182173,6.1,TVET,0.546,Yes,43.1,40.2,Admitted,Yes
+S00126,RUBA,Rubavu College,Rubavu,Western,Male,19,54,6,8,9,public,Boarding,1022,31.0,Yes,No,No,85570,146778,11.4,HEL,0.564,No,49.5,52.5,Admitted,No
+S00127,GISA,Gisagara College,Gisagara,Southern,Female,15,32,4,2,3,private,Boarding,583,30.5,Yes,Yes,Yes,89643,144673,9.6,TVET,0.762,No,58.8,52.7,Not admitted,No
+S00128,MUHA,Muhanga Academy,Muhanga,Southern,Male,15,37,5,5,5,private,Boarding,1040,34.9,Yes,Yes,Yes,127639,174842,14.2,LEG,0.582,No,50.6,53.9,Not admitted,No
+S00129,MUSA,Musanze Technical School,Musanze,Northern,Female,19,62,9,9,9,government-aided,Day,298,43.7,Yes,No,Yes,0,0,5.8,LEG,0.596,Yes,44.6,47.0,Admitted,No
+S00130,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,54,4,7,9,private,Boarding,439,38.3,Yes,No,Yes,152531,170099,5.5,TVET,0.832,Yes,58.1,59.7,Not admitted,No
+S00131,MUSA,Musanze Technical School,Musanze,Northern,Female,18,37,3,2,6,government-aided,Day,1710,37.8,Yes,Yes,Yes,112494,0,5.0,TVET,0.636,No,40.3,41.8,Admitted,No
+S00132,RUBA,Rubavu College,Rubavu,Western,Female,19,52,6,4,8,public,Boarding,1584,45.9,No,No,No,207531,254349,3.5,MEG,0.708,No,35.1,36.5,Admitted,No
+S00133,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,47,7,5,5,private,Boarding,574,45.0,Yes,Yes,No,133689,207215,16.4,HEG,0.692,No,53.1,55.0,Not admitted,No
+S00134,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,28,2,5,4,government-aided,Day,1126,42.3,Yes,No,Yes,126258,0,19.0,MEG,0.554,No,52.8,55.3,Not admitted,No
+S00135,GISA,Gisagara College,Gisagara,Southern,Female,18,43,3,5,6,private,Boarding,981,27.8,No,Yes,No,199554,189802,4.8,MPC,0.658,No,65.7,63.2,Admitted,No
+S00136,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,48,8,8,6,government-aided,Day,859,39.3,Yes,Yes,Yes,61683,0,3.4,TVET,0.883,No,60.1,58.6,Not admitted,No
+S00137,HUYE,Huye Science School,Huye,Southern,Female,16,49,9,5,6,public,Boarding,1785,36.1,Yes,Yes,No,59543,125994,5.6,HEG,0.48,No,51.0,49.8,Not admitted,Yes
+S00138,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,65,8,9,8,private,Boarding,1070,46.5,Yes,Yes,No,182807,159488,16.4,MPC,0.583,No,45.6,40.3,Admitted,No
+S00139,HUYE,Huye Science School,Huye,Southern,Male,18,35,4,4,7,public,Boarding,1332,38.0,Yes,Yes,No,162146,97156,14.4,HEG,0.846,No,52.9,54.1,Not admitted,No
+S00140,GISA,Gisagara College,Gisagara,Southern,Male,18,56,7,6,7,private,Boarding,1046,34.9,Yes,Yes,Yes,124663,265295,1.8,HEG,0.705,No,47.5,44.8,Admitted,No
+S00141,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,32,7,3,4,private,Boarding,797,26.4,No,No,Yes,68088,220330,3.8,LEG,0.431,No,67.6,70.7,Admitted,Yes
+S00142,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,52,6,4,7,government-aided,Day,1174,24.4,No,Yes,Yes,162958,0,4.2,LEG,0.454,No,55.7,54.1,Not admitted,No
+S00143,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,57,9,9,7,government-aided,Day,1257,30.6,Yes,Yes,No,140602,0,3.3,TVET,0.891,No,50.4,53.6,Admitted,No
+S00144,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,41,5,8,5,private,Boarding,1706,29.9,Yes,No,Yes,145818,156973,11.7,MCB,0.59,No,62.3,64.9,Not admitted,No
+S00145,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,25,4,1,2,government-aided,Day,675,30.6,Yes,Yes,Yes,34564,0,13.8,MPC,0.785,No,46.4,47.3,Not admitted,No
+S00146,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,70,9,7,9,private,Boarding,387,41.8,Yes,Yes,Yes,109085,213803,8.9,HEL,0.847,No,42.8,46.1,Admitted,No
+S00147,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,41,4,7,7,public,Day,490,45.4,No,Yes,Yes,201645,0,7.0,MCB,0.698,No,43.7,39.3,Not admitted,No
+S00148,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,32,5,6,4,public,Day,1283,19.3,Yes,Yes,Yes,121433,0,1.2,TVET,0.495,No,51.3,52.5,Admitted,No
+S00149,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,47,7,7,6,private,Boarding,1665,31.3,Yes,Yes,Yes,78525,128642,2.8,MEG,0.817,No,47.6,50.0,Admitted,No
+S00150,RUBA,Rubavu College,Rubavu,Western,Female,15,43,6,7,6,public,Boarding,1520,38.4,Yes,Yes,No,25000,200015,35.0,MEG,0.901,Yes,43.2,45.9,Not admitted,No
+S00151,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,39,7,6,6,government-aided,Day,982,31.5,Yes,No,Yes,173101,0,4.0,MPC,0.296,No,62.7,61.5,Not admitted,No
+S00152,GISA,Gisagara College,Gisagara,Southern,Male,15,44,6,6,9,private,Boarding,681,39.8,No,Yes,Yes,98798,0,1.3,HEG,0.537,No,54.3,54.9,Not admitted,No
+S00153,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,39,5,3,7,private,Boarding,1344,50.3,Yes,Yes,Yes,113309,134117,8.1,PCB,0.725,No,43.9,41.5,Not admitted,No
+S00154,MUSA,Musanze Technical School,Musanze,Northern,Male,16,66,9,9,7,government-aided,Day,1018,45.4,Yes,Yes,Yes,191104,0,12.3,LEG,0.908,No,57.8,56.3,Admitted,No
+S00155,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,43,8,7,9,government-aided,Day,1597,31.9,Yes,Yes,Yes,100128,0,13.4,MPC,0.98,No,48.0,48.4,Admitted,No
+S00156,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,52,4,5,9,public,Day,323,27.9,Yes,Yes,Yes,155465,0,2.5,TVET,0.562,No,48.3,50.0,Admitted,No
+S00157,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,49,6,5,6,public,Day,949,33.0,Yes,Yes,Yes,94456,0,10.9,MPC,0.753,No,58.8,61.8,Admitted,No
+S00158,GISA,Gisagara College,Gisagara,Southern,Male,15,34,4,4,3,private,Boarding,316,43.4,No,No,Yes,99046,175289,9.1,HEL,0.741,No,50.0,52.6,Not admitted,No
+S00159,HUYE,Huye Science School,Huye,Southern,Male,18,37,5,2,3,public,Boarding,441,30.3,Yes,Yes,Yes,89104,226752,2.9,LEG,0.553,Yes,62.0,65.7,Not admitted,No
+S00160,HUYE,Huye Science School,Huye,Southern,Female,15,34,6,3,8,public,Boarding,1776,25.9,Yes,No,Yes,111110,178126,13.6,HEG,0.698,No,50.7,51.4,Admitted,No
+S00161,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,56,6,7,6,government-aided,Day,1334,36.7,Yes,Yes,Yes,128345,0,11.5,MEG,0.674,No,40.8,41.9,Not admitted,No
+S00162,HUYE,Huye Science School,Huye,Southern,Female,15,41,4,7,7,public,Boarding,1475,49.8,Yes,No,Yes,102485,192863,5.4,TVET,0.732,No,50.0,55.3,Admitted,No
+S00163,RUBA,Rubavu College,Rubavu,Western,Female,18,46,5,5,9,public,Boarding,1053,22.3,Yes,Yes,No,145513,222363,4.4,PCB,0.728,No,48.9,46.1,Admitted,No
+S00164,GISA,Gisagara College,Gisagara,Southern,Male,16,48,8,4,8,private,Boarding,669,39.0,Yes,No,Yes,75837,214544,12.8,MEG,0.488,No,46.6,45.5,Admitted,No
+S00165,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,33,4,6,2,public,Day,1244,42.2,Yes,No,Yes,98158,0,17.9,PCB,0.74,No,55.9,56.9,Admitted,No
+S00166,MUSA,Musanze Technical School,Musanze,Northern,Male,18,56,6,9,8,government-aided,Day,1366,43.7,Yes,Yes,No,119695,0,2.0,HEG,0.422,Yes,41.1,38.4,Admitted,No
+S00167,HUYE,Huye Science School,Huye,Southern,Female,18,30,3,6,2,public,Boarding,1696,30.1,Yes,Yes,Yes,165003,94388,18.0,MPC,0.561,No,58.7,60.2,Not admitted,No
+S00168,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,50,8,7,4,private,Boarding,1713,31.0,Yes,Yes,Yes,66788,151379,8.1,MPC,0.527,No,63.7,62.2,Admitted,No
+S00169,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,38,7,4,5,private,Boarding,300,18.7,Yes,Yes,Yes,72852,147019,29.8,TVET,0.788,No,66.4,64.2,Not admitted,No
+S00170,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,35,4,5,4,government-aided,Day,1633,29.3,No,Yes,Yes,90723,0,8.3,MPC,0.757,No,60.8,63.7,Not admitted,No
+S00171,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,35,4,4,6,private,Boarding,666,35.1,Yes,No,Yes,78150,254469,13.7,PCB,0.455,No,57.8,60.1,Not admitted,No
+S00172,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,39,5,5,5,public,Day,406,30.8,Yes,Yes,Yes,141839,0,3.1,HEL,0.452,No,58.3,63.4,Not admitted,No
+S00173,GISA,Gisagara College,Gisagara,Southern,Female,18,50,8,5,7,private,Boarding,1682,40.6,Yes,Yes,No,80819,138290,3.3,HEL,0.703,Yes,35.4,36.0,Admitted,Yes
+S00174,RUBA,Rubavu College,Rubavu,Western,Male,16,44,6,6,5,public,Boarding,1523,22.2,Yes,Yes,Yes,149386,155454,3.4,TVET,0.641,Yes,56.3,61.9,Not admitted,Yes
+S00175,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,41,3,5,4,public,Day,1748,27.6,Yes,Yes,Yes,65286,0,6.0,LEG,0.42,No,55.4,57.9,Not admitted,No
+S00176,HUYE,Huye Science School,Huye,Southern,Male,19,56,9,8,7,public,Boarding,1576,17.8,Yes,No,Yes,118604,183059,15.7,TVET,0.699,No,50.0,49.7,Not admitted,No
+S00177,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,52,8,9,8,private,Boarding,1781,45.2,No,No,Yes,143941,129403,8.0,MPC,0.64,No,63.5,63.6,Not admitted,No
+S00178,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,42,7,5,5,private,Boarding,983,39.6,Yes,No,Yes,68464,191542,3.5,MPC,0.648,No,54.8,50.6,Admitted,No
+S00179,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,64,6,9,9,public,Day,783,31.6,Yes,No,Yes,148590,0,1.3,MCB,0.649,No,44.5,43.0,Admitted,No
+S00180,GISA,Gisagara College,Gisagara,Southern,Male,19,60,9,8,8,private,Boarding,467,24.3,Yes,Yes,Yes,194244,172074,16.5,TVET,0.831,No,53.8,53.1,Not admitted,No
+S00181,RUBA,Rubavu College,Rubavu,Western,Female,19,67,9,9,9,public,Boarding,758,38.1,Yes,Yes,No,134621,153686,10.6,MPC,0.672,No,48.1,45.9,Admitted,No
+S00182,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,66,9,7,6,government-aided,Day,1629,46.5,Yes,Yes,Yes,140918,0,2.5,MPC,0.811,No,47.5,45.1,Not admitted,No
+S00183,MUSA,Musanze Technical School,Musanze,Northern,Male,19,44,5,8,8,government-aided,Day,1178,38.5,Yes,Yes,No,25000,0,15.5,HEG,0.645,No,52.3,54.0,Admitted,Yes
+S00184,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,45,8,8,7,private,Boarding,575,37.9,Yes,Yes,Yes,134979,169931,4.5,TVET,0.414,No,54.6,56.3,Admitted,No
+S00185,GISA,Gisagara College,Gisagara,Southern,Female,16,47,7,9,4,private,Boarding,709,27.6,No,No,Yes,214054,206369,5.5,HEL,0.98,Yes,50.1,44.8,Admitted,No
+S00186,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,65,9,9,6,private,Boarding,392,40.3,No,Yes,Yes,83130,142558,1.7,HEG,0.801,No,41.3,42.3,Admitted,No
+S00187,MUSA,Musanze Technical School,Musanze,Northern,Male,17,60,8,9,8,government-aided,Day,1570,43.8,No,No,No,79096,0,6.7,TVET,0.656,No,41.8,45.8,Not admitted,No
+S00188,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,46,5,6,4,private,Boarding,1147,30.9,No,Yes,No,129118,234726,13.1,HEL,0.767,No,51.9,57.6,Not admitted,No
+S00189,MUSA,Musanze Technical School,Musanze,Northern,Female,19,42,6,5,3,government-aided,Day,1414,25.2,Yes,Yes,Yes,143968,0,11.6,PCB,0.409,No,66.2,63.1,Admitted,No
+S00190,MUSA,Musanze Technical School,Musanze,Northern,Female,17,54,7,7,5,government-aided,Day,1305,24.3,No,Yes,Yes,154509,0,6.9,MEG,0.409,Yes,57.6,55.2,Admitted,No
+S00191,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,47,5,5,5,private,Boarding,753,32.1,Yes,Yes,Yes,99696,207931,12.6,HEL,0.659,Yes,47.6,45.0,Admitted,Yes
+S00192,HUYE,Huye Science School,Huye,Southern,Male,15,48,7,8,8,public,Boarding,463,45.1,Yes,Yes,Yes,128585,123497,12.9,LEG,0.98,No,49.2,47.9,Admitted,No
+S00193,GISA,Gisagara College,Gisagara,Southern,Female,17,28,2,1,5,private,Boarding,1212,31.1,Yes,Yes,Yes,186464,155257,4.5,MEG,0.655,No,58.5,57.0,Not admitted,No
+S00194,RUBA,Rubavu College,Rubavu,Western,Male,17,52,4,6,8,public,Boarding,680,38.7,Yes,Yes,Yes,139537,239928,13.5,HEG,0.618,No,51.3,52.9,Admitted,No
+S00195,MUHA,Muhanga Academy,Muhanga,Southern,Male,N/A,47,3,7,3,private,Boarding,565,44.8,Yes,No,Yes,117344,299685,5.0,LEG,0.613,No,48.9,51.1,Not admitted,No
+S00196,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,35,6,4,4,government-aided,Day,1278,32.2,Yes,No,Yes,69253,0,8.4,LEG,0.666,No,55.7,54.8,Not admitted,No
+S00197,HUYE,Huye Science School,Huye,Southern,Male,16,39,5,5,8,public,Boarding,1042,41.7,No,Yes,Yes,96902,157092,14.6,PCB,0.712,No,44.4,41.5,Admitted,No
+S00198,HUYE,Huye Science School,Huye,Southern,Male,16,51,8,7,6,public,Boarding,1073,22.9,Yes,Yes,Yes,119729,11607,6.9,HEL,0.98,Yes,45.7,47.5,Admitted,No
+S00199,MUSA,Musanze Technical School,Musanze,Northern,Male,15,25,1,3,2,government-aided,Day,909,24.3,No,Yes,Yes,25000,0,3.1,MPC,0.738,Yes,60.9,62.6,Admitted,No
+S00200,RUBA,Rubavu College,Rubavu,Western,Female,16,32,5,2,5,public,Boarding,1728,36.4,Yes,Yes,Yes,182968,122104,7.7,HEL,0.543,No,53.9,51.7,Not admitted,No
+S00201,HUYE,Huye Science School,Huye,Southern,Female,16,55,5,5,9,public,Boarding,1768,36.6,Yes,Yes,Yes,102291,61724,52.3,TVET,0.457,No,38.4,33.9,Not admitted,No
+S00202,GISA,Gisagara College,Gisagara,Southern,Female,17,21,2,2,1,private,Boarding,658,37.2,No,Yes,Yes,151620,175875,15.0,MCB,0.791,No,51.0,48.7,Admitted,No
+S00203,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,52,7,9,8,private,Boarding,1041,45.8,Yes,Yes,Yes,125875,224211,19.9,MEG,0.673,No,35.1,34.9,Admitted,No
+S00204,MUSA,Musanze Technical School,Musanze,Northern,Female,17,43,6,3,4,government-aided,Day,1287,29.0,Yes,No,No,143434,0,5.1,PCB,0.646,No,44.8,41.7,Admitted,No
+S00205,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,50,9,6,7,government-aided,Day,858,32.0,Yes,Yes,Yes,100939,0,5.6,LEG,0.489,Yes,44.5,41.1,Admitted,No
+S00206,HUYE,Huye Science School,Huye,Southern,Male,16,35,4,3,6,public,Boarding,526,42.1,No,No,Yes,128926,237665,9.2,HEL,0.98,No,51.7,50.7,Not admitted,No
+S00207,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,51,8,9,7,public,Day,1053,46.1,No,No,Yes,125745,0,9.9,MEG,0.49,No,40.0,37.1,Not admitted,No
+S00208,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,33,3,5,5,private,Boarding,1487,35.3,No,Yes,Yes,105443,181452,6.5,HEG,0.676,No,50.9,50.5,Admitted,No
+S00209,MUSA,Musanze Technical School,Musanze,Northern,Female,15,58,8,8,7,government-aided,Day,924,37.0,Yes,Yes,Yes,154240,0,11.8,LEG,0.666,No,52.6,50.6,Admitted,No
+S00210,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,47,6,3,6,private,Boarding,876,32.7,Yes,No,Yes,25000,141335,5.4,TVET,0.609,No,59.3,59.5,Not admitted,No
+S00211,MUSA,Musanze Technical School,Musanze,Northern,Male,15,27,3,4,7,government-aided,Day,457,27.9,Yes,Yes,No,145268,0,14.2,TVET,0.741,No,60.9,61.4,Admitted,No
+S00212,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,20,4,5,2,private,Boarding,544,38.5,Yes,Yes,Yes,81518,253886,16.1,PCB,0.581,No,56.6,58.8,Not admitted,No
+S00213,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,60,8,8,6,public,Day,1184,27.9,Yes,Yes,No,81499,0,22.3,HEL,0.708,Yes,47.4,47.0,Not admitted,No
+S00214,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,65,6,9,9,private,Boarding,658,20.1,Yes,Yes,No,68862,127033,4.7,MEG,0.731,No,56.5,57.9,Not admitted,No
+S00215,RUBA,Rubavu College,Rubavu,Western,Male,16,45,6,4,4,public,Boarding,1043,38.0,No,No,No,73959,100036,4.9,HEL,0.737,No,36.5,34.1,Not admitted,Yes
+S00216,RUBA,Rubavu College,Rubavu,Western,Male,16,47,7,7,6,public,Boarding,585,51.0,Yes,Yes,Yes,59817,264427,3.8,TVET,0.72,No,34.4,35.4,Not admitted,No
+S00217,GISA,Gisagara College,Gisagara,Southern,Male,18,64,8,9,9,private,Boarding,783,31.3,Yes,Yes,No,107680,166594,22.3,PCB,0.849,No,58.9,57.7,Not admitted,No
+S00218,HUYE,Huye Science School,Huye,Southern,Female,18,39,6,6,8,public,Boarding,1552,41.2,Yes,No,Yes,192426,261052,11.9,MEG,0.709,Yes,51.9,53.8,Admitted,No
+S00219,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,35,3,5,4,private,Boarding,1055,38.0,Yes,Yes,Yes,91161,208767,1.7,HEL,0.569,No,44.6,48.0,Admitted,No
+S00220,RUBA,Rubavu College,Rubavu,Western,Male,18,42,7,4,5,public,Boarding,919,36.7,Yes,Yes,Yes,55451,202621,32.3,HEL,0.735,No,56.4,55.7,Admitted,No
+S00221,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,57,7,7,9,government-aided,Day,1152,28.6,No,Yes,Yes,28437,0,3.7,PCB,0.859,No,50.3,49.5,Not admitted,No
+S00222,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,61,7,7,8,private,Boarding,1606,36.1,Yes,Yes,No,132946,177651,7.7,MCB,0.714,Yes,47.6,49.4,Admitted,No
+S00223,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,49,4,7,5,government-aided,Day,296,42.4,No,No,Yes,216029,0,2.8,MCB,0.894,No,51.9,49.3,Admitted,No
+S00224,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,23,5,3,2,government-aided,Day,1109,36.9,No,No,Yes,143550,0,6.3,MCB,0.519,Yes,47.1,44.0,Not admitted,No
+S00225,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,71,9,9,9,private,Boarding,1270,16.5,Yes,No,Yes,107452,226530,2.1,MCB,0.597,No,60.2,62.8,Not admitted,No
+S00226,RUBA,Rubavu College,Rubavu,Western,Male,18,32,7,5,5,public,Boarding,423,39.8,Yes,Yes,No,25405,286791,8.5,PCB,0.859,No,48.7,45.2,Not admitted,Yes
+S00227,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,32,4,3,3,private,Boarding,540,33.3,Yes,Yes,Yes,111948,56166,23.2,LEG,0.661,No,52.2,51.7,Admitted,No
+S00228,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,64,9,9,6,private,Boarding,1306,26.0,Yes,No,Yes,104619,70412,7.1,TVET,0.448,No,51.1,56.8,Admitted,Yes
+S00229,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,36,5,1,5,public,Day,1374,34.8,Yes,Yes,Yes,192020,0,7.4,PCB,0.572,No,43.7,44.9,Not admitted,No
+S00230,RUBA,Rubavu College,Rubavu,Western,Female,16,41,6,6,5,public,Boarding,307,29.1,Yes,Yes,No,97678,344866,3.8,PCB,0.722,No,66.5,69.2,Admitted,No
+S00231,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,57,8,8,8,private,Boarding,1664,35.8,No,Yes,Yes,57226,204934,5.7,MEG,0.926,No,44.3,41.4,Admitted,No
+S00232,GISA,Gisagara College,Gisagara,Southern,Male,19,50,6,4,8,private,Boarding,587,40.4,No,No,Yes,59557,110804,12.0,TVET,0.643,Yes,59.7,57.5,Not admitted,No
+S00233,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,44,3,4,6,private,Boarding,660,34.6,Yes,Yes,Yes,125379,125708,23.2,PCB,0.807,Yes,65.7,61.2,Admitted,No
+S00234,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,34,5,6,5,public,Day,968,26.3,No,Yes,Yes,98290,0,20.0,LEG,0.699,Yes,61.4,59.4,Not admitted,No
+S00235,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,52,8,8,5,public,Day,1606,31.5,Yes,Yes,Yes,102489,0,11.0,MEG,0.697,Yes,49.3,51.2,Not admitted,No
+S00236,RUBA,Rubavu College,Rubavu,Western,Male,15,67,9,9,9,public,Boarding,1379,26.8,Yes,No,No,95579,231082,8.3,LEG,0.86,No,48.5,50.0,Not admitted,No
+S00237,RUBA,Rubavu College,Rubavu,Western,Female,16,58,9,8,7,public,Boarding,786,36.9,Yes,Yes,No,133166,257636,33.5,MPC,0.784,No,45.2,46.9,Not admitted,No
+S00238,RUBA,Rubavu College,Rubavu,Western,Female,18,34,4,5,8,public,Boarding,885,28.7,No,Yes,Yes,59849,366190,11.9,LEG,0.525,Yes,56.5,59.0,Admitted,No
+S00239,GISA,Gisagara College,Gisagara,Southern,Female,16,39,3,2,2,private,Boarding,421,24.6,Yes,Yes,Yes,57584,141969,4.6,TVET,0.893,Yes,63.5,63.4,Not admitted,No
+S00240,MUSA,Musanze Technical School,Musanze,Northern,Female,17,50,6,5,8,government-aided,Day,1349,30.4,Yes,Yes,Yes,118877,0,4.5,HEG,0.548,Yes,46.7,48.4,Admitted,No
+S00241,RUBA,Rubavu College,Rubavu,Western,Male,19,57,9,6,3,public,Boarding,1311,38.5,Yes,Yes,No,136013,230923,3.5,PCB,0.527,No,47.9,46.0,Admitted,Yes
+S00242,GISA,Gisagara College,Gisagara,Southern,Male,17,29,3,3,6,private,Boarding,1147,36.1,Yes,Yes,No,154390,168427,17.5,MEG,0.681,No,54.9,49.5,Admitted,No
+S00243,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,43,4,6,6,public,Day,1658,42.9,Yes,Yes,No,162772,0,5.5,LEG,0.72,Yes,30.4,27.7,Not admitted,No
+S00244,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,44,4,6,5,private,Boarding,461,31.7,Yes,No,No,114797,120320,15.2,MEG,0.794,No,52.1,51.8,Not admitted,No
+S00245,GISA,Gisagara College,Gisagara,Southern,Male,16,57,6,6,5,private,Boarding,935,36.0,Yes,Yes,Yes,81513,186774,14.6,PCB,0.542,No,50.2,58.8,Admitted,No
+S00246,MUSA,Musanze Technical School,Musanze,Northern,Female,18,36,6,2,7,government-aided,Day,860,15.0,Yes,Yes,Yes,154325,0,3.7,LEG,0.497,No,56.5,55.5,Not admitted,No
+S00247,RUBA,Rubavu College,Rubavu,Western,Male,15,29,2,4,7,public,Boarding,1307,20.2,Yes,Yes,Yes,177769,113349,9.8,PCB,0.798,No,56.1,56.2,Admitted,No
+S00248,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,32,7,3,3,private,Boarding,1424,34.5,No,Yes,Yes,124615,9975,33.3,HEG,0.659,No,47.1,45.7,Not admitted,No
+S00249,RUBA,Rubavu College,Rubavu,Western,Male,17,40,4,5,7,public,Boarding,603,23.5,Yes,No,Yes,26203,123609,1.5,HEG,0.537,No,58.1,58.7,Not admitted,No
+S00250,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,58,9,9,7,government-aided,Day,1221,31.4,Yes,No,Yes,102092,0,19.5,HEG,0.475,No,41.9,41.2,Admitted,No
+S00251,MUSA,Musanze Technical School,Musanze,Northern,Female,15,37,5,3,4,government-aided,Day,409,34.8,No,Yes,Yes,49054,0,3.2,MCB,0.618,No,57.1,58.7,Admitted,No
+S00252,GISA,Gisagara College,Gisagara,Southern,Female,18,44,6,5,6,private,Boarding,1337,32.6,Yes,Yes,Yes,54382,116648,3.7,LEG,0.667,No,63.2,64.1,Not admitted,No
+S00253,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,50,9,9,8,private,Boarding,1167,29.9,Yes,No,Yes,134629,98818,19.2,HEL,0.694,No,51.7,52.5,Admitted,No
+S00254,GROU,groupe scolaire nyanza ,Nyanza,Southern,Female,16,32,2,6,6,government-aided,Day,496,46.0,Yes,Yes,Yes,210228,0,11.3,TVET,0.626,No,54.4,49.4,Admitted,No
+S00255,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,44,5,6,9,private,Boarding,804,36.8,Yes,Yes,Yes,69359,169579,1.7,MPC,0.837,No,54.5,48.1,Not admitted,No
+S00256,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,51,6,6,7,public,Day,895,25.1,Yes,Yes,No,37257,0,16.3,TVET,0.297,No,44.7,45.1,Not admitted,No
+S00257,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,50,4,9,4,government-aided,Day,505,37.1,Yes,No,Yes,29179,0,7.0,LEG,0.601,Yes,51.1,54.3,Not admitted,Yes
+S00258,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,44,5,5,7,public,Day,314,21.3,Yes,No,No,131612,0,13.8,HEG,0.502,No,63.9,65.0,Admitted,No
+S00259,GISA,Gisagara College,Gisagara,Southern,Male,19,58,7,9,7,private,Boarding,1544,30.6,Yes,No,Yes,160360,42958,18.7,MCB,0.795,Yes,48.9,51.9,Not admitted,No
+S00260,HUYE,Huye Science School,Huye,Southern,Male,16,34,4,3,5,public,Boarding,1386,17.0,No,Yes,Yes,57288,174790,16.7,MCB,0.739,Yes,65.2,63.0,Admitted,No
+S00261,RUBA,Rubavu College,Rubavu,Western,Male,17,48,6,5,8,public,Boarding,1592,32.3,Yes,No,Yes,164000,127610,19.6,MPC,0.613,No,63.7,62.9,Admitted,No
+S00262,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,58,7,6,7,government-aided,Day,280,32.2,No,Yes,Yes,74632,0,2.3,HEL,0.964,No,49.7,45.7,Admitted,Yes
+S00263,GISA,Gisagara College,Gisagara,Southern,Female,16,72,8,8,8,private,Boarding,994,42.3,Yes,Yes,Yes,163951,148406,6.0,MEG,0.765,No,41.7,41.7,Admitted,No
+S00264,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,45,5,7,6,private,Boarding,964,31.4,Yes,Yes,Yes,141391,271122,9.1,TVET,0.691,No,54.1,54.1,Not admitted,No
+S00265,MUSA,Musanze Technical School,Musanze,Northern,Female,17,53,6,8,7,government-aided,Day,821,30.1,Yes,No,No,202189,0,4.0,LEG,0.68,No,59.6,59.4,Not admitted,No
+S00266,RUBA,Rubavu College,Rubavu,Western,Female,18,40,6,4,2,public,Boarding,836,22.2,Yes,No,Yes,76575,42742,3.1,PCB,0.822,No,60.5,60.2,Not admitted,No
+S00267,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,72,9,7,9,private,Boarding,769,33.4,Yes,No,Yes,55752,191027,12.1,HEG,0.68,No,37.1,37.4,Admitted,No
+S00268,HUYE,Huye Science School,Huye,Southern,Female,17,59,8,6,7,public,Boarding,475,36.0,Yes,No,Yes,25000,158553,2.3,MCB,0.54,Yes,37.6,38.7,Not admitted,No
+S00269,GISA,Gisagara College,Gisagara,Southern,Female,19,39,4,7,7,private,Boarding,712,41.4,No,No,Yes,170592,202101,7.7,LEG,0.641,No,52.4,55.0,Not admitted,No
+S00270,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,45,5,6,5,private,Boarding,1620,40.8,Yes,No,No,173022,184837,80.0,MEG,0.828,No,42.9,42.6,Not admitted,No
+S00271,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,32,5,2,2,private,Boarding,1457,38.2,Yes,Yes,No,60844,167651,2.2,MPC,0.4,No,52.5,55.1,Admitted,No
+S00272,HUYE,Huye Science School,Huye,Southern,Male,15,25,3,2,2,public,Boarding,1380,21.8,Yes,Yes,No,131413,201554,3.5,MEG,0.573,No,72.9,74.3,Not admitted,No
+S00273,HUYE,Huye Science School,Huye,Southern,Female,16,65,8,9,9,public,Boarding,1251,27.9,No,No,Yes,198167,301275,8.2,PCB,0.636,No,50.8,47.9,Admitted,No
+S00274,MUSA,Musanze Technical School,Musanze,Northern,Female,15,60,9,9,5,government-aided,Day,669,39.6,Yes,Yes,Yes,116193,0,27.2,MEG,0.963,Yes,47.0,48.7,Admitted,No
+S00275,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,61,7,9,9,public,Day,335,43.1,No,Yes,Yes,25000,0,6.9,MCB,0.586,No,53.5,55.0,Admitted,No
+S00276,HUYE,Huye Science School,Huye,Southern,Male,17,38,5,6,2,public,Boarding,1619,30.6,No,Yes,Yes,220799,152325,9.3,MPC,0.959,No,67.2,67.2,Not admitted,No
+S00277,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,40,5,7,5,government-aided,Day,1606,45.1,Yes,Yes,No,182383,0,4.3,MCB,0.586,No,61.1,64.5,Not admitted,No
+S00278,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,67,7,7,8,public,Day,686,39.0,Yes,Yes,No,179662,0,1.8,MPC,0.846,No,47.4,43.4,Not admitted,No
+S00279,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,99,48,5,7,8,government-aided,Day,1179,29.7,Yes,No,Yes,148678,0,15.9,MEG,0.644,Yes,56.0,52.4,Not admitted,No
+S00280,MUSA,Musanze Technical School,Musanze,Northern,Female,16,39,5,7,9,government-aided,Day,406,36.5,No,Yes,Yes,77894,0,4.6,HEL,0.669,Yes,55.4,55.4,Not admitted,No
+S00281,HUYE,Huye Science School,nyanza,Southern,Male,15,39,3,5,7,public,Boarding,846,32.4,Yes,Yes,No,75103,214902,1.7,HEG,0.858,No,60.6,62.3,Admitted,No
+S00282,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,53,8,9,8,government-aided,Day,354,31.6,No,Yes,Yes,129805,0,3.2,MEG,0.557,No,54.3,51.3,Admitted,No
+S00283,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,57,9,9,6,public,Day,936,28.2,Yes,Yes,Yes,85048,0,13.8,HEL,0.729,Yes,50.8,53.0,Admitted,No
+S00284,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,39,5,4,4,government-aided,Day,1122,35.4,No,No,Yes,30240,0,4.5,PCB,0.623,No,52.7,57.0,Not admitted,No
+S00285,GISA,Gisagara College,Gisagara,Southern,Female,16,38,6,5,3,private,Boarding,898,35.7,Yes,Yes,Yes,148557,171958,8.4,HEL,0.73,No,49.5,42.9,Admitted,No
+S00286,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,55,5,7,9,government-aided,Day,1594,41.9,Yes,Yes,Yes,106308,0,11.6,LEG,0.591,No,46.6,47.3,Admitted,No
+S00287,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,52,9,8,5,private,Boarding,333,38.1,Yes,Yes,No,125776,235520,5.6,HEG,0.461,Yes,58.7,58.5,Not admitted,No
+S00288,RUBA,Rubavu College,Rubavu,Western,Female,18,52,8,9,5,public,Boarding,405,35.3,Yes,Yes,No,60410,179604,8.5,TVET,0.811,No,52.3,53.3,Not admitted,No
+S00289,MUSA,Musanze Technical School,Musanze,Northern,Female,19,68,9,9,9,government-aided,Day,840,23.9,Yes,No,No,140824,0,15.4,PCB,0.583,No,53.7,56.0,Admitted,No
+S00290,GISA,Gisagara College,Gisagara,Southern,Male,18,53,9,7,8,private,Boarding,621,30.1,Yes,No,No,168632,50631,12.7,MEG,0.949,No,61.9,53.6,Not admitted,No
+S00291,MUSA,Musanze Technical School,Musanze,Northern,Male,16,61,9,9,8,government-aided,Day,1372,39.5,No,No,Yes,31680,0,3.8,MCB,0.457,No,46.9,42.6,Not admitted,No
+S00292,HUYE,Huye Science School,Huye,Southern,Female,18,24,2,3,3,public,Boarding,1656,36.0,Yes,Yes,Yes,109747,197231,6.4,HEG,0.589,No,54.7,55.9,Not admitted,No
+S00293,MUSA,Musanze Technical School,Musanze,Northern,Male,15,28,4,4,5,government-aided,Day,562,49.2,Yes,Yes,No,25000,0,25.2,MEG,0.872,Yes,46.5,51.9,Not admitted,No
+S00294,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,72,9,9,9,public,Day,1604,31.8,Yes,Yes,Yes,60278,0,8.9,TVET,0.822,No,42.5,40.1,Admitted,No
+S00295,RUBA,Rubavu College,Rubavu,Western,Male,18,29,3,4,3,public,Boarding,1522,37.8,Yes,Yes,Yes,289892,185594,8.6,HEG,0.441,No,64.6,60.6,Not admitted,No
+S00296,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,43,3,6,7,government-aided,Day,990,43.1,Yes,Yes,Yes,150952,0,11.2,MPC,0.802,No,38.8,36.6,Admitted,No
+S00297,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,61,7,9,7,private,Boarding,292,36.6,Yes,No,Yes,82236,309915,5.6,HEG,0.699,No,59.5,59.2,Not admitted,No
+S00298,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,61,9,9,8,private,Boarding,659,44.5,No,No,No,49887,138753,7.1,HEL,0.928,No,40.3,38.1,Not admitted,No
+S00299,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,61,7,9,9,private,Boarding,1106,27.8,Yes,Yes,No,153556,253248,5.8,PCB,0.627,Yes,48.2,46.5,Not admitted,No
+S00300,MUSA,Musanze Technical School,Musanze,Northern,Female,18,58,9,7,8,government-aided,Day,1243,37.5,Yes,Yes,Yes,123043,0,6.3,PCB,0.415,No,52.1,59.7,Not admitted,No
+S00301,GISA,Gisagara College,Gisagara,Southern,Male,18,50,5,6,3,private,Boarding,1751,27.8,No,Yes,Yes,99622,174209,10.8,PCB,0.881,No,59.5,63.8,Admitted,No
+S00302,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,55,5,6,7,private,Boarding,1136,33.8,Yes,No,No,181304,102410,10.9,TVET,0.595,No,48.2,52.2,Not admitted,No
+S00303,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,50,7,5,9,public,Day,492,28.8,No,No,No,95079,0,7.1,TVET,0.672,No,60.2,61.3,Admitted,No
+S00304,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,68,9,9,9,government-aided,Day,1664,38.6,Yes,Yes,Yes,117826,0,5.7,MEG,0.657,No,53.8,53.1,Not admitted,No
+S00305,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,67,9,9,9,government-aided,Day,1134,36.5,No,Yes,Yes,98821,0,6.1,HEL,0.919,No,34.0,30.2,Admitted,No
+S00306,GISA,Gisagara College,Gisagara,Southern,Female,19,50,7,6,6,private,Boarding,1220,21.3,Yes,No,Yes,128494,217774,1.7,HEL,0.472,No,34.7,38.4,Admitted,No
+S00307,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,72,6,9,7,private,Boarding,1083,32.3,Yes,Yes,Yes,35340,261914,5.3,MPC,0.484,No,44.4,50.1,Not admitted,No
+S00308,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,66,9,9,9,private,Boarding,454,44.4,Yes,Yes,Yes,84542,76853,4.1,HEL,0.89,No,44.6,46.7,Admitted,No
+S00309,GISA,Gisagara College,Gisagara,Southern,Male,18,50,6,3,8,private,Boarding,545,31.5,Yes,Yes,Yes,203739,189221,2.4,HEL,0.712,No,58.7,60.5,Not admitted,No
+S00310,GISA,Gisagara College,Gisagara,Southern,Female,18,45,7,3,7,private,Boarding,316,34.4,No,Yes,Yes,31882,249512,6.5,HEG,0.667,No,52.7,54.5,Not admitted,No
+S00311,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,58,4,8,9,private,Boarding,825,37.1,Yes,Yes,No,144909,118492,13.5,TVET,0.979,No,39.1,35.1,Not admitted,No
+S00312,RUBA,Rubavu College,Rubavu,Western,Female,15,57,7,7,7,public,Boarding,962,49.9,Yes,Yes,Yes,150448,137419,3.2,TVET,0.647,No,41.8,39.2,Admitted,No
+S00313,GISA,Gisagara College,Gisagara,Southern,Male,16,67,9,9,9,private,Boarding,553,26.3,Yes,Yes,Yes,130952,180564,1.0,MEG,0.968,No,62.1,57.8,Not admitted,No
+S00314,RUBA,Rubavu College,Rubavu,Western,Female,19,35,2,6,6,public,Boarding,1549,28.5,Yes,Yes,Yes,86463,207511,16.7,MPC,0.819,No,62.5,62.4,Not admitted,No
+S00315,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,51,7,6,9,public,Day,997,28.2,No,Yes,Yes,76432,0,10.5,TVET,0.883,Yes,41.0,39.6,Admitted,No
+S00316,HUYE,Huye Science School,Huye,Southern,Male,16,44,5,4,7,public,Boarding,1267,44.3,No,Yes,Yes,164054,72084,13.3,HEL,0.677,No,35.6,35.2,Not admitted,No
+S00317,MUSA,Musanze Technical School,Musanze,Northern,Male,19,47,8,6,5,government-aided,Day,682,17.5,Yes,Yes,Yes,79710,0,3.9,LEG,0.515,No,64.5,70.8,Not admitted,No
+S00318,GISA,Gisagara College,Gisagara,Southern,Male,19,51,6,7,6,private,Boarding,1345,38.4,Yes,Yes,Yes,229576,267829,1.7,MCB,0.636,No,63.3,64.0,Admitted,No
+S00319,HUYE,Huye Science School,Huye,Southern,Female,19,20,1,2,4,public,Boarding,772,31.0,Yes,No,No,118628,295006,6.1,HEG,0.656,No,51.4,50.7,Not admitted,No
+S00320,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,39,5,7,4,public,Day,1241,32.5,Yes,No,Yes,72410,0,16.8,PCB,0.593,No,51.2,49.3,Not admitted,No
+S00321,MUSA,Musanze Technical School,Musanze,Northern,Female,16,44,6,5,7,government-aided,Day,1343,45.9,Yes,No,Yes,116312,0,5.8,HEG,0.676,No,44.2,43.8,Not admitted,No
+S00322,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,46,6,6,4,government-aided,Day,1511,29.8,Yes,Yes,Yes,182459,0,25.6,HEG,0.856,No,46.1,51.5,Admitted,No
+S00323,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,41,6,7,3,private,Boarding,1610,25.1,Yes,Yes,Yes,97288,129610,7.7,MPC,0.519,No,64.3,64.1,Admitted,No
+S00324,GISA,Gisagara College,Gisagara,Southern,Male,15,72,9,9,9,private,Boarding,1574,41.8,Yes,No,No,149234,94177,9.3,LEG,0.501,No,36.6,36.8,Admitted,No
+S00325,RUBA,Rubavu College,Rubavu,Western,Female,17,41,4,3,3,public,Boarding,1041,41.8,Yes,No,Yes,101909,99429,16.3,LEG,0.974,No,49.0,52.8,Not admitted,No
+S00326,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,51,8,9,9,private,Boarding,1423,29.7,No,No,No,101108,182188,4.9,HEL,0.719,No,51.6,50.3,Not admitted,No
+S00327,GISA,Gisagara College,Gisagara,Southern,Female,19,45,3,3,3,private,Boarding,1668,23.1,Yes,No,No,68587,218558,3.9,HEL,0.542,No,58.0,57.3,Admitted,No
+S00328,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,21,72,9,9,9,government-aided,Day,1751,39.9,Yes,Yes,Yes,216554,0,6.0,MPC,0.685,Yes,37.8,42.9,Not admitted,Yes
+S00329,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,72,9,9,9,private,Boarding,1633,19.8,No,Yes,Yes,93529,112367,13.2,MCB,0.516,No,60.9,65.4,Not admitted,Yes
+S00330,MUSA,Musanze Technical School,Musanze,Northern,Female,15,31,5,4,7,government-aided,Day,951,43.3,Yes,No,Yes,174605,0,3.4,PCB,0.683,No,52.5,55.0,Not admitted,No
+S00331,GISA,Gisagara College,Gisagara,Southern,Female,18,69,9,8,9,private,Boarding,1522,25.9,No,Yes,Yes,109755,172481,12.3,HEL,0.306,No,46.2,50.7,Not admitted,No
+S00332,RUBA,Rubavu College,Rubavu,Western,Female,19,62,8,7,9,public,Boarding,277,46.3,Yes,Yes,No,175107,229852,23.0,HEG,0.765,Yes,52.0,51.7,Not admitted,No
+S00333,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,42,8,7,6,government-aided,Day,1503,36.7,Yes,Yes,Yes,129598,0,5.5,HEG,0.807,No,57.7,56.9,Admitted,No
+S00334,KIGA,Kigali Scholars School,musanze,Kigali City,Male,17,49,9,9,8,private,Boarding,848,35.3,No,Yes,Yes,112375,27612,4.8,MPC,0.645,No,47.7,46.7,Not admitted,No
+S00335,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,47,5,5,8,private,Boarding,907,25.2,No,Yes,No,112758,235758,10.6,MCB,0.98,No,64.3,72.7,Admitted,No
+S00336,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,49,5,7,5,public,Day,958,37.3,No,Yes,No,51900,0,3.6,MPC,0.738,No,56.0,58.3,Not admitted,Yes
+S00337,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,59,9,9,4,government-aided,Day,1368,31.6,Yes,Yes,No,192614,0,2.9,MEG,0.52,Yes,43.8,39.1,Admitted,No
+S00338,MUHA,Muhanga Academy,Muhanga,Southern,Female,120,47,6,9,1,private,Boarding,1552,34.0,Yes,Yes,Yes,78827,179512,12.2,MEG,0.647,Yes,51.6,51.6,Not admitted,No
+S00339,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,55,9,6,7,private,Boarding,1175,28.4,Yes,Yes,Yes,89794,169666,11.8,TVET,0.434,No,54.4,48.6,Not admitted,Yes
+S00340,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,43,7,6,5,public,Day,1622,37.1,Yes,Yes,Yes,81416,0,4.9,MCB,0.647,No,43.5,47.3,Not admitted,No
+S00341,HUYE,Huye Science School,Huye,Southern,Male,16,56,5,7,7,public,Boarding,862,29.0,Yes,No,Yes,118513,292862,11.8,LEG,0.691,No,56.2,54.4,Not admitted,No
+S00342,GISA,Gisagara College,Gisagara,Southern,Female,16,52,6,7,8,private,Boarding,1447,29.7,Yes,Yes,Yes,90043,81475,7.9,HEG,0.655,No,53.3,55.5,Not admitted,No
+S00343,MUSA,Musanze Technical School,Musanze,Northern,Female,15,35,4,5,3,government-aided,Day,1232,26.3,Yes,No,Yes,68963,0,3.1,LEG,0.739,No,52.2,51.6,Not admitted,No
+S00344,HUYE,Huye Science School,Huye,Southern,Female,18,20,2,1,2,public,Boarding,501,40.5,Yes,No,No,143313,92139,2.0,TVET,0.959,No,58.5,57.3,Admitted,No
+S00345,GISA,Gisagara College,Gisagara,Southern,Female,19,31,3,4,1,private,Boarding,611,25.3,Yes,Yes,Yes,139143,88763,12.2,LEG,0.61,No,57.5,56.1,Not admitted,No
+S00346,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,32,7,3,4,private,Boarding,290,31.3,Yes,Yes,Yes,92732,187897,4.0,TVET,0.541,No,55.6,56.3,Not admitted,No
+S00347,GISA,Gisagara College,Gisagara,Southern,Female,18,40,3,6,1,private,Boarding,1685,32.3,Yes,No,Yes,109472,151826,2.5,LEG,0.763,No,68.4,71.4,Not admitted,No
+S00348,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,38,7,6,5,public,Day,684,39.3,No,No,Yes,107081,0,3.9,MPC,0.764,No,55.4,54.0,Not admitted,No
+S00349,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,43,5,8,5,public,Day,1123,49.0,Yes,Yes,Yes,143500,0,38.7,TVET,0.684,No,38.9,42.1,Not admitted,No
+S00350,RUBA,Rubavu College,Rubavu,Western,Male,17,61,8,6,9,public,Boarding,696,25.2,Yes,No,Yes,80744,227108,5.5,MCB,0.73,No,48.1,53.9,Not admitted,No
+S00351,RUBA,Rubavu College,Rubavu,Western,Female,16,42,7,5,7,public,Boarding,554,30.4,Yes,No,No,93538,199469,5.1,LEG,0.687,No,55.1,55.2,Admitted,No
+S00352,HUYE,Huye Science School,Huye,Southern,Male,16,46,4,9,8,public,Boarding,856,43.4,No,No,No,39178,158437,8.7,HEG,0.809,No,52.7,52.7,Not admitted,Yes
+S00353,RUBA,Rubavu College,Rubavu,Western,Female,19,69,8,9,9,public,Boarding,292,39.1,Yes,No,No,184983,261118,33.4,HEG,0.678,No,38.5,38.5,Admitted,No
+S00354,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,47,4,9,6,public,Day,1686,37.8,Yes,Yes,Yes,35664,0,17.6,PCB,0.665,No,47.0,46.6,Not admitted,No
+S00355,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,48,7,4,6,private,Boarding,1155,31.0,Yes,Yes,Yes,58321,172455,16.4,TVET,0.533,No,43.0,45.8,Not admitted,No
+S00356,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,33,3,2,2,private,Boarding,429,28.1,No,No,No,58565,177745,7.7,MEG,0.98,No,54.5,56.6,Not admitted,No
+S00357,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,42,5,4,8,private,Boarding,614,32.4,Yes,Yes,Yes,40822,158900,4.0,MPC,0.709,No,60.8,61.1,Not admitted,No
+S00358,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,41,5,5,4,private,Boarding,606,29.5,Yes,Yes,No,222551,228153,22.3,TVET,0.787,No,68.0,70.9,Not admitted,No
+S00359,RUBA,Rubavu College,Rubavu,Western,Female,15,55,6,7,3,public,Boarding,1352,32.2,Yes,Yes,No,194438,88078,50.3,MCB,0.832,No,56.4,52.9,Not admitted,No
+S00360,HUYE,Huye Science School,Huye,Southern,Male,19,54,9,5,9,public,Boarding,549,30.4,Yes,Yes,Yes,53821,226819,4.3,MEG,0.51,No,51.7,50.9,Not admitted,No
+S00361,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,35,5,5,2,government-aided,Day,1679,28.2,Yes,Yes,Yes,26717,0,2.1,TVET,0.633,No,44.6,42.8,Not admitted,No
+S00362,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,65,9,8,9,public,Day,1620,43.7,Yes,Yes,Yes,117301,0,24.4,MEG,0.861,No,39.3,40.8,Admitted,No
+S00363,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,42,4,6,4,private,Boarding,1320,23.7,Yes,Yes,Yes,226004,145230,8.3,TVET,0.76,Yes,58.1,61.1,Admitted,No
+S00364,RUBA,Rubavu College,Rubavu,Western,Female,16,58,5,9,7,public,Boarding,815,34.2,Yes,No,Yes,101074,285530,10.5,TVET,0.811,No,46.5,47.7,Not admitted,No
+S00365,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,62,5,9,8,private,Boarding,944,36.7,Yes,Yes,No,163165,235764,6.9,MCB,0.583,Yes,53.4,53.3,Not admitted,No
+S00366,GISA,Gisagara College,Gisagara,Southern,Male,19,51,9,5,7,private,Boarding,858,37.0,Yes,No,Yes,171733,161953,6.6,MPC,0.739,No,55.3,57.0,Not admitted,No
+S00367,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,30,4,4,2,government-aided,Day,1314,22.7,No,Yes,Yes,134330,0,7.1,HEL,0.752,No,51.4,49.1,Not admitted,No
+S00368,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,42,5,9,4,government-aided,Day,517,60.4,No,Yes,Yes,64947,0,15.3,HEG,0.65,No,58.1,59.8,Not admitted,No
+S00369,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,62,9,9,9,government-aided,Day,853,36.0,Yes,Yes,Yes,127165,0,5.3,HEG,0.727,No,49.7,51.7,Not admitted,No
+S00370,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,47,6,5,9,private,Boarding,1141,37.6,Yes,Yes,Yes,104537,198667,5.2,HEL,0.715,No,56.8,54.9,Admitted,No
+S00371,MUSA,Musanze Technical School,Musanze,Northern,Male,18,35,6,3,3,government-aided,Day,1525,29.4,Yes,Yes,No,161570,0,13.3,MPC,0.755,No,50.3,47.9,Admitted,No
+S00372,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,44,4,6,5,public,Day,584,22.2,No,No,Yes,66858,0,12.4,TVET,0.671,No,50.8,48.4,Admitted,No
+S00373,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,59,7,9,6,private,Boarding,1172,37.0,No,Yes,No,216076,154723,17.8,PCB,0.548,No,31.6,28.2,Admitted,No
+S00374,MUHA,Muhanga Academy,Muhanga,Southern,Male,15,41,4,5,4,private,Boarding,458,34.8,Yes,Yes,Yes,191528,102113,7.8,HEL,0.846,No,52.0,53.7,Not admitted,No
+S00375,GISA,Gisagara College,Gisagara,Southern,Female,16,55,9,8,8,private,Boarding,1184,22.3,Yes,No,No,233906,157271,4.1,MPC,0.841,Yes,49.1,52.8,Admitted,No
+S00376,HUYE,Huye Science School,Huye,Southern,Male,15,66,8,9,9,public,Boarding,964,32.5,Yes,Yes,Yes,102629,157845,7.7,LEG,0.69,No,40.6,38.9,Admitted,Yes
+S00377,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,26,2,3,2,public,Day,764,34.2,Yes,Yes,Yes,48161,0,6.5,TVET,0.549,No,38.8,35.4,Not admitted,No
+S00378,HUYE,Huye Science School,Huye,Southern,Male,17,56,7,6,9,public,Boarding,1044,54.0,Yes,Yes,Yes,188482,293768,3.3,LEG,0.612,No,36.6,38.6,Not admitted,No
+S00379,RUBA,Rubavu College,Rubavu,Western,Female,15,63,8,9,9,public,Boarding,1740,33.2,No,Yes,Yes,58115,185324,5.5,HEL,0.492,No,41.9,40.7,Admitted,No
+S00380,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,42,6,8,7,private,Boarding,1675,38.8,Yes,No,No,75077,100482,1.7,TVET,0.491,No,53.8,51.4,Not admitted,No
+S00381,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,56,8,5,7,public,Day,1770,33.1,Yes,Yes,Yes,115808,0,11.7,TVET,0.807,No,46.5,47.1,Not admitted,No
+S00382,GISA,Gisagara College,Gisagara,Southern,Female,17,44,3,5,1,private,Boarding,1626,40.5,Yes,Yes,Yes,25000,82490,6.2,TVET,0.575,No,44.3,44.9,Admitted,No
+S00383,MUSA,Musanze Technical School,Musanze,Northern,Male,19,30,5,3,4,government-aided,Day,1503,28.2,Yes,No,No,61065,0,1.3,LEG,0.831,Yes,51.3,54.8,Not admitted,No
+S00384,RUBA,Rubavu College,Rubavu,Western,Male,15,46,8,6,8,public,Boarding,430,34.1,Yes,No,Yes,29736,152131,9.7,MCB,0.886,No,46.7,46.5,Admitted,No
+S00385,RUBA,Rubavu College,Rubavu,Western,Male,16,49,7,6,8,public,Boarding,1430,40.3,No,Yes,Yes,80307,260707,12.3,PCB,0.537,Yes,32.5,30.8,Admitted,No
+S00386,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,43,6,6,7,private,Boarding,1069,32.7,No,No,No,25000,99037,24.7,MPC,0.642,Yes,50.1,44.7,Not admitted,No
+S00387,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,40,6,4,2,public,Day,1155,28.0,No,Yes,Yes,131553,0,8.4,MCB,0.814,No,58.3,57.8,Admitted,No
+S00388,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,53,8,6,9,private,Boarding,674,37.4,Yes,No,No,79074,70129,25.6,PCB,0.739,No,71.4,72.4,Admitted,No
+S00389,RUBA,Rubavu College,Rubavu,Western,Female,18,43,5,4,8,public,Boarding,1526,32.2,No,Yes,Yes,152674,184375,12.6,MPC,0.785,No,50.9,55.5,Not admitted,No
+S00390,HUYE,Huye Science School,Huye,Southern,Male,16,38,4,4,2,public,Boarding,907,36.1,Yes,Yes,Yes,150271,135929,10.6,TVET,0.678,No,52.9,52.8,Not admitted,No
+S00391,GISA,Gisagara College,Gisagara,Southern,Male,19,56,5,9,7,private,Boarding,1310,26.2,Yes,No,Yes,178035,183289,5.3,MCB,0.674,No,51.1,47.9,Not admitted,No
+S00392,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,58,8,7,9,private,Boarding,1234,24.7,Yes,No,Yes,92719,257597,4.9,LEG,0.464,No,60.1,62.6,Not admitted,No
+S00393,GISA,Gisagara College,Gisagara,Southern,Female,19,46,7,5,6,private,Boarding,1108,20.5,Yes,Yes,No,25000,148294,5.0,LEG,0.814,No,68.1,70.1,Not admitted,No
+S00394,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,32,3,5,6,public,Day,1185,45.0,Yes,Yes,No,30883,0,7.3,MCB,0.671,Yes,49.1,45.8,Admitted,No
+S00395,RUBA,Rubavu College,Rubavu,Western,Female,16,58,7,6,7,public,Boarding,999,32.9,No,Yes,Yes,126532,261368,16.9,TVET,0.595,Yes,38.0,37.4,Admitted,No
+S00396,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,54,7,4,6,private,Boarding,441,36.0,No,No,No,128576,142092,3.0,TVET,0.784,Yes,57.2,55.4,Admitted,No
+S00397,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,45,2,5,6,public,Day,1266,48.0,Yes,No,Yes,83992,0,16.9,LEG,0.887,No,42.6,39.1,Not admitted,No
+S00398,HUYE,Huye Science School,Huye,Southern,Female,17,32,4,5,1,public,Boarding,1645,46.9,No,Yes,No,55364,154513,6.7,TVET,0.547,No,64.8,61.9,Admitted,No
+S00399,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,40,6,2,6,government-aided,Day,1215,32.2,Yes,Yes,Yes,50668,0,4.3,MCB,0.706,No,52.2,53.1,Admitted,No
+S00400,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,24,3,1,2,public,Day,1300,45.3,Yes,Yes,No,128503,0,7.0,LEG,0.852,No,54.0,57.2,Not admitted,No
+S00401,MUSA,Musanze Technical School,Musanze,Northern,Female,15,47,7,7,6,government-aided,Day,1458,32.1,No,No,No,147831,0,5.7,PCB,0.63,No,39.1,38.6,Admitted,No
+S00402,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,37,7,3,6,private,Boarding,775,32.8,Yes,Yes,No,45667,202441,8.1,MPC,0.733,No,50.0,47.1,Not admitted,No
+S00403,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,35,5,7,5,government-aided,Day,623,35.2,Yes,Yes,Yes,152023,0,6.3,HEG,0.841,No,68.0,74.4,Admitted,No
+S00404,GISA,Gisagara College,Gisagara,Southern,Male,19,32,6,4,4,private,Boarding,251,15.0,Yes,Yes,Yes,169726,215367,10.1,MEG,0.47,No,65.3,69.0,Not admitted,No
+S00405,GISA,Gisagara College,Gisagara,Southern,Male,17,50,7,6,8,private,Boarding,1700,25.7,Yes,Yes,Yes,112328,163415,3.9,LEG,0.802,No,60.9,60.3,Admitted,No
+S00406,MUSA,Musanze Technical School,Musanze,Northern,Male,15,43,6,4,7,government-aided,Day,1776,40.8,Yes,Yes,No,33810,0,4.5,LEG,0.486,Yes,54.4,54.4,Not admitted,No
+S00407,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,39,3,6,5,government-aided,Day,1784,29.8,No,Yes,Yes,74139,0,13.4,LEG,0.76,Yes,44.7,37.1,Not admitted,Yes
+S00408,MUSA,Musanze Technical School,Musanze,Northern,Male,16,34,4,3,5,government-aided,Day,1717,52.2,Yes,No,Yes,25000,0,5.6,TVET,0.456,No,45.8,39.9,Admitted,No
+S00409,HUYE,Huye Science School,Huye,Southern,Female,16,39,7,4,4,public,Boarding,1649,38.7,No,Yes,Yes,156009,189039,6.6,TVET,0.478,No,53.4,52.2,Admitted,No
+S00410,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,51,6,4,7,private,Boarding,1056,39.4,No,Yes,No,227861,98522,23.1,PCB,0.549,No,54.5,52.0,Admitted,No
+S00411,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,55,9,7,9,public,Day,1319,40.1,Yes,Yes,No,115405,0,3.7,HEL,0.73,No,45.6,45.4,Not admitted,Yes
+S00412,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,72,8,9,9,private,Boarding,1567,23.4,No,No,Yes,182998,260108,5.2,TVET,0.707,No,46.9,44.5,Admitted,No
+S00413,KIGA,kigali scholars school ,Nyarugenge,Kigali City,Female,16,49,5,5,8,private,Boarding,1285,43.2,Yes,Yes,No,34397,227227,5.0,LEG,0.55,No,57.7,60.4,Admitted,No
+S00414,MUSA,Musanze Technical School,Musanze,Northern,Female,18,54,8,8,4,government-aided,Day,1682,22.9,No,Yes,No,121998,0,13.5,HEG,0.391,Yes,51.1,42.4,Admitted,No
+S00415,GISA,Gisagara College,Gisagara,Southern,Female,15,58,8,9,7,private,Boarding,464,28.9,No,Yes,Yes,92554,108235,20.5,PCB,0.756,No,45.0,46.3,Not admitted,No
+S00416,RUBA,Rubavu College,Rubavu,Western,Male,15,56,5,8,9,public,Boarding,1375,33.5,Yes,Yes,No,74692,105717,19.7,HEL,0.513,No,47.0,50.1,Admitted,No
+S00417,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,72,9,9,8,public,Day,893,32.3,Yes,Yes,Yes,183594,0,6.5,LEG,0.511,No,41.0,35.8,Not admitted,No
+S00418,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,46,7,5,5,private,Boarding,567,30.3,No,No,Yes,156539,192676,15.5,TVET,0.605,No,63.0,58.4,Not admitted,No
+S00419,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,38,5,3,3,private,Boarding,579,39.2,No,Yes,Yes,198043,214839,17.2,PCB,0.747,No,45.8,45.4,Not admitted,No
+S00420,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,52,7,6,9,government-aided,Day,1064,25.9,Yes,Yes,No,142890,0,6.3,HEG,0.6,No,41.0,43.1,Not admitted,No
+S00421,GISA,Gisagara College,Gisagara,Southern,Female,18,31,3,3,3,private,Boarding,878,33.2,Yes,No,No,106218,161316,32.1,TVET,0.713,Yes,60.3,61.9,Admitted,No
+S00422,GISA,Gisagara College,Gisagara,Southern,Female,unknown,55,8,8,9,private,Boarding,1337,29.5,Yes,Yes,No,43880,102670,7.7,MPC,0.732,No,54.5,52.0,Not admitted,No
+S00423,GISA,Gisagara College,Gisagara,Southern,Male,18,37,7,5,5,private,Boarding,706,26.0,No,No,No,54499,233572,11.2,HEL,0.504,No,51.1,56.4,Not admitted,No
+S00424,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,39,5,6,5,private,Boarding,1250,34.6,No,Yes,No,127756,203757,8.7,MEG,0.515,No,58.4,62.8,Admitted,No
+S00425,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,36,3,7,5,private,Boarding,1759,32.7,Yes,No,No,123545,215160,4.1,MCB,0.707,No,46.3,47.1,Not admitted,No
+S00426,HUYE,Huye Science School,Huye,Southern,Male,17,64,7,8,9,public,Boarding,289,37.7,Yes,No,Yes,98111,105496,5.7,LEG,0.78,No,47.6,47.0,Not admitted,No
+S00427,MUSA,Musanze Technical School,Musanze,Northern,Male,15,35,6,4,5,government-aided,Day,1625,46.5,Yes,Yes,No,66932,0,7.0,MPC,0.643,No,48.7,52.0,Not admitted,No
+S00428,GISA,Gisagara College,Gisagara,Southern,Female,17,54,5,8,6,private,Boarding,1025,23.6,Yes,Yes,No,81605,206823,10.8,LEG,0.339,No,55.7,57.8,Admitted,No
+S00429,HUYE,Huye Science School,Huye,Southern,Male,19,54,7,8,6,public,Boarding,1695,24.5,Yes,Yes,No,185151,169081,18.8,TVET,0.667,No,60.0,63.4,Not admitted,No
+S00430,RUBA,Rubavu College,Rubavu,Western,Male,17,59,5,8,6,public,Boarding,1350,35.9,Yes,Yes,No,73347,7865,1.3,HEG,0.932,No,47.6,45.1,Not admitted,No
+S00431,MUSA,Musanze Technical School,Musanze,Northern,Male,18,47,5,5,7,government-aided,Day,1723,37.6,Yes,Yes,Yes,105749,0,15.4,MEG,0.429,No,48.8,54.6,Admitted,No
+S00432,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,45,6,6,9,government-aided,Day,957,44.6,No,Yes,Yes,51249,0,10.9,MCB,0.626,Yes,51.9,48.5,Not admitted,No
+S00433,RUBA,Rubavu College,Rubavu,Western,Male,16,49,8,7,8,public,Boarding,1246,20.7,Yes,Yes,Yes,152963,120869,3.6,HEL,0.772,No,59.1,58.6,Admitted,Yes
+S00434,MUSA,Musanze Technical School,Musanze,Northern,Male,16,50,9,7,8,government-aided,Day,258,35.0,Yes,Yes,Yes,126794,0,4.2,MEG,0.656,No,54.5,56.7,Admitted,No
+S00435,RUBA,Rubavu College,Rubavu,Western,Male,16,64,9,9,9,public,Boarding,1720,45.2,Yes,Yes,Yes,173611,139333,3.2,HEG,0.751,No,46.1,48.3,Not admitted,Yes
+S00436,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,49,4,6,8,public,Day,791,27.7,Yes,Yes,No,137284,0,4.9,MPC,0.722,No,51.4,46.5,Not admitted,No
+S00437,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,45,6,6,8,public,Day,1034,44.2,Yes,Yes,No,25000,0,9.2,LEG,0.968,Yes,53.4,52.2,Not admitted,No
+S00438,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,57,8,8,6,private,Boarding,792,25.0,Yes,No,Yes,112947,152709,2.9,PCB,0.628,No,46.9,49.7,Not admitted,No
+S00439,GISA,Gisagara College,Gisagara,Southern,Female,18,52,6,6,7,private,Boarding,813,46.4,Yes,Yes,Yes,104288,213930,12.4,TVET,0.782,No,50.6,50.9,Not admitted,No
+S00440,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,51,8,5,6,private,Boarding,1095,45.9,Yes,No,No,120294,302635,8.7,LEG,0.714,No,56.4,60.5,Admitted,No
+S00441,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,42,7,7,5,government-aided,Day,372,24.3,No,Yes,No,61821,0,4.2,HEG,0.531,No,39.1,36.1,Not admitted,No
+S00442,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,67,9,6,9,private,Boarding,759,24.5,No,No,Yes,75667,224352,1.2,MEG,0.575,No,48.5,47.9,Admitted,No
+S00443,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,49,6,7,8,private,Boarding,1659,33.5,No,No,Yes,41346,150824,3.5,MCB,0.98,No,49.1,48.0,Admitted,No
+S00444,MUSA,Musanze Technical School,Musanze,Northern,Male,18,48,6,8,9,government-aided,Day,526,40.5,Yes,Yes,Yes,49841,0,6.4,HEG,0.876,No,58.7,56.5,Not admitted,No
+S00445,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,55,8,6,9,public,Day,1166,29.3,No,Yes,Yes,107789,0,11.5,PCB,0.616,No,46.6,51.0,Admitted,No
+S00446,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,34,2,5,6,private,Boarding,390,36.3,Yes,Yes,Yes,25000,158165,11.2,MEG,0.623,No,62.2,62.4,Not admitted,No
+S00447,MUSA,Musanze Technical School,Musanze,Northern,Female,18,20,2,1,3,government-aided,Day,305,39.6,Yes,No,Yes,127784,0,2.6,HEG,0.601,No,62.3,59.5,Admitted,No
+S00448,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,55,9,7,9,government-aided,Day,936,22.9,Yes,Yes,Yes,81882,0,5.0,LEG,0.65,No,45.3,43.7,Not admitted,No
+S00449,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,39,7,4,7,private,Boarding,1742,34.4,Yes,Yes,Yes,97186,241928,13.0,HEL,0.864,No,57.6,54.0,Not admitted,No
+S00450,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,46,6,5,7,government-aided,Day,1371,29.5,Yes,Yes,Yes,31037,0,2.6,TVET,0.571,No,60.6,61.7,Admitted,No
+S00451,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,71,9,9,9,public,Day,1033,43.7,No,Yes,No,117505,0,17.7,TVET,0.584,No,41.3,42.6,Not admitted,No
+S00452,GISA,Gisagara College,Gisagara,Southern,Male,18,59,8,6,5,private,Boarding,1410,38.9,No,Yes,Yes,111441,205688,8.4,TVET,0.301,No,51.1,56.0,Not admitted,No
+S00453,MUSA,Musanze Technical School,Musanze,Northern,Male,18,66,9,9,9,government-aided,Day,1343,43.7,Yes,Yes,Yes,157191,0,14.2,LEG,0.653,No,49.2,54.2,Not admitted,No
+S00454,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,41,8,6,6,private,Boarding,1370,30.4,No,No,Yes,33108,227349,10.3,LEG,0.641,No,60.8,57.4,Not admitted,No
+S00455,RUBA,Rubavu College,Rubavu,Western,Female,16,27,3,2,6,public,Boarding,726,20.8,Yes,Yes,No,143919,35595,3.2,MPC,0.599,No,69.1,72.4,Not admitted,No
+S00456,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,62,9,7,7,government-aided,Day,552,22.7,Yes,Yes,Yes,50003,0,25.1,MCB,0.745,No,37.2,43.3,Admitted,No
+S00457,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,41,8,8,2,public,Day,571,33.0,Yes,Yes,No,89344,0,3.9,TVET,0.61,No,53.2,50.2,Admitted,No
+S00458,MUSA,Musanze Technical School,Musanze,Northern,Female,17,41,8,4,5,government-aided,Day,994,24.1,No,No,Yes,163952,0,20.9,PCB,0.665,No,67.1,62.5,Not admitted,No
+S00459,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,59,5,7,5,public,Day,1738,21.6,Yes,No,No,106256,0,11.7,PCB,0.755,No,39.4,41.1,Admitted,No
+S00460,HUYE,Huye Science School,Huye,Southern,Male,15,56,7,7,7,public,Boarding,924,41.1,Yes,Yes,Yes,203756,248799,2.0,HEG,0.869,Yes,39.0,31.4,Not admitted,No
+S00461,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,69,6,9,9,private,Boarding,754,44.4,Yes,Yes,Yes,142997,58013,1.4,MPC,0.825,Yes,35.3,34.7,Admitted,No
+S00462,RUBA,Rubavu College,Rubavu,Western,Female,19,60,8,8,9,public,Boarding,404,36.6,No,No,No,53505,290200,7.7,HEG,0.709,No,42.0,43.4,Admitted,No
+S00463,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,63,7,5,7,government-aided,Day,1741,39.9,Yes,Yes,No,115396,0,15.1,HEG,0.45,No,52.9,53.2,Admitted,No
+S00464,HUYE,Huye Science School,Huye,Southern,Male,15,62,9,9,7,public,Boarding,1765,20.5,Yes,Yes,Yes,151042,278760,6.3,PCB,0.623,No,43.6,41.9,Not admitted,No
+S00465,MUSA,Musanze Technical School,Musanze,Northern,Female,15,61,7,9,7,government-aided,Day,707,39.5,Yes,Yes,Yes,193538,0,18.9,MPC,0.787,No,33.3,37.4,Admitted,No
+S00466,RUBA,Rubavu College,Rubavu,Western,Male,18,34,4,5,4,public,Boarding,916,61.5,Yes,Yes,No,97111,109182,10.7,HEG,0.743,No,65.1,62.9,Not admitted,No
+S00467,HUYE,Huye Science School,Huye,Southern,Male,18,53,9,6,9,public,Boarding,1685,46.1,No,Yes,Yes,25000,209440,17.3,TVET,0.599,No,39.2,37.6,Not admitted,No
+S00468,HUYE,Huye Science School,Huye,Southern,Female,15,44,9,5,6,public,Boarding,396,29.3,Yes,Yes,Yes,125103,250332,1.8,HEG,0.603,No,51.2,54.4,Not admitted,No
+S00469,RUBA,Rubavu College,Rubavu,Western,Female,17,38,5,4,6,public,Boarding,398,23.1,Yes,Yes,Yes,160724,208421,250,PCB,0.811,Yes,46.6,37.0,Admitted,No
+S00470,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,40,6,4,6,public,Day,333,33.7,No,Yes,Yes,70229,0,5.1,PCB,0.769,No,50.8,49.6,Not admitted,No
+S00471,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,59,5,8,9,private,Boarding,358,30.7,Yes,Yes,Yes,120269,162390,3.1,LEG,0.739,No,51.1,51.4,Admitted,No
+S00472,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,61,9,8,9,government-aided,Day,516,27.0,Yes,Yes,No,56807,0,6.6,PCB,0.708,No,62.4,63.1,Not admitted,No
+S00473,GISA,Gisagara College,Gisagara,Southern,Female,17,27,3,5,6,private,Boarding,1465,26.9,Yes,Yes,Yes,163202,136912,1.5,MPC,0.498,Yes,48.1,47.2,Admitted,No
+S00474,HUYE,Huye Science School,Huye,Southern,Male,16,35,3,5,3,public,Boarding,1067,48.4,Yes,Yes,Yes,178040,0,5.2,HEL,0.674,No,59.1,62.7,Not admitted,No
+S00475,MUSA,Musanze Technical School,Musanze,Northern,Female,17,49,6,6,6,government-aided,Day,1052,26.6,Yes,No,Yes,70047,0,2.9,MCB,0.621,No,51.0,56.9,Admitted,No
+S00476,GISA,Gisagara College,Gisagara,Southern,Male,16,56,7,8,6,private,Boarding,527,19.0,No,No,Yes,102210,163856,20.9,MPC,0.98,No,47.6,49.5,Admitted,No
+S00477,RUBA,Rubavu College,Rubavu,Western,Female,15,57,5,7,9,public,Boarding,1419,45.3,Yes,No,Yes,25000,170876,3.0,TVET,0.675,No,44.8,42.3,Not admitted,No
+S00478,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,36,2,4,2,public,Day,417,38.2,Yes,Yes,Yes,112588,0,3.2,HEG,0.787,No,48.0,48.6,Not admitted,Yes
+S00479,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,47,8,5,7,government-aided,Day,1621,26.5,Yes,Yes,No,117309,0,6.7,LEG,0.658,Yes,41.6,41.8,Admitted,No
+S00480,HUYE,Huye Science School,Huye,Southern,Male,16,50,6,6,8,public,Boarding,800,40.4,Yes,Yes,Yes,234356,292419,13.0,LEG,0.73,No,49.9,48.3,Not admitted,No
+S00481,MUHA,Muhanga Academy,Muhanga,Southern,Male,15,24,3,2,2,private,Boarding,281,25.1,Yes,Yes,Yes,89118,164181,4.0,MPC,0.681,No,58.1,62.9,Not admitted,Yes
+S00482,HUYE,Huye Science School,Huye,Southern,Female,18,42,5,4,6,public,Boarding,1110,31.2,Yes,Yes,Yes,25000,63004,13.6,MPC,0.867,No,61.8,64.0,Not admitted,No
+S00483,RUBA,Rubavu College,Rubavu,Western,Male,15,52,6,7,9,public,Boarding,1001,24.4,Yes,No,Yes,120978,237817,13.1,PCB,0.717,No,53.2,53.0,Not admitted,No
+S00484,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,37,5,9,3,government-aided,Day,928,33.9,Yes,No,Yes,150970,0,2.6,PCB,0.427,No,42.2,46.8,Admitted,No
+S00485,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,29,7,2,3,public,Day,287,39.7,Yes,No,Yes,102519,0,13.5,MCB,0.516,No,49.2,49.2,Admitted,No
+S00486,HUYE,Huye Science School,Huye,Southern,Male,19,43,4,7,4,public,Boarding,1693,30.9,Yes,No,Yes,36182,95010,2.7,HEL,0.863,No,54.8,52.2,Admitted,No
+S00487,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,44,9,8,8,private,Boarding,876,30.6,Yes,Yes,No,137235,193365,8.2,MEG,0.924,No,67.4,66.8,Not admitted,No
+S00488,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,35,5,6,3,public,Day,487,23.6,Yes,Yes,No,100439,0,4.5,MPC,0.674,No,52.4,54.0,Not admitted,No
+S00489,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,56,7,5,8,private,Boarding,383,39.5,Yes,No,No,56661,33548,4.0,HEL,0.509,No,49.2,52.0,Not admitted,No
+S00490,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,51,5,9,6,government-aided,Day,529,15.0,Yes,Yes,Yes,92844,0,4.7,MEG,0.628,No,55.6,54.9,Not admitted,No
+S00491,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,31,4,2,2,government-aided,Day,1411,32.2,Yes,Yes,No, ,0,48.5,TVET,0.737,No,48.8,48.8,Not admitted,No
+S00492,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,28,2,3,5,public,Day,416,55.6,Yes,Yes,No,77478,0,6.6,PCB,0.622,No,53.7,53.2,Admitted,No
+S00493,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,22,1,4,2,public,Day,546,18.3,Yes,Yes,Yes,152001,0,12.4,HEG,0.896,No,69.5,66.4,Not admitted,No
+S00494,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,49,8,6,7,government-aided,Day,335,28.7,Yes,Yes,Yes,92597,0,6.9,HEL,0.903,No,46.4,41.3,Admitted,Yes
+S00495,MUSA,Musanze Technical School,Musanze,Northern,Female,19,66,9,9,9,government-aided,Day,1350,41.9,No,Yes,Yes,151504,0,13.8,HEL,0.9,No,55.2,57.1,Not admitted,No
+S00496,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,50,7,7,6,private,Boarding,1332,15.0,Yes,Yes,Yes,155257,292941,8.5,MEG,0.68,Yes,54.8,52.5,Not admitted,Yes
+S00497,RUBA,Rubavu College,Rubavu,Western,Female,17,43,5,6,7,public,Boarding,637,22.0,Yes,No,No,145111,288183,27.0,MCB,0.783,No,69.0,62.0,Not admitted,Yes
+S00498,HUYE,Huye Science School,Huye,Southern,Male,19,47,6,6,5,public,Boarding,1528,36.2,No,Yes,No,175467,95975,1.9,TVET,0.679,No,59.8,58.1,Not admitted,No
+S00499,MUSA,Musanze Technical School,Musanze,Northern,Female,19,45,6,6,8,government-aided,Day,723,20.3,Yes,Yes,No,180278,0,11.7,MEG,0.826,Yes,68.9,67.1,Not admitted,Yes
+S00500,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,68,8,9,9,government-aided,Day,1610,38.3,Yes,Yes,No,76412,0,5.7,PCB,0.444,No,33.2,32.5,Admitted,No
+S00501,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,53,7,9,6,private,Boarding,1004,40.5,Yes,No,Yes,182680,86572,47.9,LEG,0.563,Yes,39.5,39.6,Admitted,No
+S00502,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,42,7,8,7,private,Boarding,771,35.7,Yes,Yes,No,70823,174775,10.5,HEG,0.643,No,59.4,61.3,Not admitted,No
+S00503,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,72,9,9,5,private,Boarding,467,42.8,Yes,Yes,Yes,25000,203909,1.6,MEG,0.838,No,40.2,41.8,Admitted,No
+S00504,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,28,1,3,3,government-aided,Day,500,28.8,Yes,Yes,No,125847,0,16.5,MPC,0.761,No,61.5,56.0,Admitted,No
+S00505,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,48,7,4,6,government-aided,Day,1375,37.1,No,No,No,34205,0,5.4,TVET,0.805,Yes,37.3,35.3,Admitted,No
+S00506,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,53,8,7,7,private,Boarding,1319,30.5,No,Yes,Yes,108520,389530,2.5,MCB,0.662,No,49.0,48.0,Not admitted,No
+S00507,HUYE,Huye Science School,Huye,Southern,Male,16,31,3,3,4,public,Boarding,732,32.1,Yes,No,Yes,76725,227298,21.2,MEG,0.654,No,55.9,56.9,Not admitted,No
+S00508,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,43,3,6,4,private,Boarding,482,35.2,No,Yes,Yes,150043,183215,1.5,PCB,0.859,No,46.1,43.7,Not admitted,No
+S00509,MUSA,Musanze Technical School,Musanze,Northern,Male,16,26,2,1,2,government-aided,Day,755,50.5,Yes,Yes,No,141033,0,2.1,LEG,0.6,Yes,47.1,44.9,Admitted,No
+S00510,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,55,9,7,7,government-aided,Day,415,29.6,No,Yes,Yes,-1,0,6.8,LEG,0.477,Yes,56.1,52.4,Admitted,No
+S00511,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,53,8,6,4,government-aided,Day,1641,30.0,Yes,Yes,Yes,63293,0,11.7,LEG,0.802,No,45.4,49.2,Admitted,No
+S00512,HUYE,Huye Science School,Huye,Southern,Male,15,44,7,6,6,public,Boarding,1030,40.3,No,Yes,Yes,70504,82301,3.3,MEG,0.72,No,36.4,35.2,Admitted,Yes
+S00513,GISA,Gisagara College,Gisagara,Southern,Female,15,57,9,3,9,private,Boarding,1720,53.7,Yes,Yes,Yes,99854,220756,17.5,MPC,0.668,No,49.8,49.0,Not admitted,No
+S00514,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,45,3,6,5,private,Boarding,264,28.6,Yes,Yes,Yes,182248,107123,7.4,LEG,0.814,No,60.1,61.0,Not admitted,No
+S00515,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,41,6,4,8,private,Boarding,1067,34.7,Yes,Yes,No,164451,71941,5.9,MEG,0.796,Yes,65.3,60.6,Admitted,No
+S00516,RUBA,Rubavu College,Rubavu,Western,Female,15,52,8,6,6,public,Boarding,1660,41.2,Yes,Yes,No,137987,174391,4.8,HEL,0.855,No,46.3,41.5,Admitted,No
+S00517,HUYE,Huye Science School,Huye,Southern,Female,17,54,9,6,4,public,Boarding,1185,28.4,Yes,Yes,No,199681,210301,41.0,LEG,0.63,No,55.2,49.7,Admitted,No
+S00518,GISA,Gisagara College,Gisagara,Southern,Male,19,33,4,6,4,private,Boarding,1561,24.0,Yes,Yes,No,143190,118964,1.3,HEG,0.739,No,64.4,62.1,Not admitted,No
+S00519,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,49,7,4,5,public,Day,1798,47.8,No,Yes,Yes,29662,0,6.2,HEG,0.931,No,42.9,37.6,Admitted,Yes
+S00520,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,32,4,4,3,private,Boarding,1111,34.6,Yes,No,Yes,"120,000",111766,3.3,HEL,0.65,No,60.3,54.6,Admitted,No
+S00521,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,72,8,9,9,public,Day,1118,28.3,Yes,Yes,Yes,137878,0,3.3,MCB,0.629,No,47.7,42.8,Admitted,No
+S00522,GISA,Gisagara College,Gisagara,Southern,Female,17,64,9,9,9,private,Boarding,628,19.2,No,Yes,Yes,121579,192368,15.6,MPC,0.796,Yes,46.0,46.3,Admitted,No
+S00523,MUSA,Musanze Technical School,Musanze,Northern,Female,18,53,6,9,8,government-aided,Day,1130,35.7,Yes,Yes,Yes,108696,0,15.1,MEG,0.553,Yes,46.5,41.3,Admitted,No
+S00524,HUYE,Huye Science School,Huye,Southern,Male,18,42,5,6,5,public,Boarding,451,33.5,Yes,No,Yes,25000,160599,5.1,PCB,0.739,No,49.4,49.1,Not admitted,No
+S00525,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,58,6,8,8,public,Day,688,55.6,Yes,No,Yes,72853,0,11.3,HEL,0.802,No,42.0,39.3,Not admitted,No
+S00526,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,69,8,9,9,private,Boarding,1637,32.7,Yes,Yes,No,134954,196386,5.0,HEL,0.683,No,49.1,49.6,Not admitted,No
+S00527,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,44,6,6,4,private,Boarding,1138,36.1,No,Yes,Yes,170704,193675,3.9,MCB,0.707,No,57.6,59.8,Not admitted,No
+S00528,RUBA,Rubavu College,Rubavu,Western,Female,18,62,5,8,8,public,Boarding,947,39.4,Yes,No,No,170548,215214,10.0,HEL,0.657,No,50.6,48.4,Not admitted,No
+S00529,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,53,7,8,8,private,Boarding,1463,39.1,Yes,No,Yes,177203,155359,22.2,MEG,0.93,No,29.0,32.1,Not admitted,No
+S00530,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,63,9,9,9,private,Boarding,784,30.9,Yes,Yes,Yes,100615,187264,11.8,LEG,0.626,No,42.2,41.5,Admitted,No
+S00531,GISA,Gisagara College,Gisagara,Southern,Female,17,43,7,5,5,private,Boarding,1688,37.9,No,No,Yes,176984,104657,3.8,PCB,0.855,No,58.7,59.9,Not admitted,No
+S00532,MUSA,Musanze Technical School,Musanze,Northern,Male,15,61,6,9,8,government-aided,Day,906,32.6,No,Yes,No,161071,0,8.3,HEG,0.6,No,47.8,47.6,Not admitted,No
+S00533,GISA,Gisagara College,Gisagara,Southern,Male,18,31,4,3,2,private,Boarding,1502,48.2,Yes,No,Yes,25000,137447,4.5,PCB,0.649,No,55.8,58.9,Admitted,No
+S00534,RUBA,Rubavu College,Rubavu,Western,Male,19,49,5,9,7,public,Boarding,469,46.7,Yes,Yes,Yes,39622,132274,42.5,MPC,0.769,No,39.9,42.6,Not admitted,No
+S00535,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,70,9,8,7,private,Boarding,1233,35.3,Yes,No,No,145581,125955,11.4,PCB,0.609,No,47.5,47.7,Admitted,No
+S00536,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,30,3,3,6,private,Boarding,472,42.2,Yes,Yes,No,155118,258538,6.6,HEG,0.449,No,55.3,48.3,Not admitted,No
+S00537,RUBA,Rubavu College,Rubavu,Western,Female,15,60,6,7,7,public,Boarding,1423,39.0,Yes,Yes,No,171128,128030,1.7,MPC,0.586,No,41.7,38.8,Not admitted,No
+S00538,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,32,3,5,4,private,Boarding,422,39.7,Yes,No,No,129865,158671,6.1,HEG,0.608,No,59.1,62.2,Not admitted,No
+S00539,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,53,9,8,8,public,Day,708,33.2,No,Yes,Yes,178491,0,9.5,HEL,0.615,Yes,38.2,43.2,Not admitted,No
+S00540,GISA,gisagara college ,Gisagara,Southern,Male,18,46,5,5,9,private,Boarding,649,43.0,Yes,Yes,No,117475,93995,6.4,HEG,0.762,No,49.8,49.3,Not admitted,No
+S00541,MUSA,Musanze Technical School,Musanze,Northern,Female,17,40,5,6,6,government-aided,Day,1249,42.7,No,Yes,No,142194,0,11.0,LEG,0.566,No,36.3,36.5,Admitted,No
+S00542,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,64,9,7,9,private,Boarding,1157,29.6,Yes,No,Yes,176648,146497,29.4,LEG,0.383,No,56.8,54.1,Admitted,Yes
+S00543,MUSA,Musanze Technical School,Musanze,Northern,Male,15,32,4,5,4,government-aided,Day,1116,42.2,Yes,No,No,62644,0,11.4,MCB,0.719,No,50.9,48.1,Admitted,No
+S00544,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,41,7,4,7,private,Boarding,1403,29.5,Yes,Yes,No,151904,248985,4.1,HEL,0.628,No,45.5,44.1,Not admitted,No
+S00545,HUYE,Huye Science School,Huye,Southern,Female,18,54,8,6,9,public,Boarding,784,39.4,Yes,No,No,118342,51205,11.0,TVET,0.86,No,42.9,40.5,Not admitted,No
+S00546,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,61,6,9,8,government-aided,Day,1227,40.9,Yes,Yes,Yes,108949,0,6.0,PCB,0.437,No,41.6,43.1,Admitted,No
+S00547,MUSA,Musanze Technical School,Musanze,Northern,Female,19,51,6,7,9,government-aided,Day,1123,22.3,Yes,Yes,No,49455,0,17.2,PCB,0.747,No,47.8,57.2,Admitted,Yes
+S00548,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,58,9,8,9,private,Boarding,713,35.3,Yes,Yes,Yes,80596,179485,1.9,MCB,0.355,Yes,46.7,45.9,Not admitted,No
+S00549,GISA,Gisagara College,Gisagara,Southern,Male,18,54,8,8,5,private,Boarding,911,15.0,No,Yes,Yes,90153,303756,17.9,LEG,0.584,No,44.0,46.1,Not admitted,No
+S00550,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,59,8,7,9,government-aided,Day,834,39.8,Yes,No,Yes,89586,0,2.8,TVET,0.595,No,40.5,42.7,Admitted,No
+S00551,RUBA,Rubavu College,Rubavu,Western,Female,19,49,8,9,5,public,Boarding,1110,25.9,No,Yes,Yes,25000,127767,11.5,HEG,0.671,No,47.7,50.7,Admitted,No
+S00552,GISA,Gisagara College,Gisagara,Southern,Male,19,53,6,8,8,private,Boarding,590,37.3,Yes,Yes,Yes,125420,166443,3.0,TVET,0.522,Yes,28.9,28.5,Not admitted,No
+S00553,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,30,2,2,3,private,Boarding,1091,36.0,No,Yes,No,54840,80885,2.2,MPC,0.771,No,45.7,45.5,Not admitted,No
+S00554,MUSA,Musanze Technical School,Musanze,Northern,Female,18,61,7,8,9,government-aided,Day,461,36.9,Yes,No,No,134219,0,15.4,PCB,0.774,Yes,48.4,50.5,Not admitted,No
+S00555,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,42,3,6,5,public,Day,956,38.0,No,No,Yes,25000,0,5.4,MEG,0.938,No,51.4,53.7,Admitted,No
+S00556,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,33,4,3,2,private,Boarding,584,34.2,No,Yes,Yes,88940,86488,6.0,PCB,0.63,No,58.9,59.6,Admitted,No
+S00557,MUSA,Musanze Technical School,Musanze,Northern,Female,19,35,3,3,6,government-aided,Day,378,35.9,Yes,No,Yes,143623,0,4.6,LEG,0.828,No,62.8,61.0,Not admitted,No
+S00558,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,20,2,2,4,public,Day,330,28.3,Yes,Yes,No,69773,0,4.2,MCB,0.522,No,61.9,62.5,Not admitted,No
+S00559,HUYE,Huye Science School,Huye,Southern,Female,16,44,4,7,6,public,Boarding,1022,36.0,Yes,Yes,Yes,122646,127171,19.1,PCB,0.967,No,56.2,47.6,Admitted,No
+S00560,RUBA,Rubavu College,Rubavu,Western,Female,18,45,7,3,5,public,Boarding,1691,46.6,No,Yes,Yes,200585,225005,3.5,PCB,0.643,Yes,46.2,41.1,Admitted,No
+S00561,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,49,9,7,8,private,Boarding,304,31.9,No,Yes,Yes,163842,118974,7.4,MPC,0.779,No,60.3,60.5,Not admitted,No
+S00562,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,68,9,9,7,public,Day,1037,43.8,Yes,No,Yes,130109,0,5.7,MCB,0.542,No,45.4,46.4,Not admitted,No
+S00563,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,52,8,6,4,private,Boarding,1253,20.0,Yes,Yes,Yes,224042,38878,45.6,MCB,0.647,Yes,41.6,44.6,Not admitted,No
+S00564,MUSA,Musanze Technical School,Musanze,Northern,Female,19,58,7,9,9,government-aided,Day,491,46.8,No,Yes,Yes,118812,0,1.0,MCB,0.654,Yes,55.6,60.4,Admitted,No
+S00565,MUSA,Musanze Technical School,Musanze,Northern,Male,18,71,9,6,9,government-aided,Day,1529,47.3,Yes,Yes,No,25000,0,7.6,TVET,0.767,Yes,39.3,38.8,Not admitted,No
+S00566,RUBA,Rubavu College,Rubavu,Western,Female,16,47,7,5,7,public,Boarding,622,21.8,Yes,Yes,Yes,205354,317521,6.1,MCB,0.774,No,48.5,49.3,Admitted,No
+S00567,MUSA,Musanze Technical School,Musanze,Northern,Male,17,42,4,6,6,government-aided,Day,1735,27.1,Yes,Yes,Yes,116657,0,6.4,pcb,0.839,Yes,60.1,60.2,Admitted,No
+S00568,MUSA,Musanze Technical School,Musanze,Northern,Male,16,65,8,9,9,government-aided,Day,809,38.7,Yes,Yes,No,193789,0,7.5,MCB,0.506,No,42.7,39.5,Not admitted,No
+S00569,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,46,6,6,8,government-aided,Day,875,22.8,Yes,Yes,Yes,186381,0,30.6,TVET,0.698,No,40.2,41.5,Admitted,No
+S00570,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,37,5,4,3,private,Boarding,1740,42.5,No,Yes,Yes,199836,196460,1.0,TVET,0.98,No,57.9,61.2,Admitted,No
+S00571,GISA,Gisagara College,Gisagara,Southern,Male,15,51,9,6,6,private,Boarding,1748,30.3,Yes,Yes,Yes,28449,137246,8.9,MCB,0.711,No,65.0,69.5,Not admitted,No
+S00572,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,55,9,8,7,government-aided,Day,1510,44.1,Yes,Yes,No,67833,0,4.3,HEG,0.716,No,35.5,34.0,Not admitted,No
+S00573,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,39,5,6,4,public,Day,510,37.7,Yes,Yes,Yes,92007,0,2.6,HEL,0.631,No,42.3,41.5,Not admitted,No
+S00574,RUBA,Rubavu College,Rubavu,Western,Female,17,53,9,6,6,public,Boarding,827,34.8,Yes,Yes,Yes,174076,139412,10.2,HEG,0.455,No,40.3,39.0,Not admitted,No
+S00575,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,37,7,2,4,private,Boarding,364,36.1,Yes,Yes,No,83809,197879,14.2,MCB,0.472,No,56.2,58.1,Admitted,No
+S00576,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,51,6,6,7,private,Boarding,1319,29.5,No,No,Yes,81797,94408,19.3,MEG,0.618,No,51.4,49.6,Not admitted,No
+S00577,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,61,8,7,6,private,Boarding,1423,36.5,Yes,Yes,Yes,168607,195992,12.3,MCB,0.98,No,40.3,35.7,Not admitted,No
+S00578,RUBA,Rubavu College,Rubavu,Western,Female,18,44,8,4,2,public,Boarding,1391,36.5,Yes,Yes,Yes,31718,116135,8.0,MPC,0.362,No,49.1,48.2,Not admitted,No
+S00579,MUSA,Musanze Technical School,Musanze,Northern,Male,18,44,4,6,5,government-aided,Day,670,16.7,Yes,Yes,Yes,70545,0,5.4,LEG,0.841,No,61.2,62.2,Admitted,No
+S00580,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,62,8,9,9,private,Boarding,1183,32.9,Yes,No,Yes,25000,230018,12.7,HEG,0.806,No,43.9,43.5,Not admitted,No
+S00581,MUSA,Musanze Technical School,Musanze,Northern,Male,18,64,8,8,8,government-aided,Day,1583,32.6,Yes,Yes,Yes,193625,0,2.0,MPC,0.946,No,35.8,33.9,Not admitted,No
+S00582,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,31,6,5,6,public,Day,1540,15.0,Yes,No,No,84263,0,3.1,PCB,0.813,No,61.5,59.6,Not admitted,No
+S00583,MUSA,Musanze Technical School,Musanze,Northern,Male,16,29,3,7,1,government-aided,Day,574,35.7,Yes,No,Yes,96431,0,4.9,LEG,0.692,No,60.6,55.8,Not admitted,No
+S00584,RUBA,Rubavu College,Rubavu,Western,Male,16,36,7,4,5,public,Boarding,392,33.8,Yes,Yes,Yes,132633,111749,5.6,LEG,0.755,Yes,52.9,58.6,Not admitted,No
+S00585,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,56,7,6,4,private,Boarding,746,38.2,Yes,Yes,Yes,102136,94706,6.9,PCB,0.61,No,44.8,42.0,Not admitted,Yes
+S00586,HUYE,Huye Science School,Huye,Southern,Male,17,40,7,4,8,public,Boarding,775,38.0,Yes,Yes,Yes,63164,256904,3.9,MCB,0.817,No,54.0,49.8,Not admitted,No
+S00587,HUYE,Huye Science School,Huye,Southern,Female,16,53,6,6,7,public,Boarding,957,42.6,Yes,Yes,Yes,140419,169654,2.0,MCB,0.531,No,48.6,43.6,Admitted,No
+S00588,HUYE,Huye Science School,Huye,Southern,Male,19,59,5,7,8,public,Boarding,1173,38.4,Yes,No,Yes,129593,209144,3.7,MCB,0.778,No,51.3,45.8,Admitted,No
+S00589,MUSA,musanze technical school ,Musanze,Northern,Female,16,62,9,8,9,government-aided,Day,967,37.8,Yes,Yes,Yes,45922,0,15.0,MCB,0.779,No,29.5,27.8,Not admitted,No
+S00590,HUYE,Huye Science School,Huye,Southern,Male,17,62,8,7,9,public,Boarding,1323,26.6,Yes,No,Yes,29801,50181,3.0,TVET,0.506,No,39.6,36.8,Not admitted,No
+S00591,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,54,7,8,8,public,Day,1426,56.1,Yes,Yes,Yes,71454,0,10.6,HEG,0.487,No,46.1,49.1,Not admitted,No
+S00592,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,41,7,7,5,public,Day,268,46.7,Yes,Yes,Yes,109620,0,3.8,HEL,0.733,Yes,62.7,65.1,Not admitted,Yes
+S00593,HUYE,Huye Science School,Huye,Southern,Male,17,41,6,5,5,public,Boarding,749,38.6,Yes,Yes,Yes,92348,230250,3.9,HEL,0.832,No,61.4,62.5,Admitted,No
+S00594,RUBA,Rubavu College,Rubavu,Western,Male,17,63,9,7,9,public,Boarding,1053,25.2,No,No,Yes,170521,267351,19.6,MPC,0.758,No,50.1,52.3,Not admitted,No
+S00595,HUYE,Huye Science School,Huye,Southern,Male,16,44,7,5,4,public,Boarding,531,30.4,Yes,Yes,Yes,161924,158148,2.9,HEL,0.631,No,54.1,54.4,Not admitted,No
+S00596,RUBA,Rubavu College,Rubavu,Western,Male,18,36,9,4,5,public,Boarding,522,30.7,Yes,Yes,Yes,139122,59554,30.0,PCB,0.791,No,42.0,39.6,Not admitted,No
+S00597,HUYE,Huye Science School,Huye,Southern,Male,19,62,9,9,7,public,Boarding,516,25.2,Yes,Yes,Yes,111842,182060,7.3,LEG,0.522,Yes,42.9,38.7,Not admitted,No
+S00598,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,32,4,7,2,public,Day,1483,34.8,Yes,Yes,Yes,137430,0,5.2,PCB,0.689,No,54.0,50.0,Admitted,No
+S00599,GISA,Gisagara College,Gisagara,Southern,Female,17,45,4,3,5,private,Boarding,877,22.5,No,No,No,108032,46171,13.1,MPC,0.7,No,68.7,66.2,Not admitted,No
+S00600,RUBA,Rubavu College,Rubavu,Western,Male,18,33,2,4,2,public,Boarding,1360,30.7,No,Yes,Yes,117343,189137,8.5,HEG,0.67,No,47.0,43.9,Not admitted,No
+S00601,GISA,Gisagara College,Gisagara,Southern,Female,16,42,6,5,7,private,Boarding,1061,32.1,No,Yes,Yes,107484,171534,7.7,HEG,0.701,No,61.6,62.2,Not admitted,No
+S00602,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,41,4,6,9,public,Day,1450,45.6,No,Yes,Yes,74748,0,3.9,LEG,0.774,No,51.5,50.8,Admitted,No
+S00603,HUYE,Huye Science School,Huye,Southern,Female,15,54,5,6,6,public,Boarding,1283,31.1,Yes,No,Yes,118915,209930,4.8,TVET,0.589,No,35.8,36.6,Admitted,Yes
+S00604,GISA,Gisagara College,Gisagara,Southern,Female,19,48,2,6,6,private,Boarding,958,46.1,Yes,No,Yes,110513,266570,53.4,MPC,0.784,No,60.6,61.3,Not admitted,No
+S00605,MUSA,Musanze Technical School,Musanze,Northern,Male,15,26,4,1,1,government-aided,Day,1042,25.1,Yes,No,Yes,65273,0,15.2,TVET,0.668,No,49.2,48.7,Admitted,No
+S00606,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,36,4,3,4,private,Boarding,1085,27.7,Yes,Yes,Yes,81362,134734,3.8,HEG,0.521,No,56.9,57.1,Admitted,No
+S00607,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,50,6,7,4,government-aided,Day,383,38.1,Yes,Yes,Yes,97732,0,5.0,MPC,0.494,No,57.0,56.9,Admitted,No
+S00608,GISA,Gisagara College,Gisagara,Southern,Female,19,40,5,6,5,private,Boarding,486,21.8,Yes,Yes,Yes,93680,197642,999,HEL,0.707,No,47.2,51.8,Not admitted,No
+S00609,RUBA,Rubavu College,Rubavu,Western,Female,17,30,6,3,2,public,Boarding,410,30.0,Yes,Yes,Yes,25000,223674,6.8,MPC,0.634,No,46.2,46.8,Admitted,No
+S00610,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,60,7,9,9,private,Boarding,1278,25.1,No,Yes,Yes,180964,127433,3.6,PCB,0.713,No,50.2,53.2,Not admitted,No
+S00611,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,52,7,8,8,private,Boarding,1447,42.3,Yes,Yes,No,140396,148645,27.6,HEL,0.962,No,59.9,55.3,Not admitted,Yes
+S00612,HUYE,Huye Science School,Huye,Southern,Female,18,28,5,7,6,public,Boarding,1790,35.8,Yes,Yes,No,95640,143152,17.9,LEG,0.844,No,54.9,53.4,Admitted,No
+S00613,HUYE,Huye Science School,Huye,Southern,Male,19,49,9,7,6,public,Boarding,519,31.3,Yes,Yes,Yes,27422,169887,1.4,MEG,0.631,Yes,51.7,50.5,Not admitted,No
+S00614,GISA,Gisagara College,Gisagara,Southern,Male,18,37,5,5,5,private,Boarding,757,32.9,No,Yes,Yes,152724,126962,4.7,MPC,0.605,No,44.5,43.1,Not admitted,No
+S00615,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,54,9,7,7,government-aided,Day,1607,46.4,Yes,No,Yes,70105,0,11.3,MCB,0.738,No,49.1,44.6,Not admitted,No
+S00616,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,40,3,7,5,private,Boarding,1331,36.7,Yes,Yes,Yes,123755,191242,9.7,HEG,0.739,No,55.3,52.8,Not admitted,No
+S00617,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,59,9,6,8,private,Boarding,513,31.9,Yes,No,Yes,unknown,164823,3.0,HEL,0.791,No,46.5,47.3,Not admitted,Yes
+S00618,MUSA,Musanze Technical School,Musanze,Northern,Male,19,44,6,4,3,government-aided,Day,1444,27.9,Yes,Yes,Yes,178239,0,7.6,PCB,0.721,No,32.9,29.5,Admitted,No
+S00619,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,34,5,4,6,private,Boarding,1543,37.7,Yes,No,Yes,144676,89682,4.8,MPC,0.806,No,60.4,62.4,Not admitted,No
+S00620,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,23,3,2,4,public,Day,472,36.9,Yes,Yes,Yes,142242,0,16.3,LEG,0.701,Yes,57.6,65.4,Not admitted,No
+S00621,MUSA,Musanze Technical School,Musanze,Northern,Female,19,48,8,6,6,government-aided,Day,491,38.4,Yes,No,Yes,63573,0,18.2,MEG,0.464,No,44.0,50.4,Not admitted,No
+S00622,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,57,9,9,8,government-aided,Day,1683,47.0,Yes,Yes,No,46124,0,5.1,MCB,0.647,No,41.6,37.8,Not admitted,No
+S00623,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,42,6,8,4,private,Boarding,841,41.7,Yes,No,No,42878,186794,7.6,HEG,0.758,Yes,53.6,57.7,Admitted,No
+S00624,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,53,6,7,6,private,Boarding,1375,31.2,Yes,Yes,Yes,126899,203316,11.3,TVET,0.642,No,63.4,63.8,Admitted,No
+S00625,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,50,6,6,5,private,Boarding,295,38.7,No,No,Yes,121610,105473,13.7,LEG,0.484,No,50.6,43.8,Admitted,No
+S00626,RUBA,Rubavu College,Rubavu,Western,Male,17,46,5,3,8,public,Boarding,502,28.1,Yes,No,Yes,122369,134144,4.9,LEG,0.526,No,52.4,53.1,Not admitted,No
+S00627,HUYE,Huye Science School,Huye,Southern,Female,19,47,5,5,7,public,Boarding,696,24.3,Yes,Yes,No,33906,216541,5.9,MCB,0.89,No,54.7,51.6,Not admitted,No
+S00628,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,38,6,8,5,public,Day,529,30.5,No,Yes,Yes,117396,0,31.2,LEG,0.429,No,60.9,60.2,Admitted,No
+S00629,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,40,4,5,4,private,Boarding,322,30.4,Yes,No,Yes,119717,249723,8.2,MCB,0.595,No,41.6,41.2,Admitted,No
+S00630,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,59,9,7,7,government-aided,Day,486,40.5,Yes,Yes,Yes,82197,0,22.0,MPC,0.68,No,42.1,45.8,Admitted,No
+S00631,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,55,6,9,8,government-aided,Day,918,33.4,No,Yes,Yes,94611,0,11.3,MCB,0.683,No,45.5,42.9,Admitted,No
+S00632,GISA,Gisagara College,Gisagara,Southern,Male,16,49,6,9,3,private,Boarding,1707,27.0,Yes,Yes,Yes,187263,304935,6.2,PCB,0.727,No,65.6,59.3,Admitted,No
+S00633,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,70,8,9,9,government-aided,Day,1414,35.0,Yes,Yes,Yes,118337,0,9.9,MCB,0.699,No,38.4,43.2,Not admitted,No
+S00634,MUSA,Musanze Technical School,Musanze,Northern,Female,14,43,6,7,6,government-aided,Day,1674,28.6,Yes,No,Yes,104777,0,3.4,PCB,0.848,No,61.9,61.9,Not admitted,No
+S00635,RUBA,Rubavu College,Rubavu,Western,Male,18,71,9,9,9,public,Boarding,1455,35.5,Yes,No,Yes,128601,162114,5.4,LEG,0.861,No,33.0,35.4,Not admitted,No
+S00636,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,53,6,5,5,private,Boarding,1050,23.8,Yes,Yes,No,123533,202075,11.0,HEG,0.632,Yes,54.0,46.7,Not admitted,No
+S00637,HUYE,Huye Science School,Huye,Southern,Female,17,44,4,7,3,public,Boarding,754,38.3,Yes,Yes,Yes,167124,225544,14.6,HEG,0.648,No,46.5,47.0,Not admitted,No
+S00638,HUYE,Huye Science School,Huye,Southern,Female,15,52,9,6,4,public,Boarding,739,27.8,Yes,Yes,Yes,32377,144598,5.4,TVET,0.693,No,55.1,50.2,Admitted,No
+S00639,HUYE,Huye Science School,Huye,Southern,Male,19,47,7,5,6,public,Boarding,1364,28.4,Yes,Yes,No,25000,150887,23.5,MEG,0.675,No,36.2,37.5,Not admitted,No
+S00640,MUSA,Musanze Technical School,Musanze,Northern,Male,16,35,5,6,4,government-aided,Day,397,32.6,No,Yes,Yes,214533,0,11.7,PCB,0.585,No,49.7,48.0,Admitted,No
+S00641,HUYE,Huye Science School,Huye,Southern,Male,18,56,5,6,6,public,Boarding,1618,35.8,Yes,Yes,No,105058,313928,3.5,LEG,0.543,No,52.3,52.2,Not admitted,No
+S00642,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,72,9,9,9,public,Day,1516,39.9,Yes,Yes,Yes,116160,0,13.7,MEG,0.721,No,38.7,35.8,Admitted,No
+S00643,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,35,6,5,2,government-aided,Day,1438,41.5,No,Yes,Yes,232333,0,4.3,HEL,0.749,No,48.5,49.0,Not admitted,No
+S00644,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,58,8,9,9,government-aided,Day,1237,29.0,Yes,Yes,Yes,123029,0,29.1,MCB,0.754,No,35.4,34.8,Not admitted,No
+S00645,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,56,5,9,6,public,Day,704,31.8,Yes,Yes,Yes,129058,0,10.7,LEG,0.828,No,49.0,54.1,Admitted,No
+S00646,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,50,7,7,7,private,Boarding,696,33.8,No,Yes,Yes,69719,96312,5.6,HEL,0.601,No,47.4,49.0,Not admitted,No
+S00647,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,49,7,6,6,government-aided,Day,1129,42.7,No,Yes,Yes,35726,0,7.8,PCB,0.716,No,49.2,50.5,Not admitted,No
+S00648,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,66,8,9,9,private,Boarding,1258,43.2,Yes,Yes,Yes,244807,131930,40.4,HEG,0.788,No,41.3,43.8,Not admitted,No
+S00649,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,45,5,6,9,government-aided,Day,625,22.5,No,No,Yes,124806,0,9.2,MPC,0.491,No,53.1,53.4,Admitted,No
+S00650,RUBA,Rubavu College,Rubavu,Western,Female,19,58,8,9,7,public,Boarding,1232,31.2,No,Yes,Yes,25000,295083,7.9,HEG,0.757,Yes,53.7,51.5,Not admitted,No
+S00651,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,52,6,6,7,private,Boarding,789,30.7,Yes,Yes,No,102967,130494,5.7,LEG,0.73,No,47.0,47.4,Admitted,No
+S00652,MUSA,Musanze Technical School,Musanze,Northern,Male,17,54,7,8,6,government-aided,Day,1560,32.0,Yes,No,No,199927,0,5.9,HEL,0.98,Yes,40.4,39.9,Admitted,No
+S00653,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,53,6,6,9,private,Boarding,371,24.9,Yes,Yes,No,137888,176941,20.8,MPC,0.458,No,50.3,53.1,Not admitted,No
+S00654,MUSA,Musanze Technical School,Musanze,Northern,Female,19,32,3,4,3,government-aided,Day,1469,18.9,Yes,Yes,Yes,110219,0,9.0,TVET,0.564,No,71.3,71.8,Admitted,No
+S00655,MUSA,Musanze Technical School,Musanze,Northern,Female,18,45,9,6,4,government-aided,Day,1191,43.1,Yes,Yes,Yes,52927,0,29.3,LEG,0.776,Yes,60.8,66.7,Admitted,Yes
+S00656,MUSA,Musanze Technical School,Musanze,Northern,Male,18,30,1,1,6,government-aided,Day,975,49.6,No,No,No,28859,0,20.6,HEG,0.876,Yes,50.0,47.3,Admitted,No
+S00657,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,41,6,5,5,private,Boarding,721,29.1,Yes,No,Yes,117588,192136,4.1,MCB,0.631,No,52.3,53.3,Not admitted,No
+S00658,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,61,8,9,9,government-aided,Day,928,39.8,Yes,Yes,Yes,176215,0,15.1,TVET,0.69,No,41.0,36.2,Not admitted,No
+S00659,GISA,Gisagara College,Gisagara,Southern,Female,18,41,5,4,6,private,Boarding,841,37.5,Yes,Yes,Yes,29981,386865,24.1,PCB,0.868,No,53.8,51.4,Admitted,Yes
+S00660,RUBA,Rubavu College,Rubavu,Western,Female,15,36,4,6,4,public,Boarding,1224,37.2,Yes,Yes,No,84696,95644,2.1,TVET,0.664,No,44.9,45.7,Not admitted,No
+S00661,RUBA,Rubavu College,Rubavu,Western,Female,17,54,4,8,6,public,Boarding,1529,28.5,Yes,Yes,No,83799,159352,2.9,HEL,0.749,No,38.4,41.4,Not admitted,No
+S00662,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,61,8,9,8,government-aided,Day,303,37.2,Yes,No,Yes,79730,0,7.1,HEL,0.574,No,29.4,24.8,Not admitted,No
+S00663,GISA,Gisagara College,Gisagara,Southern,Female,19,47,4,6,9,private,Boarding,613,36.2,Yes,No,Yes,185298,289220,8.6,MCB,0.638,Yes,45.8,46.0,Admitted,No
+S00664,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,65,9,9,8,private,Boarding,1533,34.0,Yes,Yes,Yes,92707,161728,6.4,TVET,0.636,No,52.3,47.0,Not admitted,No
+S00665,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,39,4,4,5,government-aided,Day,1109,29.3,Yes,Yes,Yes,179192,0,6.4,HEL,0.564,Yes,31.8,28.8,Not admitted,No
+S00666,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,28,5,4,1,public,Day,427,33.8,Yes,No,Yes,146493,0,11.9,MEG,0.803,No,56.2,55.4,Not admitted,Yes
+S00667,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,61,9,6,9,private,Boarding,322,30.6,Yes,Yes,Yes,54674,254222,6.4,PCB,0.659,No,44.2,42.8,Admitted,No
+S00668,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,58,9,8,5,private,Boarding,730,41.7,Yes,Yes,No,30254,258232,9.9,MPC,0.63,No,40.4,41.0,Not admitted,No
+S00669,GISA,Gisagara College,Gisagara,Southern,Female,15,31,3,4,3,private,Boarding,1266,36.6,No,No,Yes,149188,250904,4.5,LEG,0.651,No,62.0,64.4,Admitted,No
+S00670,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,60,9,8,9,public,Day,554,35.6,No,No,Yes,46314,0,5.2,MPC,0.686,Yes,45.6,45.8,Not admitted,No
+S00671,GISA,Gisagara College,Gisagara,Southern,Female,16,46,4,5,8,private,Boarding,399,23.1,Yes,Yes,No,166456,194212,50.2,MCB,0.439,No,51.1,57.9,Not admitted,No
+S00672,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,38,4,7,5,government-aided,Day,286,40.2,No,Yes,Yes,98807,0,4.6,LEG,0.591,No,53.3,52.6,Admitted,No
+S00673,GISA,Gisagara College,Gisagara,Southern,Male,19,42,4,5,9,private,Boarding,652,24.8,Yes,Yes,Yes,81688,264654,4.6,PCB,0.876,No,54.2,58.4,Not admitted,No
+S00674,HUYE,Huye Science School,Huye,Southern,Male,15,44,6,9,3,public,Boarding,599,45.0,Yes,Yes,Yes,26458,216793,11.3,MPC,0.962,No,52.8,56.9,Not admitted,No
+S00675,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,47,6,3,6,private,Boarding,847,38.4,No,Yes,Yes,25000,223090,3.7,HEG,0.801,No,41.7,43.4,Admitted,No
+S00676,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,32,5,5,1,private,Boarding,1456,40.4,Yes,No,Yes,94925,100874,7.3,PCB,0.687,Yes,62.1,62.4,Admitted,No
+S00677,GISA,Gisagara College,Gisagara,Southern,Male,16,49,7,5,9,private,Boarding,334,31.7,Yes,Yes,Yes,239375,132075,29.3,MCB,0.654,No,46.5,46.6,Not admitted,No
+S00678,HUYE,Huye Science School,Huye,Southern,Male,17,49,8,5,7,public,Boarding,659,35.6,Yes,No,Yes,122971,167809,26.0,LEG,0.821,No,43.8,41.3,Not admitted,No
+S00679,GISA,Gisagara College,Gisagara,Southern,Female,16,44,4,5,5,private,Boarding,1128,44.6,Yes,Yes,Yes,151737,150876,15.2,HEL,0.502,No,52.0,51.9,Admitted,No
+S00680,GISA,Gisagara College,Gisagara,Southern,Female,16,55,6,5,6,private,Boarding,1089,31.2,Yes,Yes,No,225300,61256,3.7,MPC,0.778,Yes,56.9,57.5,Not admitted,No
+S00681,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,46,6,4,9,government-aided,Day,505,31.2,Yes,No,No,170405,0,2.7,MEG,0.653,Yes,53.2,55.7,Not admitted,No
+S00682,MUSA,Musanze Technical School,Musanze,Northern,Male,15,29,6,2,3,government-aided,Day,355,28.2,Yes,Yes,No,127479,0,5.1,HEL,0.661,No,63.0,59.6,Not admitted,No
+S00683,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,56,6,9,8,public,Day,825,29.8,Yes,Yes,Yes,51998,0,2.4,PCB,0.757,No,48.1,48.9,Not admitted,No
+S00684,RUBA,Rubavu College,Rubavu,Western,Male,15,72,9,9,9,public,Boarding,1213,42.5,Yes,Yes,Yes,51460,206107,6.9,HEG,0.777,No,48.0,49.1,Not admitted,No
+S00685,GISA,Gisagara College,Gisagara,Southern,Male,18,47,8,9,6,private,Boarding,1347,18.4,Yes,No,No,74332,322369,13.4,TVET,0.536,No,60.5,59.8,Not admitted,No
+S00686,MUSA,Musanze Technical School,Musanze,Northern,Male,15,33,4,4,1,government-aided,Day,468,33.2,No,Yes,Yes,221155,0,8.8,HEG,0.825,No,41.2,43.2,Not admitted,No
+S00687,HUYE,Huye Science School,Huye,Southern,Female,15,60,9,9,9,public,Boarding,1192,24.5,Yes,Yes,No,88095,159838,10.0,TVET,0.472,No,47.9,51.5,Not admitted,No
+S00688,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,39,3,2,3,private,Boarding,1082,32.1,Yes,Yes,Yes,237209,55688,8.4,PCB,0.704,No,56.7,59.0,Admitted,No
+S00689,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,65,9,9,9,government-aided,Day,627,40.4,No,Yes,Yes,125799,0,1.3,HEG,0.733,Yes,50.9,52.5,Admitted,No
+S00690,MUSA,Musanze Technical School,Musanze,Northern,Male,18,46,7,6,6,government-aided,Day,641,25.5,Yes,Yes,Yes,60382,0,12 km,TVET,0.449,No,49.9,49.1,Not admitted,No
+S00691,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,57,9,7,4,public,Day,1715,33.2,Yes,Yes,Yes,248666,0,5.0,MCB,0.68,No,55.1,57.7,Not admitted,No
+S00692,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,68,9,6,9,private,Boarding,910,41.2,Yes,Yes,Yes,126584,200442,11.7,MEG,0.889,No,44.8,48.2,Admitted,No
+S00693,RUBA,Rubavu College,Rubavu,Western,Male,16,51,7,9,6,public,Boarding,1556,33.0,Yes,Yes,No,146766,181391,3.3,HEG,0.886,No,61.1,61.8,Not admitted,No
+S00694,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,45,4,6,5,private,Boarding,857,36.9,Yes,Yes,No,72920,116887,4.6,LEG,0.652,Yes,55.7,52.5,Not admitted,No
+S00695,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,51,7,7,7,private,Boarding,1549,35.5,No,No,No,94448,229456,10.9,MEG,0.631,No,52.7,53.2,Admitted,No
+S00696,RUBA,Rubavu College,Rubavu,Western,Female,15,33,5,3,3,public,Boarding,826,34.3,Yes,Yes,Yes,140173,27050,14.6,HEL,0.898,No,64.5,64.4,Admitted,No
+S00697,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,68,9,8,9,private,Boarding,740,33.3,No,Yes,No,156906,126012,5.3,TVET,0.823,Yes,48.5,43.6,Not admitted,No
+S00698,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,43,5,5,5,private,Boarding,753,41.3,Yes,Yes,Yes,116620,237819,1.5,MPC,0.647,No,55.0,56.1,Not admitted,No
+S00699,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,48,7,9,7,private,Boarding,1116,18.7,Yes,Yes,Yes,84440,199580,4.7,MEG,0.552,No,64.7,61.4,Admitted,No
+S00700,GISA,Gisagara College,Gisagara,Southern,Male,15,48,5,8,5,private,Boarding,1727,34.3,Yes,Yes,No,100405,182950,5.4,MPC,0.742,No,64.4,62.1,Not admitted,No
+S00701,RUBA,Rubavu College,Rubavu,Western,Male,17,45,7,7,9,public,Boarding,1634,33.1,Yes,Yes,Yes,54441,231989,N/A,TVET,0.61,No,60.5,58.7,Not admitted,No
+S00702,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,47,4,6,6,private,Boarding,493,28.1,Yes,No,Yes,89797,309997,12.6,TVET,0.827,No,48.8,46.8,Admitted,Yes
+S00703,GISA,Gisagara College,Gisagara,Southern,Female,17,38,5,7,2,private,Boarding,1658,45.0,Yes,No,Yes,60867,173411,3.2,MCB,0.418,No,52.0,48.2,Admitted,No
+S00704,MUSA,Musanze Technical School,Musanze,Northern,Female,16,60,9,7,5,government-aided,Day,972,25.6,Yes,Yes,Yes,132159,0,40.7,MCB,0.895,No,39.7,40.0,Not admitted,No
+S00705,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,53,7,7,7,private,Boarding,818,41.8,Yes,Yes,Yes,111776,143603,1.9,MEG,0.665,No,38.1,38.0,Admitted,No
+S00706,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,31,6,2,3,government-aided,Day,1560,28.1,Yes,No,No,41763,0,4.2,PCB,0.722,No,50.7,49.2,Admitted,No
+S00707,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,41,6,7,5,public,Day,833,25.8,Yes,Yes,Yes,116644,0,7.9,MCB,0.47,No,61.5,61.7,Not admitted,No
+S00708,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,68,8,9,9,public,Day,669,48.8,Yes,Yes,Yes,64370,0,10.0,TVET,0.678,No,42.1,41.8,Admitted,No
+S00709,GISA,Gisagara College,Gisagara,Southern,Female,15,54,7,8,8,private,Boarding,840,38.9,Yes,No,Yes,197399,229526,11.4,unknown,0.749,No,56.9,56.6,Admitted,No
+S00710,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,40,9,2,6,government-aided,Day,347,49.1,Yes,Yes,Yes,75733,0,5.8,MPC,0.634,No,51.6,52.8,Admitted,No
+S00711,GISA,Gisagara College,Gisagara,Southern,Female,19,56,8,9,9,private,Boarding,1369,58.8,Yes,No,Yes,142732,169688,13.0,PCB,0.642,No,42.2,41.6,Admitted,No
+S00712,MUSA,Musanze Technical School,Musanze,Northern,Male,18,45,8,5,4,government-aided,Day,876,37.2,No,No,No,80468,0,24.3,TVET,0.347,No,42.9,45.8,Not admitted,No
+S00713,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,69,9,9,9,government-aided,Day,602,21.0,Yes,No,Yes,125188,0,1.4,TVET,0.497,No,50.8,53.2,Admitted,No
+S00714,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,38,3,6,6,government-aided,Day,1636,37.2,No,Yes,Yes,148797,0,16.8,MEG,0.725,No,50.9,53.6,Not admitted,No
+S00715,HUYE,Huye Science School,Huye,Southern,Female,15,51,6,6,7,public,Boarding,752,38.1,No,Yes,No,126263,219156,22.9,HEG,0.876,No,46.2,41.9,Admitted,No
+S00716,MUSA,Musanze Technical School,Musanze,Northern,Female,18,58,9,7,9,government-aided,Day,555,28.5,No,Yes,Yes,106364,0,3.8,MCB,0.723,No,55.5,57.7,Not admitted,No
+S00717,HUYE,Huye Science School,Huye,Southern,Female,17,42,9,6,6,public,Boarding,1722,34.4,Yes,Yes,No,63144,284386,14.0,LEG,0.604,No,62.0,63.1,Not admitted,No
+S00718,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,40,5,3,6,government-aided,Day,1361,41.9,Yes,Yes,Yes,164076,0,22.4,TVET,0.883,No,52.4,53.6,Not admitted,No
+S00719,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,46,6,4,6,public,Day,461,43.5,Yes,Yes,No,150569,0,7.4,MEG,0.646,No,45.2,44.7,Not admitted,No
+S00720,RUBA,Rubavu College,Rubavu,Western,Female,16,53,7,6,6,public,Boarding,380,15.0,Yes,Yes,Yes,94291,202893,1.5,MEG,0.719,No,51.3,46.0,Admitted,No
+S00721,RUBA,Rubavu College,Rubavu,Western,Female,15,72,8,9,8,public,Boarding,441,30.4,No,Yes,Yes,59442,208504,11.1,MEG,0.714,No,42.1,42.4,Not admitted,No
+S00722,HUYE,Huye Science School,Huye,Southern,Female,19,47,7,5,8,public,Boarding,1453,30.6,No,Yes,Yes,134338,191589,15.9,HEG,0.796,No,47.8,47.8,Not admitted,No
+S00723,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,59,7,9,9,private,Boarding,922,35.5,Yes,No,Yes,57851,212946,1.8,HEG,0.477,Yes,47.4,45.3,Admitted,No
+S00724,MUSA,Musanze Technical School,Musanze,Northern,Male,15,41,6,5,4,government-aided,Day,590,36.9,Yes,Yes,Yes,115701,0,10.9,TVET,0.694,No,55.9,55.6,Admitted,No
+S00725,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,37,5,7,5,private,Boarding,380,20.4,No,No,Yes,82875,199461,3.5,TVET,0.634,No,48.8,42.5,Admitted,No
+S00726,MUSA,Musanze Technical School,Musanze,Northern,Male,16,36,5,6,5,government-aided,Day,319,35.1,Yes,Yes,Yes,194739,0,1.3,MEG,0.619,Yes,56.7,51.5,Admitted,No
+S00727,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,34,5,3,5,private,Boarding,1135,20.0,Yes,Yes,Yes,86325,277543,11.9,HEG,0.841,No,59.7,60.9,Not admitted,No
+S00728,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,32,5,5,4,private,Boarding,299,31.1,No,Yes,No,87100,133486,6.4,MEG,0.603,No,60.8,60.8,Not admitted,No
+S00729,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,57,8,4,7,public,Day,1632,31.3,Yes,No,Yes,61349,0,9.3,PCB,0.25,No,33.0,32.3,Not admitted,No
+S00730,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,48,6,8,7,private,Boarding,1251,32.9,Yes,Yes,Yes,90231,261187,3.2,PCB,0.881,No,46.3,47.8,Not admitted,No
+S00731,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,59,9,6,6,private,Boarding,1153,36.7,No,Yes,Yes,80593,124442,6.2,HEL,0.634,No,55.5,55.6,Admitted,No
+S00732,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,55,8,6,6,private,Boarding,905,28.3,Yes,Yes,Yes,41334,158135,6.4,MPC,0.705,No,41.7,43.3,Not admitted,No
+S00733,HUYE,Huye Science School,Huye,Southern,Female,18,51,9,4,8,public,Boarding,623,45.1,Yes,Yes,Yes,185971,250890,5.2,TVET,0.63,No,53.6,52.3,Not admitted,No
+S00734,GISA,Gisagara College,Gisagara,Southern,Female,18,49,5,6,9,private,Boarding,1449,31.1,Yes,Yes,Yes,138496,192907,1.8,HEG,0.931,No,47.5,44.1,Not admitted,No
+S00735,MUSA,Musanze Technical School,Musanze,Northern,Male,16,67,8,9,9,government-aided,Day,780,36.2,No,Yes,Yes,34770,0,11.8,HEL,0.734,No,40.3,36.0,Not admitted,No
+S00736,HUYE,Huye Science School,Huye,Southern,Male,15,51,4,6,9,public,Boarding,320,27.9,No,Yes,Yes,227703,161821,2.9,LEG,0.672,No,41.8,43.0,Not admitted,No
+S00737,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,28,3,4,2,government-aided,Day,419,40.3,Yes,Yes,Yes,201525,0,15.1,HEL,0.907,No,53.2,49.5,Not admitted,No
+S00738,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,46,8,4,9,government-aided,Day,962,39.7,Yes,Yes,No,162905,0,4.2,MPC,0.582,Yes,48.4,52.6,Not admitted,No
+S00739,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,40,6,7,6,public,Day,381,40.9,Yes,No,Yes,90325,0,25.2,MEG,0.525,No,55.1,54.2,Not admitted,Yes
+S00740,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,35,6,5,6,private,Boarding,527,51.4,No,Yes,Yes,84338,143211,2.4,TVET,0.64,No,54.3,51.0,Not admitted,No
+S00741,HUYE,Huye Science School,Huye,Southern,Male,15,53,9,8,2,public,Boarding,1404,19.2,Yes,No,Yes,130642,30028,6.9,MCB,0.841,No,41.5,41.1,Not admitted,No
+S00742,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,55,6,6,8,private,Boarding,546,35.4,Yes,No,No,136565,162564,6.6,HEG,0.747,No,50.4,50.2,Admitted,No
+S00743,RUBA,Rubavu College,Rubavu,Western,Female,19,53,5,9,7,public,Boarding,1348,32.1,Yes,No,Yes,124989,172005,4.3,TVET,0.382,No,44.2,41.5,Admitted,No
+S00744,HUYE,Huye Science School,Huye,Southern,Female,19,38,5,5,7,public,Boarding,892,35.1,Yes,Yes,No,25000,269009,11.0,MEG,0.575,Yes,67.0,71.2,Not admitted,Yes
+S00745,MUSA,Musanze Technical School,Musanze,Northern,Female,17,39,5,8,5,government-aided,Day,400,23.1,No,No,Yes,25927,0,12.8,PCB,0.532,No,51.2,56.4,Not admitted,No
+S00746,HUYE,Huye Science School,Huye,Southern,Female,15,45,6,8,7,public,Boarding,610,31.4,Yes,Yes,Yes,82392,122936,3.6,MPC,0.796,No,58.0,59.6,Admitted,No
+S00747,RUBA,Rubavu College,Rubavu,Western,Female,17,51,3,9,8,public,Boarding,678,26.3,Yes,Yes,Yes,45502,193754,2.0,LEG,0.543,No,54.3,53.1,Admitted,No
+S00748,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,41,4,4,7,private,Boarding,1143,26.5,Yes,No,Yes,58476,163714,7.9,TVET,0.665,Yes,64.3,65.7,Not admitted,No
+S00749,GISA,Gisagara College,Gisagara,Southern,Male,19,63,9,9,7,private,Boarding,1561,39.7,No,Yes,Yes,145687,127325,11.1,MEG,0.65,Yes,36.7,39.1,Not admitted,No
+S00750,GISA,Gisagara College,Gisagara,Southern,Female,15,52,7,7,9,private,Boarding,874,29.5,Yes,No,Yes,74253,87738,1.8,MCB,0.629,No,60.5,62.4,Not admitted,No
+S00751,MUSA,Musanze Technical School,Musanze,Northern,Female,19,52,8,5,9,government-aided,Day,397,36.6,Yes,Yes,Yes,95175,0,12.4,MEG,0.719,No,49.8,47.2,Not admitted,No
+S00752,GISA,Gisagara College,Gisagara,Southern,Female,15,71,9,9,7,private,Boarding,958,27.7,No,Yes,Yes,66916,174333,12.6,MPC,0.823,Yes,50.9,48.9,Not admitted,No
+S00753,RUBA,Rubavu College,Rubavu,Western,Female,18,44,7,4,4,public,Boarding,919,30.5,Yes,No,Yes,54521,161039,4.5,HEG,0.638,No,57.7,58.0,Not admitted,No
+S00754,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,28,6,4,4,private,Boarding,531,38.6,No,No,Yes,61875,232273,12.5,HEG,0.88,Yes,60.9,57.2,Not admitted,No
+S00755,RUBA,Rubavu College,Rubavu,Western,Male,16,42,7,6,6,public,Boarding,1512,32.6,Yes,No,Yes,216436,156842,1.3,MEG,0.875,No,52.3,51.0,Not admitted,No
+S00756,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,51,9,7,5,public,Day,525,26.7,No,Yes,No,136127,0,8.3,HEL,0.617,No,41.8,45.1,Not admitted,No
+S00757,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,42,5,7,8,government-aided,Day,1562,32.3,Yes,No,No,71233,0,20.5,PCB,0.688,Yes,56.3,52.5,Not admitted,No
+S00758,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,29,5,4,2,private,Boarding,281,35.2,Yes,Yes,Yes,115147,52504,21.7,HEL,0.682,Yes,41.0,44.1,Admitted,No
+S00759,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,50,6,6,7,private,Boarding,746,33.2,Yes,No,Yes,247281,290687,28.3,MEG,0.568,No,50.5,49.8,Not admitted,Yes
+S00760,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,34,7,5,8,private,Boarding,570,46.4,No,No,Yes,90362,138845,3.6,LEG,0.504,No,56.6,60.1,Admitted,No
+S00761,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,56,8,6,9,private,Boarding,1468,27.8,No,Yes,Yes,84372,100114,5.4,MEG,0.834,No,57.7,59.2,Admitted,No
+S00762,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,39,7,7,9,government-aided,Day,1545,46.8,Yes,No,Yes,183240,0,7.0,PCB,0.661,Yes,33.8,34.0,Admitted,No
+S00763,HUYE,Huye Science School,Huye,Southern,Female,18,57,8,7,8,public,Boarding,1561,40.0,No,Yes,Yes,79667,68665,15.9,MEG,0.776,No,49.2,53.0,Not admitted,Yes
+S00764,RUBA,Rubavu College,Rubavu,Western,Female,19,44,8,5,5,public,Boarding,719,29.7,No,No,Yes,107034,348539,2.9,TVET,0.903,No,48.8,53.0,Not admitted,No
+S00765,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,47,6,4,9,public,Day,1296,34.5,Yes,Yes,No,114838,0,7.3,MPC,0.793,No,54.4,54.4,Not admitted,No
+S00766,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,48,6,6,6,private,Boarding,653,33.5,Yes,No,Yes,213112,132745,12.6,PCB,0.413,No,42.3,39.3,Not admitted,No
+S00767,HUYE,Huye Science School,Huye,Southern,Female,19,56,6,7,7,public,Boarding,1593,50.9,Yes,Yes,Yes,172481,132247,8.9,TVET,0.549,No,63.2,63.6,Admitted,Yes
+S00768,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,51,5,5,7,public,Day,353,24.8,Yes,No,Yes,89277,0,29.9,MPC,0.486,No,55.1,55.7,Not admitted,No
+S00769,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,40,4,6,3,private,Boarding,392,47.6,Yes,No,Yes,222555,283988,1.8,TVET,0.636,Yes,58.2,56.7,Admitted,No
+S00770,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,39,5,5,7,private,Boarding,1593,15.0,No,Yes,Yes,125294,99414,2.8,LEG,0.55,No,54.9,53.1,Not admitted,No
+S00771,RUBA,Rubavu College,Rubavu,Western,Female,16,57,7,9,6,public,Boarding,256,29.4,Yes,Yes,Yes,68090,166078,2.6,MEG,0.476,No,45.4,44.2,Not admitted,No
+S00772,HUYE,Huye Science School,Huye,Southern,Female,17,31,3,4,3,public,Boarding,1636,21.8,Yes,Yes,Yes,176864,151945,4.5,TVET,0.872,No,53.6,53.3,Not admitted,No
+S00773,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,41,6,5,3,private,Boarding,1709,28.8,No,Yes,No,139206,203897,9.2,LEG,0.737,No,45.9,43.5,Admitted,No
+S00774,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,66,9,9,9,private,Boarding,583,35.7,No,Yes,No,103122,221041,7.0,MCB,0.597,No,43.6,44.2,Admitted,No
+S00775,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,62,6,9,9,government-aided,Day,626,35.1,Yes,No,Yes,116578,0,10.2,MEG,0.833,No,45.5,46.0,Admitted,No
+S00776,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,50,6,8,8,public,Day,1495,25.7,Yes,Yes,Yes,65085,0,20.5,HEL,0.79,No,56.5,55.7,Not admitted,No
+S00777,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,60,8,9,8,public,Day,1624,26.7,Yes,No,No,66195,0,1.3,PCB,0.802,No,52.8,54.0,Admitted,No
+S00778,GISA,Gisagara College,Gisagara,Southern,Male,15,59,8,7,6,private,Boarding,872,29.6,No,Yes,Yes,131159,213815,35.6,HEG,0.786,Yes,42.5,37.7,Admitted,No
+S00779,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,20,4,3,1,private,Boarding,342,35.4,Yes,Yes,Yes,33994,164988,2.0,HEL,0.771,No,53.6,51.6,Not admitted,No
+S00780,RUBA,Rubavu College,Rubavu,Western,Male,18,55,9,9,5,public,Boarding,1182,45.7,Yes,Yes,Yes,73648,106103,3.1,LEG,0.682,Yes,55.9,54.4,Admitted,No
+S00781,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,52,7,7,8,private,Boarding,1713,27.3,No,No,Yes,127882,199113,17.6,MPC,0.534,No,52.0,50.5,Not admitted,No
+S00782,MUSA,Musanze Technical School,Musanze,Northern,Male,16,71,7,8,9,government-aided,Day,835,40.7,Yes,Yes,Yes,25000,0,3.0,HEL,0.813,No,50.4,51.7,Not admitted,No
+S00783,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,64,8,7,9,private,Boarding,638,46.5,Yes,No,Yes,136992,218850,4.1,HEL,0.532,No,34.1,39.0,Not admitted,No
+S00784,HUYE,Huye Science School,Huye,Southern,Male,19,32,5,4,4,public,Boarding,1076,33.7,Yes,Yes,Yes,94443,137085,30.6,MPC,0.451,No,53.3,49.0,Not admitted,Yes
+S00785,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,68,9,7,8,private,Boarding,480,31.2,Yes,Yes,Yes,114795,94346,18.6,HEG,0.857,No,44.0,45.9,Admitted,No
+S00786,GISA,Gisagara College,Gisagara,Southern,Male,15,65,8,9,9,private,Boarding,457,34.9,No,No,No,182115,122056,6.4,MCB,0.621,No,35.5,35.6,Not admitted,No
+S00787,MUSA,Musanze Technical School,Musanze,Northern,Male,17,64,8,7,8,government-aided,Day,1574,24.7,Yes,Yes,Yes,137562,0,12.0,HEG,0.643,No,40.8,39.8,Not admitted,No
+S00788,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,33,1,6,4,public,Day,347,33.1,Yes,Yes,Yes,62075,0,5.8,LEG,0.37,No,53.3,55.3,Admitted,No
+S00789,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,36,3,4,3,government-aided,Day,383,37.0,Yes,No,No,111259,0,9.2,HEL,0.69,No,37.7,36.6,Not admitted,No
+S00790,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,64,9,9,7,government-aided,Day,251,43.8,Yes,Yes,Yes,220533,0,3.9,PCB,0.401,No,25.3,22.0,Not admitted,Yes
+S00791,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,37,6,3,5,government-aided,Day,1684,54.8,Yes,Yes,Yes,84552,0,4.0,PCB,0.57,No,46.1,39.7,Not admitted,No
+S00792,RUBA,Rubavu College,Rubavu,Western,Male,17,62,7,9,7,public,Boarding,1326,30.9,Yes,Yes,No,156141,163420,5.1,MPC,0.904,No,43.8,41.8,Not admitted,No
+S00793,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,52,7,9,9,public,Day,1365,45.0,Yes,Yes,Yes,171047,0,15.4,PCB,0.768,No,42.0,41.5,Admitted,No
+S00794,HUYE,Huye Science School,Huye,Southern,Female,17,35,5,2,6,public,Boarding,1466,24.9,No,No,Yes,124448,230999,3.8,MEG,0.541,Yes,60.4,64.8,Not admitted,No
+S00795,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,36,3,5,4,private,Boarding,557,36.0,Yes,Yes,No,83387,199205,26.4,MCB,0.726,Yes,60.5,60.0,Admitted,No
+S00796,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,35,2,4,2,government-aided,Day,421,25.1,Yes,No,Yes,128658,0,28.5,LEG,0.664,No,62.9,65.5,Not admitted,No
+S00797,HUYE,Huye Science School,Huye,Southern,Female,17,40,8,7,6,public,Boarding,1788,24.3,Yes,Yes,No,101452,298710,10.2,MPC,0.711,Yes,43.3,39.6,Admitted,No
+S00798,HUYE,Huye Science School,Huye,Southern,Male,17,49,9,9,8,public,Boarding,862,39.9,Yes,No,Yes,85047,137552,5.6,HEL,0.725,No,47.6,49.2,Admitted,No
+S00799,MUSA,Musanze Technical School,Musanze,Northern,Male,16,60,9,9,9,government-aided,Day,1728,55.4,Yes,Yes,Yes,100637,0,5.7,HEL,0.752,Yes,50.3,46.1,Not admitted,No
+S00800,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,40,4,5,4,private,Boarding,508,34.0,Yes,No,Yes,127404,162176,10.9,MPC,0.735,No,42.0,41.3,Not admitted,Yes
+S00801,NYAM,Nyamagabe Secondary,MUHANGA,Southern,Female,18,57,6,5,9,public,Day,1312,33.1,Yes,Yes,Yes,26191,0,2.1,TVET,0.592,Yes,43.1,45.0,Not admitted,No
+S00802,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,48,4,5,4,private,Boarding,268,35.9,Yes,No,Yes,56194,131225,3.0,HEL,0.765,No,58.3,57.0,Admitted,No
+S00803,HUYE,Huye Science School,Huye,Southern,Male,18,28,6,6,5,public,Boarding,1116,45.4,Yes,Yes,Yes,83639,108736,18.0,MEG,0.572,No,45.1,45.2,Admitted,No
+S00804,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,53,8,7,7,private,Boarding,1371,29.5,Yes,Yes,Yes,76805,136801,2.3,TVET,0.614,No,44.6,48.6,Not admitted,No
+S00805,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,39,5,4,4,private,Boarding,629,37.8,Yes,Yes,Yes,61570,81387,8.9,MEG,0.712,Yes,60.1,62.7,Not admitted,No
+S00806,RUBA,Rubavu College,Rubavu,Western,Male,18,43,3,4,5,public,Boarding,1798,34.1,Yes,No,No,42250,236220,6.9,PCB,0.974,No,58.2,57.5,Admitted,No
+S00807,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,43,7,6,5,private,Boarding,763,36.4,No,Yes,Yes,148885,289859,9.2,PCB,0.79,No,67.2,68.3,Not admitted,No
+S00808,MUSA,Musanze Technical School,Musanze,Northern,Male,15,63,7,9,9,government-aided,Day,1536,29.9,Yes,Yes,Yes,47293,0,34.8,PCB,0.569,No,41.6,45.4,Admitted,Yes
+S00809,RUBA,Rubavu College,Rubavu,Western,Male,16,39,8,5,4,public,Boarding,734,34.7,Yes,Yes,Yes,39256,151181,12.0,MCB,0.586,No,53.6,52.9,Not admitted,No
+S00810,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,69,9,9,9,private,Boarding,1329,44.2,No,No,Yes,143722,110714,5.7,PCB,0.607,No,32.5,31.2,Not admitted,No
+S00811,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,44,4,7,6,private,Boarding,715,32.5,Yes,Yes,No,99196,220902,10.2,PCB,0.897,No,67.8,69.5,Not admitted,No
+S00812,GISA,Gisagara College,Gisagara,Southern,Female,16,30,6,2,5,private,Boarding,558,43.0,Yes,Yes,Yes,115403,331392,13.4,MPC,0.554,No,56.1,55.3,Not admitted,No
+S00813,HUYE,Huye Science School,Huye,Southern,Male,16,43,4,4,1,public,Boarding,1497,32.6,No,No,Yes,143400,246847,17.9,HEL,0.537,No,59.0,57.7,Not admitted,No
+S00814,HUYE,Huye Science School,Huye,Southern,Female,18,39,6,5,7,public,Boarding,1487,26.2,Yes,Yes,Yes,25000,195359,25.4,HEL,0.536,No,53.6,48.3,Admitted,No
+S00815,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,70,7,9,8,private,Boarding,749,34.8,Yes,No,Yes,48703,175827,20.4,MEG,0.745,No,40.7,40.9,Not admitted,No
+S00816,GISA,Gisagara College,Gisagara,Southern,Female,17,32,3,5,6,private,Boarding,1636,45.8,No,Yes,No,194130,228922,31.1,MEG,0.98,No,46.2,37.6,Not admitted,No
+S00817,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,46,6,7,7,private,Boarding,361,33.0,No,Yes,Yes,191407,260790,10.7,TVET,0.719,No,41.9,45.6,Not admitted,No
+S00818,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,42,7,5,4,private,Boarding,520,39.1,No,No,No,126206,215615,5.2,TVET,0.68,Yes,46.7,44.3,Admitted,No
+S00819,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,36,8,3,3,public,Day,1044,27.9,Yes,Yes,Yes,127906,0,6.7,MCB,0.582,No,53.4,51.9,Admitted,No
+S00820,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,63,9,8,8,private,Boarding,1055,16.7,No,No,Yes,108564,221537,2.5,PCB,0.516,No,49.5,47.2,Admitted,No
+S00821,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,72,9,8,9,government-aided,Day,1235,32.6,Yes,Yes,Yes,91216,0,10.4,MEG,0.823,No,50.3,49.5,Not admitted,No
+S00822,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,58,8,9,7,government-aided,Day,920,30.3,No,Yes,Yes,148548,0,5.3,PCB,0.672,No,49.1,49.4,Admitted,No
+S00823,RUBA,Rubavu College,Rubavu,Western,Female,19,35,5,3,4,public,Boarding,307,32.3,Yes,Yes,Yes,163628,153616,6.8,HEG,0.731,No,59.9,60.9,Admitted,Yes
+S00824,HUYE,Huye Science School,Huye,Southern,Male,16,27,6,1,5,public,Boarding,794,43.5,Yes,Yes,Yes,154226,151391,1.6,HEG,0.495,Yes,54.3,54.1,Not admitted,No
+S00825,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,51,6,4,6,private,Boarding,721,37.2,No,Yes,Yes,118095,141416,15.9,HEG,0.721,No,40.3,43.6,Not admitted,No
+S00826,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,67,8,9,9,public,Day,755,50.2,Yes,No,Yes,163865,0,4.7,LEG,0.823,No,44.3,42.4,Not admitted,No
+S00827,MUSA,Musanze Technical School,Musanze,Northern,Male,16,37,6,3,4,government-aided,Day,949,46.9,Yes,Yes,No,N/A,0,2.8,TVET,0.627,Yes,40.0,42.6,Not admitted,No
+S00828,MUSA,Musanze Technical School,Musanze,Northern,Female,16,54,7,8,6,government-aided,Day,1428,43.1,No,Yes,Yes,116738,0,5.2,LEG,0.427,No,44.7,44.4,Not admitted,No
+S00829,HUYE,Huye Science School,Huye,Southern,Female,-1,42,7,7,8,public,Boarding,1753,42.1,Yes,No,Yes,114794,32379,5.4,PCB,0.87,No,56.6,56.7,Not admitted,No
+S00830,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,67,9,9,9,government-aided,Day,941,40.5,Yes,Yes,Yes,25000,0,10.1,HEG,0.657,No,40.3,35.6,Not admitted,No
+S00831,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,41,7,5,7,government-aided,Day,345,23.1,Yes,Yes,Yes,35014,0,3.9,TVET,0.59,Yes,60.7,62.2,Admitted,No
+S00832,MUSA,Musanze Technical School,Musanze,Northern,Male,17,42,9,2,2,government-aided,Day,1635,31.9,Yes,Yes,Yes,164078,0,19.5,MEG,0.91,No,53.1,48.3,Not admitted,No
+S00833,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,48,7,6,4,private,Boarding,352,32.5,No,Yes,Yes,127511,166251,15.1,HEG,0.711,No,54.8,55.9,Not admitted,No
+S00834,GISA,Gisagara College,Gisagara,Southern,Female,15,27,3,3,6,private,Boarding,270,38.9,No,Yes,No,251153,128324,7.8,MCB,0.698,No,55.4,56.6,Not admitted,No
+S00835,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,55,9,6,9,private,Boarding,448,46.7,Yes,Yes,No,90606,148663,2.3,HEL,0.907,No,59.7,58.4,Admitted,No
+S00836,GISA,Gisagara College,Gisagara,Southern,Male,18,32,3,5,2,private,Boarding,1317,30.6,Yes,Yes,Yes,77022,367245,5.2,MPC,0.653,Yes,56.8,57.0,Not admitted,No
+S00837,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,50,7,8,5,government-aided,Day,1018,29.9,Yes,Yes,Yes,168571,0,45.4,PCB,0.601,No,48.8,51.8,Not admitted,No
+S00838,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,55,7,6,6,private,Boarding,1774,44.0,Yes,Yes,Yes,25000,143755,37.1,HEL,0.722,No,48.1,51.2,Admitted,No
+S00839,GISA,Gisagara College,Gisagara,Southern,Male,19,48,6,6,6,private,Boarding,1195,22.4,Yes,Yes,No,162258,191314,7.0,PCB,0.534,Yes,59.6,61.1,Admitted,No
+S00840,MUSA,Musanze Technical School,Musanze,Northern,Female,17,37,4,6,5,government-aided,Day,372,21.9,Yes,Yes,Yes,57488,0,20.6,MEG,0.737,No,51.1,48.0,Not admitted,No
+S00841,RUBA,Rubavu College,Rubavu,Western,Female,15,43,5,6,9,public,Boarding,592,36.1,Yes,Yes,No,92274,115914,16.9,MCB,0.683,No,63.1,64.7,Not admitted,No
+S00842,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,44,8,4,5,public,Day,1374,31.8,No,Yes,Yes,34226,0,2.4,LEG,0.761,No,46.3,42.8,Not admitted,No
+S00843,MUSA,Musanze Technical School,Musanze,Northern,Male,18,33,4,5,8,government-aided,Day,1636,33.6,Yes,Yes,No,241613,0,7.2,HEL,0.713,No,56.8,61.4,Not admitted,No
+S00844,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,45,5,7,7,private,Boarding,309,44.8,No,Yes,Yes,135027,221233,2.1,LEG,0.733,No,35.9,36.5,Not admitted,No
+S00845,MUSA,Musanze Technical School,Musanze,Northern,Male,17,35,2,6,6,government-aided,Day,1010,28.2,Yes,Yes,No,121928,0,12.6,PCB,0.915,No,48.2,45.4,Not admitted,No
+S00846,HUYE,Huye Science School,Huye,Southern,Male,17,45,6,7,5,public,Boarding,1275,28.6,No,Yes,No,117693,117480,9.3,MEG,0.72,No,46.6,46.9,Not admitted,No
+S00847,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,72,9,9,9,public,Day,1602,33.0,Yes,Yes,Yes,138009,0,8.5,MEG,0.674,Yes,35.7,34.3,Not admitted,No
+S00848,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,52,7,4,7,government-aided,Day,287,25.7,No,No,Yes,75906,0,25.5,HEG,0.456,No,40.0,37.7,Not admitted,No
+S00849,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,58,9,6,7,private,Boarding,342,41.0,Yes,Yes,Yes,259847,181741,5.9,PCB,0.705,No,48.8,43.6,Not admitted,No
+S00850,RUBA,Rubavu College,Rubavu,Western,Female,16,36,8,5,5,public,Boarding,1795,29.0,Yes,Yes,Yes,127494,73975,6.8,HEL,0.877,No,54.7,59.4,Not admitted,No
+S00851,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,44,6,5,6,private,Boarding,465,34.2,Yes,Yes,Yes,60771,263671,41.9,LEG,0.952,No,50.4,50.2,Admitted,No
+S00852,MUSA,Musanze Technical School,Musanze,Northern,Female,15,44,7,5,5,government-aided,Day,1136,46.1,Yes,No,Yes,30435,0,2.3,MCB,0.544,No,46.8,46.9,Admitted,No
+S00853,GISA,Gisagara College,Gisagara,Southern,Male,19,68,9,9,9,private,Boarding,505,48.9,No,Yes,No,161149,108020,8.1,MPC,0.98,No,45.3,46.1,Admitted,No
+S00854,RUBA,Rubavu College,Rubavu,Western,Male,18,50,6,9,6,public,Boarding,313,28.6,No,Yes,Yes,58496,122331,28.5,TVET,0.573,No,43.2,46.2,Admitted,No
+S00855,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,52,7,5,7,private,Boarding,561,39.1,Yes,Yes,Yes,211366,163967,3.5,HEG,0.761,No,49.3,47.5,Admitted,No
+S00856,MUSA,Musanze Technical School,Musanze,Northern,Male,19,59,8,8,4,government-aided,Day,1281,15.8,Yes,Yes,Yes,90190,0,25.2,TVET,0.745,No,57.0,61.7,Not admitted,Yes
+S00857,RUBA,Rubavu College,Rubavu,Western,Male,17,30,4,2,3,public,Boarding,475,18.1,Yes,No,Yes,87836,156063,4.2,HEL,0.477,No,57.9,57.0,Not admitted,No
+S00858,MUSA,Musanze Technical School,Musanze,Northern,Female,18,29,6,4,2,government-aided,Day,875,42.5,No,Yes,No,48471,0,7.2,HEL,0.633,No,65.7,66.4,Admitted,No
+S00859,MUSA,Musanze Technical School,Musanze,Northern,Female,16,53,7,7,5,government-aided,Day,1475,24.6,Yes,No,Yes,95927,0,3.6,TVET,0.651,No,61.5,62.4,Not admitted,No
+S00860,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,51,8,3,9,government-aided,Day,735,35.7,No,No,Yes,144361,0,2.6,LEG,0.98,Yes,48.6,42.2,Admitted,No
+S00861,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,61,7,8,8,public,Day,1527,36.9,Yes,No,No,65617,0,10.1,HEG,0.905,No,47.6,49.6,Admitted,No
+S00862,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,39,4,3,8,public,Day,663,26.7,Yes,Yes,Yes,63979,0,1.0,LEG,0.735,Yes,58.0,60.9,Not admitted,No
+S00863,GISA,Gisagara College,Gisagara,Southern,Female,16,64,9,9,6,private,Boarding,1793,34.5,Yes,No,No,25000,146268,6.8,MEG,0.745,Yes,39.5,41.5,Admitted,No
+S00864,HUYE,Huye Science School,Huye,Southern,Female,18,32,7,5,4,public,Boarding,828,26.6,Yes,No,No,134460,38756,12.3,LEG,0.46,Yes,58.5,57.1,Admitted,No
+S00865,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,49,6,7,9,public,Day,493,39.2,Yes,Yes,Yes,135372,0,6.8,HEG,0.471,No,50.0,47.3,Not admitted,No
+S00866,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,29,4,2,4,public,Day,1717,24.6,Yes,Yes,No,178553,0,27.0,TVET,0.649,No,63.3,62.7,Not admitted,No
+S00867,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,37,4,6,5,public,Day,1559,43.9,Yes,Yes,Yes,108345,0,11.1,MCB,0.668,No,34.6,39.2,Not admitted,No
+S00868,MUSA,Musanze Technical School,Musanze,Northern,Female,16,44,7,8,6,government-aided,Day,1595,22.0,Yes,Yes,Yes,227383,0,21.5,PCB,0.902,No,45.2,40.2,Admitted,No
+S00869,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,47,7,7,6,public,Day,978,45.1,Yes,Yes,Yes,82000,0,21.0,PCB,0.397,Yes,52.4,49.9,Not admitted,Yes
+S00870,HUYE,Huye Science School,Huye,Southern,Female,19,34,6,1,5,public,Boarding,1222,29.7,No,Yes,Yes,173008,214210,10.6,TVET,0.721,Yes,53.8,54.5,Not admitted,No
+S00871,HUYE,Huye Science School,Huye,Southern,Male,19,31,5,3,2,public,Boarding,1344,39.6,Yes,No,Yes,99621,229537,18.3,MPC,0.67,No,53.7,49.5,Not admitted,No
+S00872,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,56,7,9,8,private,Boarding,832,29.4,Yes,No,Yes,105009,229722,7.3,MCB,0.681,Yes,60.4,60.4,Admitted,No
+S00873,HUYE,Huye Science School,Huye,Southern,Female,15,54,6,7,7,public,Boarding,669,36.8,Yes,Yes,Yes,233744,284826,10.4,MEG,0.98,No,54.8,52.6,Admitted,No
+S00874,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,53,7,6,7,private,Boarding,979,37.7,No,Yes,Yes,155884,213721,12.1,MCB,0.939,No,54.5,58.3,Not admitted,No
+S00875,MUSA,Musanze Technical School,Musanze,Northern,Female,15,31,5,2,6,government-aided,Day,1095,49.3,Yes,Yes,Yes,128139,0,7.2,MCB,0.846,No,66.8,70.6,Not admitted,No
+S00876,RUBA,Rubavu College,Rubavu,Western,Female,16,32,7,2,2,public,Boarding,1380,44.6,No,Yes,Yes,108652,204570,27.7,TVET,0.645,Yes,56.8,59.0,Not admitted,No
+S00877,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,52,7,9,8,private,Boarding,532,38.2,Yes,Yes,Yes,32607,524,20.5,MEG,0.741,No,54.9,60.7,Not admitted,No
+S00878,MUSA,Musanze Technical School,Musanze,Northern,Female,19,20,3,4,4,government-aided,Day,758,32.8,No,Yes,Yes,61219,0,30.1,HEL,0.498,No,44.2,45.1,Admitted,No
+S00879,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,41,5,8,6,public,Day,579,30.3,Yes,Yes,Yes,99191,0,9.9,MCB,0.564,No,46.5,53.6,Admitted,Yes
+S00880,MUSA,Musanze Technical School,Musanze,Northern,Male,15,34,5,5,4,government-aided,Day,1120,41.5,No,Yes,Yes,94732,0,3.7,TVET,0.62,Yes,60.8,63.9,Not admitted,No
+S00881,RUBA,Rubavu College,Rubavu,Western,Female,17,49,6,4,8,public,Boarding,391,28.6,Yes,Yes,Yes,212848,167366,5.4,HEL,0.686,No,54.1,52.9,Not admitted,No
+S00882,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,50,6,7,6,private,Boarding,816,42.0,No,Yes,Yes,122517,165888,25.5,PCB,0.609,No,48.3,44.4,Admitted,No
+S00883,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,46,5,5,5,private,Boarding,498,32.8,Yes,Yes,Yes,148272,225312,7.0,PCB,0.718,Yes,55.0,53.2,Not admitted,No
+S00884,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,72,9,9,9,private,Boarding,525,41.4,No,Yes,Yes,164950,162511,42.8,MPC,0.608,No,46.0,47.2,Admitted,No
+S00885,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,42,7,6,8,private,Boarding,1000,15.0,Yes,No,Yes,147516,217207,5.9,PCB,0.552,No,45.1,43.3,Admitted,Yes
+S00886,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,47,5,5,6,private,Boarding,1080,33.5,Yes,Yes,Yes,135694,237105,9.6,MPC,0.792,Yes,49.5,52.8,Not admitted,No
+S00887,HUYE,Huye Science School,Huye,Southern,Female,18,44,4,5,5,public,Boarding,1529,26.7,No,No,Yes,166329,152430,16.6,LEG,0.729,No,52.0,51.4,Admitted,No
+S00888,RUBA,Rubavu College,Rubavu,Western,Female,16,51,7,6,5,public,Boarding,1563,42.3,No,Yes,Yes,125449,254675,27.7,MCB,0.82,Yes,37.8,31.7,Admitted,No
+S00889,RUBA,Rubavu College,Rubavu,Western,Female,17,41,4,7,6,public,Boarding,661,55.3,Yes,No,Yes,106340,185404,14.5,TVET,0.643,No,47.6,44.4,Not admitted,No
+S00890,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,53,7,7,9,private,Boarding,1117,45.3,No,No,Yes,103953,258657,14.5,LEG,0.639,No,47.5,45.4,Admitted,No
+S00891,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,38,4,5,7,public,Day,1294,52.3,Yes,Yes,Yes,9999999,0,6.4,MCB,0.733,No,50.9,47.0,Admitted,No
+S00892,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,44,4,6,7,private,Boarding,1696,15.0,Yes,Yes,Yes,104117,124706,16.3,MCB,0.749,No,59.7,59.4,Not admitted,No
+S00893,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,64,6,7,9,private,Boarding,884,30.8,Yes,No,Yes,91716,179067,7.6,MEG,0.758,No,46.7,43.1,Admitted,No
+S00894,RUBA,rubavu college ,Rubavu,Western,Male,16,52,8,6,9,public,Boarding,1492,34.9,Yes,Yes,Yes,81631,227321,7.9,LEG,0.661,No,35.5,39.8,Admitted,No
+S00895,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,58,6,9,8,public,Day,1312,31.7,No,Yes,Yes,102861,0,12.1,LEG,0.72,No,31.6,29.0,Not admitted,No
+S00896,RUBA,Rubavu College,Rubavu,Western,Female,19,52,5,7,9,public,Boarding,914,19.2,Yes,Yes,Yes,141129,79490,10.5,HEL,0.903,No,58.7,56.2,Not admitted,No
+S00897,HUYE,Huye Science School,Huye,Southern,Female,17,43,4,5,6,public,Boarding,465,34.5,No,Yes,Yes,60590,309960,18.0,TVET,0.63,No,53.2,55.0,Admitted,No
+S00898,RUBA,Rubavu College,Rubavu,Western,Female,17,45,8,4,3,public,Boarding,702,45.1,Yes,Yes,Yes,120376,92453,8.2,PCB,0.707,No,62.7,64.5,Admitted,No
+S00899,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,44,7,5,9,private,Boarding,396,35.7,No,Yes,Yes,90852,153669,4.3,HEL,0.686,No,46.1,44.8,Not admitted,No
+S00900,HUYE,Huye Science School,Huye,Southern,Female,16,43,5,4,3,public,Boarding,1713,41.2,Yes,No,Yes,183458,110013,9.2,MEG,0.67,No,52.9,53.1,Not admitted,No
+S00901,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,27,4,4,3,government-aided,Day,860,17.1,Yes,Yes,No,168109,0,2.0,PCB,0.533,No,58.4,60.0,Not admitted,No
+S00902,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,33,6,7,2,government-aided,Day,427,31.2,Yes,No,Yes,112291,0,6.7,MCB,0.98,No,66.2,70.5,Not admitted,No
+S00903,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,48,5,7,8,private,Boarding,605,30.9,No,No,Yes,118816,206660,6.1,MPC,0.61,No,52.5,53.7,Not admitted,No
+S00904,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,37,5,5,4,public,Day,1625,41.3,No,No,Yes,42685,0,2.9,HEL,0.639,No,50.4,48.7,Admitted,No
+S00905,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,48,8,5,7,private,Boarding,469,40.9,Yes,Yes,No,167215,183310,3.3,TVET,0.953,No,37.3,37.8,Not admitted,No
+S00906,GISA,Gisagara College,Gisagara,Southern,Female,15,51,9,8,6,private,Boarding,353,43.9,No,Yes,Yes,134560,161457,2.6,LEG,0.843,No,64.6,65.5,Not admitted,No
+S00907,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,50,8,9,6,private,Boarding,909,34.0,Yes,Yes,No,103989,244968,4.0,MEG,0.809,No,50.8,53.5,Admitted,No
+S00908,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,60,8,6,7,government-aided,Day,433,39.3,Yes,Yes,No,168235,0,2.1,HEG,0.665,No,42.1,46.9,Not admitted,No
+S00909,RUBA,Rubavu College,Rubavu,Western,Male,17,50,8,7,4,public,Boarding,850,18.7,No,Yes,Yes,159986,214156,8.9,MPC,0.98,No,47.7,49.3,Admitted,No
+S00910,GISA,Gisagara College,Gisagara,Southern,Female,19,30,4,4,2,private,Boarding,866,37.5,Yes,Yes,Yes,89258,188545,7.9,TVET,0.622,Yes,58.7,61.6,Not admitted,No
+S00911,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,64,9,7,9,private,Boarding,791,45.2,Yes,Yes,Yes,216588,77889,4.0,TVET,0.427,No,61.6,61.5,Not admitted,No
+S00912,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,52,6,7,8,government-aided,Day,802,44.4,Yes,Yes,No,82287,0,4.4,MPC,0.663,No,49.3,52.4,Not admitted,No
+S00913,GISA,Gisagara College,Gisagara,Southern,Male,19,72,8,8,9,private,Boarding,330,39.3,Yes,Yes,No,203484,240738,14.0,HEL,0.597,No,49.0,49.6,Admitted,Yes
+S00914,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,38,4,4,5,private,Boarding,1690,37.7,Yes,Yes,Yes,25000,250010,3.8,HEG,0.618,No,55.2,56.7,Not admitted,No
+S00915,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,51,8,6,9,private,Boarding,597,34.9,Yes,Yes,Yes,72555,258183,2.8,HEG,0.818,No,49.1,50.7,Admitted,No
+S00916,HUYE,Huye Science School,Huye,Southern,Male,19,55,8,7,7,public,Boarding,567,20.0,No,No,Yes,143735,179732,30.4,HEG,0.539,No,50.2,50.9,Not admitted,No
+S00917,RUBA,Rubavu College,Rubavu,Western,Female,15,46,5,5,4,public,Boarding,1461,48.1,Yes,Yes,Yes,104294,97929,9.8,MPC,0.803,Yes,37.6,31.6,Admitted,No
+S00918,HUYE,Huye Science School,Gisagara ,Southern,Male,18,54,8,8,9,public,Boarding,1093,25.2,No,Yes,Yes,84993,252339,14.0,PCB,0.754,No,59.8,56.6,Not admitted,No
+S00919,MUSA,Musanze Technical School,Musanze,Northern,Female,16,54,7,6,6,government-aided,Day,472,35.6,Yes,Yes,Yes,194179,0,16.3,PCB,0.7,Yes,40.8,37.6,Admitted,No
+S00920,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,34,5,5,1,government-aided,Day,794,31.9,Yes,No,No,105614,0,3.8,MPC,0.769,No,63.2,63.1,Admitted,No
+S00921,GISA,Gisagara College,Gisagara,Southern,Male,18,26,3,3,1,private,Boarding,679,38.0,Yes,Yes,Yes,168175,211373,3.3,TVET,0.531,Yes,60.4,58.7,Not admitted,No
+S00922,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,53,8,8,9,public,Day,377,30.6,Yes,No,Yes,182590,0,19.5,MPC,0.772,No,40.1,44.2,Not admitted,No
+S00923,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,50,7,9,7,private,Boarding,1452,39.4,Yes,Yes,Yes,137029,50354,1.2,MEG,0.47,No,43.5,45.7,Not admitted,No
+S00924,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,55,8,9,6,government-aided,Day,598,41.2,Yes,Yes,Yes,67159,0,3.9,MCB,0.552,No,44.3,45.6,Admitted,No
+S00925,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,38,4,7,2,public,Day,402,36.3,No,Yes,No,206400,0,3.1,MPC,0.658,No,40.6,38.6,Admitted,Yes
+S00926,MUSA,Musanze Technical School,Musanze,Northern,Male,16,72,9,9,9,government-aided,Day,1218,31.4,Yes,Yes,Yes,123231,0,13.5,MCB,0.615,Yes,43.7,41.6,Not admitted,No
+S00927,HUYE,Huye Science School,Huye,Southern,Female,18,45,8,6,6,public,Boarding,1233,23.7,Yes,Yes,No,40630,68671,4.8,TVET,0.874,Yes,48.0,43.6,Admitted,No
+S00928,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,35,6,5,2,private,Boarding,462,36.7,Yes,No,No,149994,285571,4.3,LEG,0.604,No,58.9,59.2,Admitted,No
+S00929,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,46,9,4,6,public,Day,934,35.2,No,Yes,Yes,188062,0,9.6,HEL,0.795,No,29.4,29.2,Admitted,No
+S00930,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,70,7,8,9,public,Day,484,36.5,No,Yes,No,124872,0,12.3,MPC,0.906,No,38.3,36.7,Admitted,No
+S00931,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,38,5,5,6,private,Boarding,871,45.2,Yes,Yes,No,25000,169044,8.2,LEG,0.764,No,52.5,53.7,Admitted,No
+S00932,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,56,7,8,9,government-aided,Day,1232,36.9,No,No,Yes,243064,0,13.0,MPC,0.615,No,49.0,50.8,Admitted,No
+S00933,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,54,8,7,7,government-aided,Day,1505,39.1,Yes,Yes,Yes,158265,0,3.3,LEG,0.797,No,46.4,50.9,Admitted,No
+S00934,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,67,9,9,9,private,Boarding,1222,35.0,No,Yes,No,232853,139999,14.6,TVET,0.753,No,47.3,52.6,Not admitted,No
+S00935,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,35,7,5,6,government-aided,Day,346,37.1,Yes,Yes,Yes,66729,0,5.8,PCB,0.359,Yes,58.7,59.7,Admitted,No
+S00936,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,46,6,6,9,private,Boarding,323,35.8,Yes,No,No,81939,228162,5.6,HEG,0.648,No,47.5,47.2,Not admitted,No
+S00937,GISA,Gisagara College,Gisagara,Southern,Female,19,34,4,2,4,private,Boarding,763,31.4,Yes,Yes,No,43732,221969,2.3,MPC,0.724,No,54.4,55.1,Not admitted,No
+S00938,MUSA,Musanze Technical School,Musanze,Northern,Female,19,41,6,6,1,government-aided,Day,857,20.0,No,Yes,Yes,142545,0,13.1,MCB,0.572,No,53.1,48.5,Not admitted,Yes
+S00939,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,40,8,4,4,government-aided,Day,810,34.1,Yes,No,Yes,129908,0,14.6,LEG,0.634,No,50.0,54.4,Admitted,No
+S00940,RUBA,Rubavu College,Rubavu,Western,Male,15,50,8,6,7,public,Boarding,1041,36.9,Yes,Yes,Yes,116808,111931,5.0,MPC,0.513,No,41.8,44.1,Not admitted,No
+S00941,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,42,4,6,7,government-aided,Day,666,44.1,Yes,Yes,Yes,124141,0,6.1,MEG,0.939,No,48.4,46.3,Not admitted,No
+S00942,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,58,9,9,9,public,Day,1528,28.1,Yes,Yes,Yes,41477,0,6.8,MEG,0.6,No,49.1,46.2,Admitted,No
+S00943,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,58,8,8,9,government-aided,Day,1718,29.8,No,Yes,Yes,25000,0,2.8,MCB,0.489,No,42.3,41.3,Admitted,No
+S00944,GISA,Gisagara College,Gisagara,Southern,Female,17,46,4,6,6,private,Boarding,1395,39.2,Yes,Yes,Yes,108964,255299,37.6,MEG,0.527,No,60.2,57.3,Not admitted,No
+S00945,RUBA,Rubavu College,Rubavu,Western,Female,15,45,7,3,4,public,Boarding,525,38.4,Yes,Yes,Yes,112303,104442,14.9,HEG,0.921,No,50.9,54.2,Admitted,No
+S00946,MUSA,Musanze Technical School,Musanze,Northern,Female,15,32,1,6,3,government-aided,Day,480,38.6,Yes,Yes,No,122595,0,4.0,PCB,0.561,No,53.2,54.5,Admitted,No
+S00947,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,38,3,4,5,private,Boarding,1230,48.9,Yes,Yes,Yes,174713,149876,3.1,MCB,0.617,No,49.7,46.7,Not admitted,No
+S00948,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,45,4,6,7,private,Boarding,899,28.7,Yes,Yes,Yes,163905,199702,19.3,TVET,0.922,No,64.3,63.5,Not admitted,No
+S00949,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,33,1,6,8,government-aided,Day,467,40.8,No,No,Yes,101487,0,11.4,PCB,0.802,Yes,56.1,55.9,Not admitted,No
+S00950,GISA,Gisagara College,Gisagara,Southern,Male,15,57,6,7,9,private,Boarding,850,24.2,Yes,Yes,Yes,143587,110836,9.6,PCB,0.566,No,52.3,44.5,Not admitted,No
+S00951,GISA,Gisagara College,Gisagara,Southern,Male,18,57,7,6,8,private,Boarding,699,44.7,Yes,No,Yes,168077,163291,6.2,LEG,0.828,No,32.4,29.8,Not admitted,No
+S00952,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,49,7,7,4,government-aided,Day,1654,41.3,Yes,Yes,No,25000,0,7.3,MEG,0.546,No,55.7,52.8,Not admitted,No
+S00953,GISA,Gisagara College,Gisagara,Southern,Female,18,21,3,1,3,private,Boarding,435,43.9,Yes,Yes,No,50335,239074,9.2,LEG,0.595,No,59.3,61.6,Admitted,No
+S00954,HUYE,Huye Science School,Huye,Southern,Female,18,50,5,8,8,public,Boarding,493,35.7,Yes,Yes,No,112232,211498,8.3,MPC,0.807,No,47.1,52.0,Admitted,No
+S00955,HUYE,Huye Science School,Huye,Southern,Female,15,42,6,6,3,public,Boarding,286,34.0,No,Yes,Yes,59312,168430,8.5,MEG,0.607,No,36.8,38.5,Admitted,No
+S00956,HUYE,Huye Science School,Huye,Southern,Female,17,51,8,7,4,public,Boarding,1711,32.3,Yes,No,No,49540,186546,4.6,HEL,0.774,No,61.4,60.8,Admitted,No
+S00957,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,39,8,7,3,private,Boarding,1274,32.9,No,Yes,Yes,39470,195510,18.8,MCB,0.736,No,50.7,53.2,Not admitted,No
+S00958,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,41,5,3,6,private,Boarding,694,27.1,Yes,Yes,Yes,59220,237745,6.5,MEG,0.814,No,56.1,56.6,Not admitted,No
+S00959,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,36,6,7,7,private,Boarding,833,39.8,Yes,No,No,120400,119833,4.3,PCB,0.582,No,57.1,57.0,Not admitted,No
+S00960,MUSA,Musanze Technical School,Musanze,Northern,Female,15,38,3,6,7,government-aided,Day,1553,37.9,Yes,Yes,Yes,183864,0,23.2,MPC,0.807,Yes,44.0,45.6,Not admitted,No
+S00961,HUYE,Huye Science School,Huye,Southern,Female,17,51,6,5,3,public,Boarding,1263,29.9,Yes,Yes,Yes,43926,208617,1.2,MPC,0.973,No,31.0,28.8,Admitted,No
+S00962,RUBA,Rubavu College,Rubavu,Western,Male,16,38,3,6,7,public,Boarding,274,33.9,No,Yes,Yes,102933,202725,9.5,MEG,0.532,No,52.5,57.5,Not admitted,No
+S00963,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,39,4,6,5,public,Day,1468,40.7,No,Yes,No,169970,0,11.0,MPC,0.848,No,50.5,50.0,Not admitted,No
+S00964,MUSA,Musanze Technical School,Musanze,Northern,Male,18,25,1,4,4,government-aided,Day,688,43.2,No,Yes,No,124328,0,4.7,TVET,0.746,No,51.5,51.0,Admitted,No
+S00965,RUBA,Rubavu College,Rubavu,Western,Male,15,30,7,5,5,public,Boarding,1011,34.3,Yes,No,No,102255,218358,4.0,MEG,0.6,No,66.3,68.7,Not admitted,No
+S00966,RUBA,Rubavu College,Rubavu,Western,Male,18,72,9,9,9,public,Boarding,1225,32.3,No,Yes,No,138093,314062,8.0,MCB,0.472,No,34.2,32.5,Not admitted,No
+S00967,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,30,5,6,2,private,Boarding,723,41.4,Yes,Yes,No,82260,282916,6.7,MCB,0.539,No,48.7,50.2,Not admitted,No
+S00968,RUBA,Rubavu College,Rubavu,Western,Male,17,72,8,9,9,public,Boarding,1178,16.7,Yes,Yes,Yes,41455,135255,7.7,PCB,0.821,No,51.7,51.8,Admitted,No
+S00969,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,46,5,7,7,private,Boarding,404,28.6,No,Yes,Yes,90267,262789,2.5,MCB,0.968,No,60.5,60.2,Admitted,No
+S00970,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,41,8,5,4,government-aided,Day,618,48.9,Yes,Yes,Yes,122858,0,8.5,MPC,0.98,No,50.8,50.0,Admitted,No
+S00971,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,47,4,7,7,government-aided,Day,1678,48.9,Yes,Yes,Yes,116655,0,18.4,TVET,0.9,No,42.8,42.7,Not admitted,No
+S00972,MUSA,Musanze Technical School,Musanze,Northern,Female,17,67,7,8,7,government-aided,Day,1150,44.0,No,Yes,No,114422,0,2.8,MEG,0.98,No,43.9,41.3,Admitted,No
+S00973,MUHA,Muhanga Academy,Muhanga,Southern,Male,15,43,3,9,6,private,Boarding,1057,30.6,No,Yes,Yes,154024,238425,13.6,MCB,0.818,No,57.3,60.6,Admitted,No
+S00974,HUYE,Huye Science School,huye ,Southern,Female,15,50,5,8,8,public,Boarding,1742,47.0,Yes,Yes,No,170523,190711,7.6,HEL,0.672,No,42.6,42.3,Not admitted,No
+S00975,MUSA,Musanze Technical School,Musanze,Northern,Female,17,51,7,8,6,government-aided,Day,1571,37.5,No,Yes,No,103000,0,11.1,TVET,0.769,No,49.8,50.1,Not admitted,No
+S00976,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,51,8,9,8,private,Boarding,1265,41.6,No,Yes,Yes,176066,62320,14.2,HEL,0.682,No,44.7,45.0,Admitted,No
+S00977,HUYE,Huye Science School,Huye,Southern,Female,17,25,2,1,4,public,Boarding,1666,37.6,Yes,Yes,No,118631,168963,21.0,LEG,0.971,No,63.1,64.1,Not admitted,No
+S00978,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,66,8,9,9,private,Boarding,771,35.9,Yes,Yes,Yes,113182,239948,2.5,LEG,0.567,Yes,42.1,39.4,Not admitted,No
+S00979,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,35,6,6,1,public,Day,959,42.0,Yes,No,Yes,205083,0,3.7,MPC,0.901,No,54.8,52.6,Admitted,No
+S00980,GISA,Gisagara College,Gisagara,Southern,Male,19,47,9,8,7,private,Boarding,376,21.8,No,Yes,No,141789,132063,6.6,TVET,0.644,No,48.7,49.7,Admitted,No
+S00981,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,17,36,6,5,5,private,Boarding,362,40.5,No,No,Yes,71807,363272,19.9,MPC,0.719,No,48.3,50.5,Not admitted,No
+S00982,MUSA,Musanze Technical School,Musanze,Northern,Female,16,52,6,8,5,government-aided,Day,1746,35.7,Yes,No,No,78640,0,1.9,HEG,0.397,No,47.1,43.8,Not admitted,No
+S00983,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,42,6,5,4,government-aided,Day,303,42.7,No,Yes,Yes,114647,0,3.3,LEG,0.638,No,58.3,63.0,Admitted,No
+S00984,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,34,4,4,3,private,Boarding,298,28.4,No,Yes,Yes,25000,239279,4.1,HEG,0.979,No,54.9,61.9,Not admitted,No
+S00985,HUYE,Huye Science School,Huye,Southern,Male,15,48,7,6,4,public,Boarding,878,39.7,Yes,Yes,Yes,120016,97164,15.4,MCB,0.577,Yes,64.6,63.7,Admitted,No
+S00986,RUBA,Rubavu College,Rubavu,Western,Female,19,59,9,3,7,public,Boarding,1775,43.0,Yes,Yes,Yes,197186,156641,31.3,HEL,0.717,Yes,41.2,45.4,Admitted,No
+S00987,GISA,Gisagara College,Gisagara,Southern,Male,16,55,9,9,8,private,Boarding,1358,40.5,Yes,Yes,Yes,37022,201075,41.4,HEL,0.636,No,64.1,66.7,Admitted,No
+S00988,GISA,Gisagara College,Gisagara,Southern,Male,19,62,4,7,8,private,Boarding,941,15.0,Yes,No,Yes,60168,177902,9.7,MEG,0.614,No,51.1,48.5,Not admitted,No
+S00989,GISA,Gisagara College,Gisagara,Southern,Female,16,55,8,9,8,private,Boarding,574,39.9,No,Yes,No,144481,179446,2.2,MEG,0.716,No,39.1,38.0,Not admitted,No
+S00990,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,55,8,6,6,government-aided,Day,890,45.2,Yes,Yes,Yes,92856,0,6.5,TVET,0.605,No,45.0,45.6,Admitted,No
+S00991,MUSA,Musanze Technical School,Musanze,Northern,Female,15,65,7,7,9,government-aided,Day,348,36.9,Yes,Yes,No,40186,0,4.7,HEG,0.373,Yes,28.0,32.0,Admitted,No
+S00992,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,19,70,9,9,9,private,Boarding,742,33.4,Yes,Yes,Yes,162672,142694,2.2,MEG,0.88,No,48.0,49.3,Not admitted,No
+S00993,RUBA,Rubavu College,Rubavu,Western,Male,18,57,9,8,7,public,Boarding,437,23.6,Yes,Yes,Yes,175367,220228,7.6,HEL,0.75,No,63.9,64.7,Admitted,No
+S00994,GISA,Gisagara College,Gisagara,Southern,Female,15,61,9,9,9,private,Boarding,1132,45.4,Yes,No,Yes,168799,211064,8.3,LEG,0.584,Yes,44.7,44.6,Admitted,No
+S00995,MUSA,Musanze Technical School,Musanze,Northern,Female,16,39,4,6,3,government-aided,Day,708,34.8,Yes,Yes,Yes,136676,0,16.5,MPC,0.89,Yes,56.0,57.1,Admitted,No
+S00996,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,54,6,9,7,government-aided,Day,1180,42.1,Yes,Yes,Yes,102471,0,10.7,MEG,0.98,No,47.4,56.1,Not admitted,No
+S00997,HUYE,Huye Science School,Huye,Southern,Female,18,44,6,6,3,public,Boarding,1682,27.4,Yes,No,Yes,61989,283055,14.9,MPC,0.701,No,53.2,51.3,Not admitted,No
+S00998,MUSA,Musanze Technical School,Musanze,Northern,Female,19,48,8,6,5,government-aided,Day,1764,30.0,No,Yes,No,109741,0,29.3,MPC,0.498,No,62.7,62.3,Not admitted,No
+S00999,GISA,Gisagara College,Gisagara,Southern,Male,15,48,6,6,5,private,Boarding,1036,34.0,No,No,Yes,25000,89806,5.6,MCB,0.889,No,42.5,41.8,Admitted,No
+S01000,GISA,Gisagara College,Gisagara,Southern,Male,18,50,6,6,5,private,Boarding,720,36.7,Yes,Yes,Yes,169369,208280,4.5,HEL,0.705,No,52.1,53.5,Not admitted,No
+S01001,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,52,8,6,9,public,Day,862,24.5,Yes,Yes,No,214027,0,17.1,MCB,0.936,No,46.3,43.7,Admitted,No
+S01002,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,45,5,6,8,private,Boarding,364,23.2,No,Yes,Yes,208889,79447,15.6,HEL,0.67,No,38.2,37.4,Admitted,No
+S01003,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,36,6,3,5,public,Day,1794,27.3,Yes,Yes,Yes,153865,0,3.8,MEG,0.556,No,55.2,50.8,Not admitted,No
+S01004,HUYE,Huye Science School,Huye,Southern,Male,19,58,6,6,9,public,Boarding,1595,27.7,Yes,No,No,180508,196989,5.2,HEL,0.672,No,39.5,37.2,Not admitted,No
+S01005,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,57,6,7,9,government-aided,Day,771,27.6,Yes,Yes,Yes,122911,0,11.6,MPC,0.724,No,39.3,40.5,Not admitted,Yes
+S01006,RUBA,Rubavu College,Rubavu,Western,Female,18,32,3,4,2,public,Boarding,1289,35.8,No,No,Yes,25000,317907,8.8,PCB,0.698,No,60.0,62.9,Not admitted,No
+S01007,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,46,1,4,7,private,Boarding,1357,39.8,No,No,Yes,93339,327747,3.1,MCB,0.474,Yes,47.4,46.3,Admitted,No
+S01008,GISA,Gisagara College,Gisagara,Southern,Female,18,20,1,2,1,private,Boarding,475,45.2,No,Yes,No,209081,282274,11.9,TVET,0.461,Yes,63.0,63.1,Admitted,No
+S01009,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,64,9,8,9,government-aided,Day,1284,52.7,No,Yes,Yes,91106,0,22.3,MPC,0.771,No,43.4,45.9,Admitted,No
+S01010,MUSA,Musanze Technical School,Musanze,Northern,Female,16,52,4,4,6,government-aided,Day,315,38.3,Yes,Yes,Yes,43095,0,5.4,HEL,0.779,No,49.1,50.7,Admitted,No
+S01011,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,47,5,7,4,public,Day,699,19.1,Yes,Yes,No,159694,0,14.5,LEG,0.778,No,56.2,54.2,Not admitted,Yes
+S01012,RUBA,Rubavu College,Rubavu,Western,Female,19,33,5,6,4,public,Boarding,829,28.5,Yes,Yes,No,173612,220854,17.4,PCB,0.688,No,65.1,62.5,Admitted,No
+S01013,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,64,8,6,9,public,Day,259,26.0,Yes,Yes,Yes,109541,0,8.9,PCB,0.524,Yes,57.3,56.9,Not admitted,Yes
+S01014,RUBA,Rubavu College,Rubavu,Western,Female,19,51,9,9,8,public,Boarding,1535,44.5,No,Yes,No,45493,215365,9.9,PCB,0.694,No,49.6,50.5,Admitted,No
+S01015,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,42,6,4,7,public,Day,1664,43.1,No,Yes,No,122147,0,6.3,LEG,0.778,No,41.1,45.3,Not admitted,No
+S01016,HUYE,Huye Science School,Huye,Southern,Male,16,45,3,7,3,public,Boarding,874,42.8,Yes,No,Yes,101276,146645,20.5,HEG,0.517,No,55.8,52.1,Admitted,No
+S01017,RUBA,Rubavu College,Rubavu,Western,Male,19,46,5,6,7,public,Boarding,1780,24.4,No,No,Yes,103878,163949,23.2,LEG,0.668,No,50.1,48.6,Admitted,No
+S01018,MUSA,Musanze Technical School,Musanze,Northern,Male,15,43,7,3,8,government-aided,Day,954,51.9,No,Yes,No,80580,0,5.4,TVET,0.671,No,42.3,39.4,Not admitted,Yes
+S01019,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,64,9,9,8,private,Boarding,438,34.1,Yes,Yes,No,60159,88268,5.8,MEG,0.779,No,62.8,64.1,Not admitted,Yes
+S01020,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,29,4,2,3,private,Boarding,445,26.8,Yes,Yes,No,59558,141206,3.6,PCB,0.762,No,68.8,74.5,Not admitted,No
+S01021,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,48,6,5,8,private,Boarding,639,45.6,No,No,Yes,80572,262268,1.0,MPC,0.95,No,54.7,56.0,Admitted,No
+S01022,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,45,3,6,4,private,Boarding,898,32.0,Yes,Yes,Yes,103281,61371,6.3,LEG,0.785,No,52.0,47.6,Not admitted,No
+S01023,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,27,4,3,6,public,Day,1224,33.6,Yes,Yes,Yes,109615,0,3.5,MPC,0.648,No,63.9,64.8,Not admitted,No
+S01024,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,72,9,7,9,government-aided,Day,350,29.5,Yes,No,Yes,63256,0,8.5,MPC,0.867,No,39.1,40.7,Not admitted,No
+S01025,HUYE,Huye Science School,Huye,Southern,Male,15,52,8,7,6,public,Boarding,962,28.4,Yes,No,No,81698,248687,22.3,MPC,0.819,Yes,46.4,54.9,Not admitted,No
+S01026,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,50,6,7,7,private,Boarding,1214,42.6,No,Yes,No,216174,107070,6.4,HEG,0.413,No,56.7,53.7,Not admitted,No
+S01027,GISA,Gisagara College,Gisagara,Southern,Female,16,67,8,9,9,private,Boarding,1531,38.8,Yes,No,Yes,108886,157930,21.7,PCB,0.592,No,39.7,47.3,Not admitted,Yes
+S01028,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,48,6,7,6,private,Boarding,1587,36.1,Yes,Yes,No,95181,236243,11.3,TVET,0.875,No,50.8,52.7,Not admitted,No
+S01029,GISA,Gisagara College,Gisagara,Southern,Female,19,37,3,5,5,private,Boarding,1662,35.5,No,No,No,44457,78609,5.4,LEG,0.74,No,63.2,67.5,Not admitted,Yes
+S01030,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,43,5,7,4,private,Boarding,1728,38.6,Yes,Yes,Yes,158737,282682,7.1,TVET,0.754,No,47.0,52.3,Not admitted,No
+S01031,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,28,5,3,2,public,Day,1640,42.3,Yes,Yes,No,56230,0,13.5,LEG,0.501,No,73.2,74.6,Not admitted,No
+S01032,GISA,Gisagara College,Gisagara,Southern,Female,16,44,8,6,9,private,Boarding,689,37.1,No,No,Yes,67634,159790,24.0,MEG,0.869,No,50.2,56.0,Admitted,No
+S01033,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,37,4,7,7,government-aided,Day,938,33.7,Yes,Yes,Yes,170662,0,31.1,LEG,0.686,No,61.6,66.0,Not admitted,No
+S01034,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,28,3,4,2,private,Boarding,508,36.1,Yes,No,Yes,177066,73065,2.3,TVET,0.744,No,52.4,52.8,Not admitted,No
+S01035,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,32,2,1,5,private,Boarding,805,38.7,Yes,Yes,Yes,115401,164021,4.4,LEG,0.707,Yes,65.5,64.7,Admitted,No
+S01036,RUBA,Rubavu College,Rubavu,Western,Female,15,56,9,7,9,public,Boarding,923,28.0,No,Yes,No,83861,160757,10.4,LEG,0.679,No,61.1,57.7,Not admitted,No
+S01037,MUSA,Musanze Technical School,Musanze,Northern,Male,15,30,1,4,4,government-aided,Day,770,20.3,Yes,No,No,235738,0,16.7,HEG,0.928,No,48.4,50.3,Admitted,Yes
+S01038,RUBA,Rubavu College,Rubavu,Western,Male,19,59,9,7,9,public,Boarding,1658,31.7,Yes,Yes,Yes,81146,140634,4.0,MPC,0.498,No,44.0,45.0,Admitted,No
+S01039,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,42,7,1,4,private,Boarding,1239,33.0,Yes,No,Yes,214641,221942,4.3,LEG,0.5,No,66.6,68.2,Not admitted,No
+S01040,RUBA,Rubavu College,Rubavu,Western,Female,19,48,9,6,9,public,Boarding,266,36.7,Yes,No,Yes,26530,144088,2.8,LEG,0.623,Yes,57.6,60.7,Admitted,No
+S01041,MUSA,Musanze Technical School,Musanze,Northern,Male,17,46,7,8,7,government-aided,Day,1091,36.1,Yes,No,Yes,86170,0,10.0,PCB,0.639,No,52.5,48.6,Not admitted,No
+S01042,GISA,Gisagara College,Gisagara,Southern,Male,19,62,8,7,9,private,Boarding,1453,40.3,Yes,No,No,101839,188071,2.0,LEG,0.561,Yes,44.9,46.7,Admitted,No
+S01043,MUHA,Muhanga Academy,Muhanga,Southern,Female,19,38,5,7,3,private,Boarding,664,35.2,Yes,Yes,No,170651,268122,30.8,HEL,0.75,Yes,51.4,47.0,Admitted,No
+S01044,HUYE,Huye Science School,Huye,Southern,Male,18,55,5,7,9,public,Boarding,1190,38.9,No,Yes,Yes,140142,3610,5.7,LEG,0.679,No,62.9,68.4,Not admitted,No
+S01045,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,36,5,6,4,government-aided,Day,1439,36.5,Yes,No,Yes,162776,0,3.6,TVET,0.721,No,45.2,41.7,Not admitted,No
+S01046,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,45,5,7,5,public,Day,1424,28.0,Yes,Yes,Yes,120917,0,6.0,LEG,0.573,No,46.3,43.4,Admitted,No
+S01047,RUBA,Rubavu College,Rubavu,Western,Male,18,56,6,7,6,public,Boarding,522,31.2,Yes,No,No,76389,246396,7.2,PCB,0.698,Yes,55.0,52.9,Not admitted,No
+S01048,MUSA,Musanze Technical School,Musanze,Northern,Male,18,72,9,9,9,government-aided,Day,508,44.8,Yes,Yes,No,87287,0,8.0,MCB,0.503,No,37.2,31.2,Not admitted,No
+S01049,GISA,Gisagara College,Gisagara,Southern,Male,18,65,9,8,9,private,Boarding,1527,37.9,Yes,Yes,Yes,140364,104550,unknown,TVET,0.459,No,49.9,54.8,Admitted,No
+S01050,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,45,5,4,4,private,Boarding,577,24.0,Yes,Yes,Yes,138963,200024,10.6,MCB,0.812,No,55.7,54.8,Admitted,No
+S01051,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,54,9,9,8,public,Day,1576,47.3,Yes,Yes,Yes,114540,0,9.4,TVET,0.666,No,56.0,53.7,Admitted,Yes
+S01052,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,27,4,3,2,government-aided,Day,970,37.5,Yes,Yes,No,101878,0,10.8,MPC,0.634,No,55.2,58.3,Admitted,No
+S01053,GISA,Gisagara College,Gisagara,Southern,Female,19,36,2,6,5,private,Boarding,1622,36.4,No,Yes,Yes,88918,350799,16.7,MEG,0.704,No,64.6,60.5,Not admitted,No
+S01054,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,46,5,8,4,public,Day,1670,19.3,Yes,Yes,No,97774,0,18.2,MCB,0.87,No,53.3,51.9,Not admitted,No
+S01055,HUYE,Huye Science School,Huye,Southern,Male,18,33,3,5,4,public,Boarding,1717,31.1,Yes,Yes,No,148147,80541,39.2,MEG,0.834,No,59.2,55.6,Not admitted,No
+S01056,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,68,9,9,9,public,Day,585,33.4,Yes,No,Yes,130423,0,13.1,MEG,0.7,No,41.9,35.9,Not admitted,No
+S01057,NYAM,nyamagabe secondary ,Nyamagabe,Southern,Male,18,59,8,9,6,public,Day,1419,44.4,No,No,Yes,120613,0,12.4,TVET,0.487,No,50.1,46.9,Not admitted,No
+S01058,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,52,7,7,3,private,Boarding,1776,30.4,Yes,No,Yes,170354,71385,7.3,HEL,0.78,No,50.5,51.9,Not admitted,No
+S01059,GISA,Gisagara College,Gisagara,Southern,Male,18,33,5,4,3,private,Boarding,1074,44.1,No,Yes,Yes,25000,315313,5.2,MEG,0.56,Yes,53.7,51.6,Not admitted,No
+S01060,RUBA,Rubavu College,Rubavu,Western,Male,16,46,6,7,6,public,Boarding,1630,22.8,No,No,Yes,129806,49089,5.2,MEG ,0.656,No,56.0,55.0,Admitted,No
+S01061,GISA,Gisagara College,Gisagara,Southern,Female,18,44,6,6,6,private,Boarding,1765,34.8,No,Yes,Yes,41193,92391,8.8,LEG,0.788,Yes,49.0,53.2,Admitted,No
+S01062,MUSA,Musanze Technical School,Musanze,Northern,Male,15,59,8,7,6,government-aided,Day,784,41.0,Yes,Yes,Yes,103433,0,6.6,PCB,0.649,No,41.3,39.6,Not admitted,No
+S01063,RUBA,Rubavu College,Rubavu,Western,Female,17,43,5,7,4,public,Boarding,1190,34.5,Yes,Yes,No,25000,285337,17.2,MEG,0.592,No,55.4,57.0,Admitted,No
+S01064,MUSA,Musanze Technical School,Musanze,Northern,Male,16,49,7,7,8,government-aided,Day,610,31.2,Yes,Yes,No,25000,0,2.5,MPC,0.585,No,55.3,60.2,Admitted,No
+S01065,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,47,6,5,4,private,Boarding,507,33.6,Yes,No,Yes,64775,156345,14.2,TVET,0.537,Yes,52.4,50.1,Not admitted,No
+S01066,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,18,60,8,7,9,public,Day,749,28.0,Yes,Yes,Yes,25000,0,3.8,MEG,0.69,Yes,46.0,45.6,Not admitted,No
+S01067,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,43,3,5,5,private,Boarding,579,33.5,Yes,Yes,No,25000,152692,9.2,PCB,0.647,Yes,52.7,51.7,Not admitted,No
+S01068,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,51,7,9,7,private,Boarding,595,24.7,Yes,Yes,Yes,150613,0,8.6,TVET,0.765,Yes,44.6,46.9,Admitted,No
+S01069,MUSA,Musanze Technical School,Musanze,Northern,Male,18,61,8,9,9,government-aided,Day,1037,25.0,Yes,Yes,Yes,154324,0,1.1,LEG,0.591,No,46.7,51.8,Admitted,No
+S01070,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,58,9,9,6,private,Boarding,1721,25.7,Yes,Yes,No,172901,134528,6.2,LEG,0.557,No,45.9,49.3,Admitted,No
+S01071,MUHA,Muhanga Academy,Muhanga,Southern,Male,15,54,7,7,7,private,Boarding,981,33.4,Yes,Yes,Yes,94248,142849,3.0,PCB,0.623,Yes,52.9,51.1,Not admitted,No
+S01072,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,42,4,4,7,private,Boarding,1612,29.0,Yes,No,No,195774,52352,6.5,MPC,0.59,No,62.9,63.9,Admitted,No
+S01073,MUSA,Musanze Technical School,Musanze,Northern,Male,18,49,7,7,7,government-aided,Day,1766,39.0,No,No,Yes,72081,0,3.9,HEL,0.756,No,54.0,53.8,Not admitted,No
+S01074,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,52,8,5,9,private,Boarding,1164,41.6,Yes,Yes,Yes,108940,242508,3.4,HEL,0.531,Yes,55.0,52.4,Not admitted,No
+S01075,GISA,Gisagara College,Gisagara,Southern,Female,19,35,5,5,5,private,Boarding,1097,29.0,Yes,Yes,Yes,164889,201696,20.6,PCB,0.615,No,71.4,71.6,Admitted,No
+S01076,MUSA,Musanze Technical School,Musanze,Northern,Male,16,61,7,9,9,government-aided,Day,1441,40.5,Yes,Yes,Yes,176152,0,4.7,LEG,0.68,Yes,48.0,51.7,Not admitted,No
+S01077,RUBA,Rubavu College,Rubavu,Western,Female,15,50,5,6,5,public,Boarding,1772,35.9,No,Yes,No,177914,144129,12.3,TVET,0.581,No,56.7,60.0,Admitted,No
+S01078,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,34,3,2,6,private,Boarding,1383,19.8,Yes,Yes,Yes,55350,56680,7.1,MEG,0.682,No,54.6,54.4,Admitted,No
+S01079,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,18,44,4,5,6,private,Boarding,452,38.9,Yes,Yes,No,199762,138456,13.9,HEL,0.768,Yes,66.4,67.4,Admitted,No
+S01080,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,53,3,5,9,public,Day,841,31.0,No,Yes,Yes,99426,0,2.2,HEL,0.684,No,58.0,59.7,Not admitted,No
+S01081,MUSA,Musanze Technical School,Musanze,Northern,Male,16,48,8,8,8,government-aided,Day,1682,39.1,Yes,No,No,152383,0,22.2,MEG,0.426,No,55.8,56.4,Admitted,No
+S01082,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,30,1,7,4,government-aided,Day,1427,33.8,No,Yes,No,104184,0,4.0,MCB,0.747,No,58.3,60.4,Not admitted,No
+S01083,MUSA,Musanze Technical School,Musanze,Northern,Female,19,25,4,2,1,government-aided,Day,1555,32.8,Yes,No,Yes,110232,0,1.6,HEG,0.718,No,63.2,63.1,Admitted,Yes
+S01084,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,44,3,4,5,government-aided,Day,1716,39.7,Yes,Yes,Yes,83930,0,10.2,MPC,0.703,Yes,49.3,50.3,Admitted,No
+S01085,MUSA,Musanze Technical School,Musanze,Northern,Female,18,54,9,8,9,government-aided,Day,1201,21.3,Yes,Yes,No,52847,0,6.9,LEG,0.737,No,47.9,49.0,Not admitted,No
+S01086,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,66,7,9,9,public,Day,383,39.5,Yes,Yes,No,134212,0,4.3,MCB,0.636,Yes,41.2,37.5,Admitted,No
+S01087,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,49,9,7,9,private,Boarding,805,37.7,No,Yes,No,163899,34546,13.1,MCB,0.763,No,45.7,40.9,Admitted,Yes
+S01088,GISA,Gisagara College,Gisagara,Southern,Male,17,35,5,4,3,private,Boarding,1699,39.0,Yes,Yes,No,124409,78724,3.4,LEG,0.685,No,45.2,42.0,Admitted,No
+S01089,RUBA,Rubavu College,Rubavu,Western,Male,18,50,6,7,4,public,Boarding,928,45.5,Yes,No,Yes,25000,108591,5.8,LEG,0.98,Yes,53.6,54.7,Admitted,No
+S01090,HUYE,Huye Science School,Huye,Southern,Male,17,33,1,6,3,public,Boarding,1186,37.5,Yes,Yes,No,64455,113751,5.7,TVET,0.795,No,56.2,59.0,Not admitted,No
+S01091,MUSA,Musanze Technical School,Musanze,Northern,Female,15,67,9,9,7,government-aided,Day,1571,48.3,No,No,No,157508,0,17.5,MCB,0.711,No,45.0,47.2,Not admitted,No
+S01092,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,40,6,6,5,government-aided,Day,1074,33.3,Yes,Yes,Yes,25000,0,5.3,HEL,0.612,No,45.6,48.2,Admitted,No
+S01093,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,53,9,7,6,private,Boarding,887,38.8,No,Yes,Yes,56404,214267,13.2,MCB,0.642,No,54.2,53.8,Admitted,No
+S01094,MUSA,Musanze Technical School,Musanze,Northern,Female,18,69,9,9,8,government-aided,Day,1359,33.9,No,Yes,No,126706,0,12.4,MPC,0.676,No,33.1,30.4,Not admitted,Yes
+S01095,HUYE,Huye Science School,Huye,Southern,Male,18,45,8,7,6,public,Boarding,769,28.3,Yes,Yes,No,136339,149083,4.9,PCB,0.967,No,43.6,38.7,Admitted,No
+S01096,HUYE,Huye Science School,Huye,Southern,Female,17,47,8,5,5,public,Boarding,1052,37.9,Yes,No,No,36872,151134,4.9,HEG,0.614,No,47.0,41.0,Not admitted,No
+S01097,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,21,1,3,1,government-aided,Day,1107,42.4,No,Yes,Yes,159771,0,36.7,MPC,0.931,No,48.0,50.5,Admitted,No
+S01098,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,60,9,7,7,government-aided,Day,1785,31.2,Yes,Yes,Yes,102491,0,14.1,MPC,0.736,Yes,57.0,59.2,Admitted,No
+S01099,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,18,34,6,6,6,private,Boarding,1164,50.6,No,No,Yes,103536,46927,7.5,PCB,0.753,Yes,41.7,40.8,Not admitted,No
+S01100,GISA,Gisagara College,Gisagara,Southern,Female,15,61,9,8,9,private,Boarding,895,39.2,Yes,No,Yes,137991,209118,6.1,MPC,0.363,No,42.6,47.6,Not admitted,No
+S01101,MUSA,musanze technical school ,Musanze,Northern,Male,16,56,7,8,7,government-aided,Day,1396,41.9,No,Yes,No,166270,0,2.7,TVET,0.46,No,37.5,36.5,Not admitted,No
+S01102,MUSA,Musanze Technical School,Musanze,Northern,Female,19,42,4,6,8,government-aided,Day,1681,40.8,No,Yes,Yes,115595,0,6.7,HEG,0.765,No,47.5,41.5,Not admitted,Yes
+S01103,HUYE,Huye Science School,Huye,Southern,Male,18,65,9,9,7,public,Boarding,1018,36.6,Yes,No,Yes,107088,131284,3.9,MEG,0.737,Yes,40.6,38.0,Not admitted,No
+S01104,MUHA,Muhanga Academy,Muhanga,Southern,Male,16,51,9,8,7,private,Boarding,307,32.7,Yes,Yes,Yes,133855,199267,5.9,HEG,0.825,No,39.5,37.4,Admitted,No
+S01105,MUSA,Musanze Technical School,Musanze,Northern,Female,15,59,6,7,9,government-aided,Day,1160,17.9,Yes,No,Yes,175151,0,80.0,PCB,0.647,No,40.6,40.8,Admitted,No
+S01106,MUHA,Muhanga Academy,Muhanga,Southern,Female,15,45,5,5,5,private,Boarding,1380,28.3,Yes,Yes,Yes,171372,204170,2.4,PCB,0.629,Yes,59.6,58.5,Admitted,No
+S01107,HUYE,Huye Science School,Huye,Southern,Female,15,55,6,8,9,public,Boarding,840,46.5,Yes,Yes,Yes,60582,20049,20.1,HEG,0.631,No,53.3,50.1,Not admitted,No
+S01108,RUBA,Rubavu College,Rubavu,Western,Female,19,35,4,7,6,public,Boarding,1040,46.7,Yes,No,Yes,101391,251861,5.4,MEG,0.806,No,56.5,63.7,Admitted,No
+S01109,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,35,6,6,4,private,Boarding,1008,46.2,No,Yes,No,100030,99539,5.0,LEG,0.665,No,59.4,62.5,Admitted,No
+S01110,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,40,8,2,4,government-aided,Day,434,28.4,No,Yes,No,166386,0,11.0,MEG,0.703,No,65.9,60.8,Not admitted,No
+S01111,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,51,9,8,9,public,Day,1368,27.6,No,Yes,No,63413,0,-3,TVET,0.98,No,48.0,49.6,Not admitted,No
+S01112,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,39,5,4,8,government-aided,Day,873,28.5,Yes,Yes,No,164269,0,1.0,HEL,0.783,Yes,48.4,54.3,Admitted,No
+S01113,RUBA,Rubavu College,Rubavu,Western,Female,17,44,5,8,7,public,Boarding,312,25.6,Yes,Yes,Yes,145521,61826,13.5,MPC,0.863,No,66.9,62.9,Not admitted,No
+S01114,HUYE,Huye Science School,Huye,Southern,Female,15,69,9,9,9,public,Boarding,904,29.9,Yes,Yes,No,117109,179374,4.0,PCB,0.741,No,50.6,54.6,Not admitted,No
+S01115,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,51,8,9,8,government-aided,Day,713,23.2,Yes,Yes,Yes,30993,0,39.2,MCB,0.749,Yes,40.0,40.0,Not admitted,No
+S01116,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,16,40,8,7,4,government-aided,Day,1199,36.2,Yes,Yes,Yes,59372,0,8.4,TVET,0.643,No,55.7,52.2,Not admitted,No
+S01117,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,19,51,4,5,6,government-aided,Day,1302,25.6,Yes,Yes,Yes,135351,0,23.8,MEG,0.714,Yes,59.1,58.6,Not admitted,No
+S01118,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,17,51,8,6,6,public,Day,1455,27.4,No,Yes,No,107912,0,11.2,MPC,0.773,No,41.1,39.2,Admitted,No
+S01119,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,55,7,8,9,government-aided,Day,286,41.6,No,Yes,No,61599,0,3.5,MEG,0.635,No,47.0,47.9,Admitted,No
+S01120,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,40,4,5,4,government-aided,Day,762,22.3,Yes,Yes,No,127446,0,3.3,TVET,0.619,No,43.2,44.0,Admitted,No
+S01121,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,46,6,5,7,government-aided,Day,1389,35.0,Yes,Yes,Yes,193085,0,9.5,TVET,0.826,No,47.5,51.5,Not admitted,Yes
+S01122,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,19,44,5,6,8,government-aided,Day,919,34.1,Yes,Yes,No,69673,0,14.7,TVET,0.536,No,51.7,43.5,Not admitted,No
+S01123,RUBA,Rubavu College,Rubavu,Western,Female,16,53,6,6,6,public,Boarding,1474,29.9,Yes,No,No,129908,202512,12.0,HEG,0.667,No,62.0,64.8,Not admitted,No
+S01124,MUSA,Musanze Technical School,Musanze,Northern,Male,16,33,5,4,4,government-aided,Day,1218,45.0,No,No,Yes,75158,0,14.6,MCB,0.536,No,53.6,56.2,Admitted,No
+S01125,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,16,29,1,4,2,government-aided,Day,1547,37.0,No,No,No,64504,0,9.2,TVET,0.75,No,56.3,52.5,Admitted,No
+S01126,RUBA,Rubavu College,Rubavu,Western,Male,16,55,7,7,5,public,Boarding,1486,27.6,Yes,Yes,Yes,180046,180058,3.4,LEG,0.673,No,54.1,53.0,Not admitted,No
+S01127,HUYE,Huye Science School,Huye,Southern,Female,19,31,4,4,5,public,Boarding,1366,21.8,Yes,Yes,Yes,78713,238896,9.4,MEG,0.714,No,61.7,58.7,Not admitted,No
+S01128,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,50,6,7,7,private,Boarding,1425,35.4,Yes,Yes,Yes,146659,97807,19.0,PCB,0.338,No,39.7,36.1,Admitted,Yes
+S01129,HUYE,Huye Science School,Huye,Southern,Male,15,38,4,4,4,public,Boarding,1576,33.8,No,Yes,No,79832,259244,9.3,TVET,0.757,No,57.2,62.7,Admitted,Yes
+S01130,MUSA,Musanze Technical School,Musanze,Northern,Female,17,46,7,5,5,government-aided,Day,597,29.6,No,Yes,Yes,219833,0,2.2,TVET,0.676,No,50.6,54.6,Admitted,No
+S01131,GISA,Gisagara College,Gisagara,Southern,Male,15,44,6,6,9,private,Boarding,473,39.0,No,Yes,Yes,110534,150454,10.5,TVET,0.656,No,46.1,46.5,Not admitted,No
+S01132,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,47,6,6,3,private,Boarding,600,51.5,Yes,No,No,178678,172250,9.2,LEG,0.461,No,52.9,55.6,Not admitted,No
+S01133,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,16,39,7,3,5,private,Boarding,1421,37.8,No,No,No,143953,245521,5.5,HEG,0.789,No,64.5,64.3,Not admitted,No
+S01134,RUBA,Rubavu College,Rubavu,Western,Female,16,29,3,5,3,public,Boarding,1182,49.3,Yes,Yes,Yes,102615,172697,7.2,LEG,0.705,No,51.9,50.8,Admitted,No
+S01135,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,41,2,5,5,public,Day,1384,29.7,Yes,No,Yes,112387,0,29.5,TVET,0.712,No,48.3,50.4,Not admitted,No
+S01136,MUSA,Musanze Technical School,Musanze,Northern,Male,16,49,5,7,7,government-aided,Day,1203,30.1,Yes,Yes,No,54640,0,35.2,HEL,0.679,Yes,42.9,43.5,Not admitted,No
+S01137,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,19,35,3,3,5,public,Day,1519,35.3,Yes,No,Yes,46902,0,3.0,HEL,0.806,No,51.0,50.1,Admitted,No
+S01138,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,15,39,5,6,5,private,Boarding,890,34.4,Yes,Yes,Yes,88472,184045,1.4,LEG,0.65,Yes,49.1,56.4,Not admitted,No
+S01139,HUYE,Huye Science School,Huye,Southern,Female,17,45,8,7,6,public,Boarding,462,32.9,Yes,Yes,Yes,210698,90635,18.4,HEL,0.628,No,49.0,50.2,Not admitted,No
+S01140,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,49,5,4,6,private,Boarding,944,24.6,Yes,No,No,107997,1371,4.9,MCB,0.746,No,57.5,58.8,Not admitted,No
+S01141,GISA,Gisagara College,Gisagara,Southern,Female,15,45,8,5,7,private,Boarding,1502,32.7,Yes,No,Yes,138613,190809,4.9,MEG,0.525,No,51.8,53.4,Admitted,No
+S01142,MUSA,Musanze Technical School,Musanze,Northern,Female,16,62,9,9,8,government-aided,Day,996,35.2,Yes,No,Yes,186229,0,4.7,HEG,0.809,No,48.6,46.5,Admitted,No
+S01143,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,46,7,6,5,private,Boarding,860,43.7,Yes,No,No,126947,144661,38.8,MPC,0.705,No,47.4,52.0,Admitted,No
+S01144,MUHA,Muhanga Academy,Muhanga,Southern,Male,17,35,5,2,4,private,Boarding,1349,38.4,Yes,No,Yes,201965,107523,39.6,HEG,0.679,Yes,43.9,46.2,Admitted,No
+S01145,RUBA,Rubavu College,Rubavu,Western,Female,17,48,6,6,6,public,Boarding,1001,29.6,No,No,Yes,181329,90910,1.7,TVET,0.822,No,49.0,47.2,Not admitted,No
+S01146,GISA,Gisagara College,Gisagara,Southern,Female,17,47,7,5,8,private,Boarding,1017,17.1,Yes,No,No,180956,115451,12.6,MPC,0.924,No,53.7,53.4,Admitted,No
+S01147,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,40,4,5,2,government-aided,Day,291,30.4,Yes,Yes,Yes,25000,0,3.6,HEG,0.717,No,64.0,66.9,Admitted,Yes
+S01148,MUHA,Muhanga Academy,Muhanga,Southern,Male,19,59,7,6,9,private,Boarding,793,30.7,Yes,Yes,No,106930,149046,4.3,LEG,0.699,No,47.1,47.9,Not admitted,No
+S01149,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,15,57,9,9,8,government-aided,Day,947,31.7,Yes,Yes,Yes,155376,0,3.0,PCB,0.739,No,36.5,36.8,Not admitted,No
+S01150,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,48,7,5,6,private,Boarding,1294,42.3,Yes,Yes,No,96851,136569,5.6,PCB,0.456,No,55.9,51.7,Admitted,No
+S01151,RUBA,Rubavu College,Rubavu,Western,Male,15,48,5,8,8,public,Boarding,1577,36.0,Yes,Yes,Yes,121834,159772,7.9,HEL,0.802,No,46.6,48.6,Admitted,No
+S01152,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,15,28,2,5,5,public,Day,810,22.4,Yes,Yes,Yes,71026,0,4.6,TVET,0.522,No,54.5,54.6,Not admitted,No
+S01153,MUHA,Muhanga Academy,Muhanga,Southern,Female,16,32,6,1,4,private,Boarding,596,39.6,No,Yes,Yes,188941,208063,15.1,HEG,0.69,No,62.3,63.1,Not admitted,No
+S01154,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,40,7,6,6,public,Day,593,39.3,Yes,Yes,Yes,74640,0,13.4,PCB,0.668,No,59.4,58.5,Not admitted,No
+S01155,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,56,7,9,6,private,Boarding,252,30.6,Yes,Yes,Yes,147695,148732,31.9,LEG,0.576,No,55.2,48.8,Not admitted,No
+S01156,HUYE,Huye Science School,Huye,Southern,Male,17,28,4,2,4,public,Boarding,1060,30.2,Yes,Yes,Yes,80142,172913,4.4,MPC,0.703,No,55.2,53.9,Not admitted,No
+S01157,GISA,Gisagara College,Gisagara,Southern,Male,19,41,6,4,6,private,Boarding,1669,35.6,No,Yes,No,119027,126534,14.0,MCB,0.642,No,53.1,53.7,Not admitted,Yes
+S01158,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,47,8,4,9,private,Boarding,1611,38.6,Yes,Yes,Yes,86164,244560,2.4,TVET,0.56,No,55.9,57.2,Not admitted,No
+S01159,RUBA,Rubavu College,Rubavu,Western,Female,15,43,4,5,6,public,Boarding,1460,45.3,Yes,Yes,Yes,76925,136638,4.1,HEG,0.707,No,39.1,41.5,Admitted,No
+S01160,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,63,8,9,7,government-aided,Day,594,26.8,Yes,No,No,95068,0,13.1,HEL,0.674,No,25.3,32.8,Not admitted,No
+S01161,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,39,4,5,7,public,Day,855,45.7,No,No,Yes,102533,0,11.3,MCB,0.688,No,56.3,57.9,Admitted,No
+S01162,GISA,Gisagara College,Gisagara,Southern,Male,19,53,9,5,9,private,Boarding,826,22.2,Yes,Yes,Yes,97127,266888,6.8,HEG,0.615,No,50.4,47.2,Admitted,No
+S01163,RUBA,Rubavu College,Rubavu,Western,Male,19,50,6,5,7,public,Boarding,1256,33.3,No,Yes,Yes,105621,118903,4.5,MCB,0.799,No,40.8,44.3,Admitted,No
+S01164,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,20,3,4,4,public,Day,402,51.0,Yes,Yes,Yes,139906,0,7.9,LEG,0.6,No,55.9,51.2,Not admitted,No
+S01165,GISA,Gisagara College,Gisagara,Southern,Male,16,72,9,9,9,private,Boarding,988,40.4,Yes,Yes,No,107343,113615,0,LEG,0.609,No,42.9,44.4,Not admitted,Yes
+S01166,MUHA,Muhanga Academy,Muhanga,Southern,Female,17,41,5,5,6,private,Boarding,1232,27.6,Yes,Yes,Yes,115071,301591,21.7,PCB,0.535,No,56.9,56.2,Not admitted,Yes
+S01167,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,52,3,8,9,public,Day,1579,29.9,Yes,Yes,No,99201,0,32.8,MEG,0.586,No,55.9,58.4,Admitted,No
+S01168,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,19,31,5,4,3,private,Boarding,1563,26.9,Yes,No,No,25000,140162,1.9,TVET,0.636,No,65.0,62.8,Admitted,No
+S01169,GISA,Gisagara College,Gisagara,Southern,Female,19,20,4,2,2,private,Boarding,310,22.6,Yes,Yes,No,82058,244435,3.3,HEL,0.592,No,66.2,65.2,Not admitted,No
+S01170,MUSA,Musanze Technical School,Musanze,Northern,Male,19,56,8,5,9,government-aided,Day,666,39.5,No,No,Yes,63059,0,11.2,MPC,0.862,Yes,38.1,35.7,Not admitted,No
+S01171,GISA,Gisagara College,Gisagara,Southern,Male,19,72,9,9,9,private,Boarding,782,28.8,Yes,Yes,Yes,183248,131849,8.0,HEG,0.818,No,46.7,47.9,Admitted,No
+S01172,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,18,69,8,9,9,government-aided,Day,1416,32.3,Yes,Yes,Yes,42981,0,3.2,MEG,0.499,No,45.9,43.8,Admitted,No
+S01173,GISA,Gisagara College,Gisagara,Southern,Female,16,64,6,9,9,private,Boarding,642,43.5,Yes,No,Yes,168156,125492,7.1,PCB,0.775,No,40.1,42.4,Not admitted,No
+S01174,RUBA,Rubavu College,Rubavu,Western,Male,16,47,5,6,6,public,Boarding,310,21.1,Yes,Yes,No,39150,149470,7.4,MPC,0.682,No,48.8,47.6,Admitted,No
+S01175,MUSA,Musanze Technical School,Musanze,Northern,Female,19,46,7,8,5,government-aided,Day,1401,24.0,Yes,No,Yes,60603,0,10.5,PCB,0.902,No,52.5,55.1,Admitted,No
+S01176,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,15,36,5,5,6,public,Day,1733,28.5,No,No,No,216607,0,11.5,LEG,0.753,Yes,64.3,68.0,Not admitted,No
+S01177,HUYE,Huye Science School,Huye,Southern,Male,17,26,1,3,1,public,Boarding,1255,39.7,Yes,Yes,No,131432,210569,2.4,MEG,0.575,No,61.1,61.6,Not admitted,Yes
+S01178,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,16,42,4,5,5,public,Day,790,30.9,Yes,No,Yes,70384,0,21.6,HEL,0.659,No,53.5,49.8,Not admitted,No
+S01179,HUYE,Huye Science School,Huye,Southern,Male,16,56,7,7,6,public,Boarding,1379,24.2,Yes,Yes,Yes,46037,105086,11.2,MCB,0.571,Yes,52.0,49.4,Not admitted,No
+S01180,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,34,3,4,2,private,Boarding,761,31.5,No,Yes,Yes,90465,202987,11.7,TVET,0.98,No,46.2,45.1,Admitted,No
+S01181,GISA,Gisagara College,Gisagara,Southern,Female,16,33,3,3,4,private,Boarding,748,41.9,Yes,No,Yes,28910,268957,26.9,MPC,0.672,No,51.0,49.6,Admitted,No
+S01182,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,50,5,5,7,private,Boarding,1756,36.4,Yes,Yes,Yes,25000,268334,2.1,MEG,0.659,No,54.4,50.6,Admitted,Yes
+S01183,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,16,52,5,8,5,public,Day,259,33.3,No,No,No,134777,0,41.0,MPC,0.784,No,40.4,38.6,Admitted,No
+S01184,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,15,49,5,9,9,private,Boarding,1110,44.2,Yes,No,Yes,40452,356434,2.4,PCB,0.722,No,54.7,54.4,Not admitted,No
+S01185,HUYE,Huye Science School,Huye,Southern,Female,15,47,4,9,7,public,Boarding,1471,29.0,No,Yes,Yes,149158,80349,25.5,HEL,0.806,No,54.1,56.3,Not admitted,No
+S01186,RUBA,Rubavu College,Rubavu,Western,Female,18,34,6,5,5,public,Boarding,833,26.0,No,Yes,Yes,245735,235834,15.5,LEG,0.98,No,57.1,55.1,Admitted,No
+S01187,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,17,58,8,8,8,government-aided,Day,770,43.7,Yes,Yes,Yes,61398,0,2.1,MEG,0.75,No,41.8,43.0,Not admitted,No
+S01188,MUSA,Musanze Technical School,Musanze,Northern,Male,16,35,2,6,3,government-aided,Day,1261,40.2,Yes,Yes,Yes,169947,0,3.9,MCB,0.553,No,61.8,66.6,Not admitted,No
+S01189,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,19,50,7,9,9,public,Day,568,35.3,Yes,Yes,Yes,96580,0,8.6,MCB,0.814,No,50.3,50.7,Not admitted,No
+S01190,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Female,16,49,7,8,8,private,Boarding,1575,35.9,No,No,Yes,25000,180989,25.7,MPC,0.571,No,52.3,55.1,Not admitted,No
+S01191,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Female,18,54,6,4,9,public,Day,1761,49.1,Yes,Yes,Yes,104768,0,11.1,MEG,0.603,No,42.4,46.3,Admitted,No
+S01192,HUYE,Huye Science School,Huye,Southern,Male,19,53,9,8,6,public,Boarding,572,39.9,Yes,Yes,Yes,135569,153161,2.0,PCB,0.785,No,32.3,33.8,Not admitted,No
+S01193,MUSA,musanze technical school ,Musanze,Northern,Male,15,67,9,8,9,government-aided,Day,817,29.0,Yes,Yes,Yes,211976,0,5.1,HEG,0.486,Yes,48.2,45.8,Not admitted,No
+S01194,MUHA,Muhanga Academy,Muhanga,Southern,Male,18,52,8,6,7,private,Boarding,686,39.8,Yes,No,Yes,92307,207015,10.8,LEG,0.98,Yes,49.3,47.4,Admitted,No
+S01195,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,51,6,6,5,government-aided,Day,353,23.6,No,No,Yes,130909,0,9.2,MCB,0.709,No,56.8,58.0,Not admitted,No
+S01196,HUYE,Huye Science School,Huye,Southern,Male,15,36,6,1,4,public,Boarding,345,31.3,No,Yes,Yes,156524,162993,39.9,MCB,0.874,No,52.6,51.6,Not admitted,No
+S01197,GISA,Gisagara College,Gisagara,Southern,Female,15,43,7,5,5,private,Boarding,1242,26.0,Yes,Yes,Yes,168799,263489,12.6,HEL,0.58,No,68.9,69.8,Admitted,No
+S01198,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,15,48,6,6,8,government-aided,Day,1117,38.3,Yes,Yes,Yes,173740,0,6.0,MEG,0.817,No,54.4,54.6,Admitted,No
+S01199,HUYE,Huye Science School,HUYE,Southern,Male,15,51,9,7,6,public,Boarding,1387,31.8,Yes,No,Yes,179642,106790,6.7,MPC,0.6,No,50.7,52.7,Admitted,Yes
+S00000,HUYE,Huye Science School,Huye,Southern,Female,18,57,9,5,5,public,Boarding,1429,31.5,Yes,Yes,Yes,157778,179622,18.2,HEL,0.745,No,50.0,47.1,Not admitted,No
+S00001,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Female,18,62,8,8,8,government-aided,Day,973,36.9,Yes,Yes,No,92647,0,4.9,Mpc,0.566,No,52.0,51.7,Not admitted,No
+S00002,MUHA,Muhanga Academy,Muhanga,Southern,Female,18,54,6,8,7,private,Boarding,696,41.0,Yes,Yes,Yes,130901,219190,2.3,TVET,0.635,No,45.4,44.6,Admitted,No
+S00003,KIGA,Kigali Scholars School,Nyarugenge,Kigali City,Male,17,43,6,7,7,private,Boarding,721,31.2,Yes,Yes,Yes,44837,95669,3.5,LEG,0.75,No,59.8,58.5,Not admitted,No
+S00004,NYAM,Nyamagabe Secondary,Nyamagabe,Southern,Male,17,40,5,5,3,public,Day,965,30.2,Yes,Yes,Yes,151596,0,6.8,HEL,0.621,No,40.7,36.4,Admitted,No
+S00005,GISA,Gisagara College,Gisagara,Southern,Male,19,43,8,5,7,private,Boarding,946,32.4,Yes,No,Yes,25000,205409,8.9,LEG,0.597,No,55.1,53.5,Not admitted,No
+S00006,GROU,Groupe Scolaire Nyanza,Nyanza,Southern,Male,17,35,5,5,7,government-aided,Day,761,36.9,Yes,Yes,Yes,64038,0,5.4,PCB,0.487,No,51.7,47.3,Not admitted,No
+S00007,HUYE,Huye Science School,Huye,Southern,Female,15,72,9,8,6,public,Boarding,663,27.5,Yes,Yes,Yes,173628,185993,6.5,LEG,0.535,Yes,40.1,39.9,Not admitted,No
+S00008,GISA,Gisagara College,Gisagara,Southern,Male,15,33,3,3,8,private,Boarding,1536,40.7,Yes,No,Yes,106384,172146,4.4,MCB,0.742,Yes,48.4,44.6,Not admitted,No
+S00009,MUSA,Musanze Technical School,Musanze,Northern,Male,19,51,9,7,6,government-aided,Day,829,37.4,No,Yes,No,39751,0,27.7,MEG,0.921,Yes,44.0,48.4,Not admitted,No
+S00010,GISA,Gisagara College,Gisagara,Southern,Male,16,43,6,5,6,private,Boarding,605,34.7,Yes,Yes,Yes,68622,89683,3.7,PCB,0.633,No,45.2,45.3,Admitted,No
+S00011,HUYE,Huye Science School,Huye,Southern,Female,16,60,9,9,8,public,Boarding,1683,32.2,Yes,Yes,Yes,119976,190975,55.4,TVET,0.943,No,42.5,38.1,Not admitted,Yes
