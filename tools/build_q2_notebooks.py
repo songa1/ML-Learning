@@ -1,4 +1,5 @@
 import json
+import hashlib
 from pathlib import Path
 
 
@@ -6,12 +7,16 @@ ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK_DIR = ROOT / "q2_own_scenario" / "notebooks"
 
 
+def cell_id(cell_type, text):
+    return hashlib.sha1(f"{cell_type}:{text}".encode("utf-8")).hexdigest()[:12]
+
+
 def markdown(text):
-    return {"cell_type": "markdown", "metadata": {"language": "markdown"}, "source": text.splitlines(True)}
+    return {"cell_type": "markdown", "metadata": {"id": cell_id("markdown", text), "language": "markdown"}, "source": text.splitlines(True)}
 
 
 def code(text):
-    return {"cell_type": "code", "execution_count": None, "metadata": {"language": "python"}, "outputs": [], "source": text.splitlines(True)}
+    return {"cell_type": "code", "execution_count": None, "metadata": {"id": cell_id("code", text), "language": "python"}, "outputs": [], "source": text.splitlines(True)}
 
 
 BOOT = """import sys\nfrom pathlib import Path\nROOT = Path.cwd()\nwhile not (ROOT / 'src').exists() and ROOT != ROOT.parent:\n    ROOT = ROOT.parent\nif str(ROOT) not in sys.path:\n    sys.path.insert(0, str(ROOT))\n"""
