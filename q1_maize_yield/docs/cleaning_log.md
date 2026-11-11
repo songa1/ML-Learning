@@ -1,0 +1,21 @@
+# Cleaning Log
+
+                 step              columns                                        rule  n_affected             before            after                                         justification
+           season_fix season,planting_date       align season with planting date month          69         (1220, 20)       (1220, 23)                   ensures one consistent season label
+           date_range        planting_date            outside 2023-2025 set to missing           1         (1220, 20)       (1220, 23)                          assignment period constraint
+drop_exact_duplicates                  all                 remove exact duplicate rows          12               1220             1208                                 duplicate submissions
+          dedupe_near  farm_id,season,year                   keep most complete record           8               1208             1200       resolve near-duplicate farm-season-year entries
+      set_invalid_nan      yield_kg_per_ha           apply agronomic plausibility rule           3      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan         farm_size_ha           apply agronomic plausibility rule           1      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan        fertilizer_kg           apply agronomic plausibility rule           1      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan          rainfall_mm           apply agronomic plausibility rule           2      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan           avg_temp_c           apply agronomic plausibility rule           3      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan           altitude_m           apply agronomic plausibility rule           0      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan              soil_ph           apply agronomic plausibility rule           4      valid+invalid     invalid->NaN                protect data quality before imputation
+      set_invalid_nan           farmer_age           apply agronomic plausibility rule           3      valid+invalid     invalid->NaN                protect data quality before imputation
+       fix_temp_scale           avg_temp_c       divide by 10 for likely decimal shift           0            e.g.250             25.0                                common data-entry typo
+      recompute_yield      yield_kg_per_ha replace mismatched target with harvest/size          12           reported       recomputed                        physical consistency of target
+  drop_missing_target      yield_kg_per_ha                   drop unusable target rows           8               1200             1192                    supervised dataset requires target
+            winsorize        fertilizer_kg                clip at 1st/99th percentiles          26     [0.00,9999.00]    [6.01,476.09] cap likely entry-error extremes while keeping records
+            winsorize          rainfall_mm                clip at 1st/99th percentiles          28   [300.00,4200.00] [354.99,1466.43] cap likely entry-error extremes while keeping records
+            winsorize      yield_kg_per_ha                clip at 1st/99th percentiles          24 [0.10,19159818.86] [925.43,2911.56] cap likely entry-error extremes while keeping records

@@ -1,0 +1,33 @@
+feature,created_or_keep_remove_reason,evidence,linked_question
+fertilizer_kg_per_ha,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+planting_month,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+planting_quarter,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+days_from_season_start,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+is_improved_seed,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+seed_rank,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+altitude_band,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+temp_deviation_from_optimum,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+rain_per_temp,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+rainfall_log,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+fertilizer_log1p,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+farm_size_log,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+irrigated_flag,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+season_x_irrigation,created,Domain-informed feature engineering from Stage 5,B/C/D/E
+planting_quarter,removed,Highly correlated pair |r|>0.9,A/B/C
+rain_per_temp,removed,Highly correlated pair |r|>0.9,A/B/C
+rainfall_log,removed,Highly correlated pair |r|>0.9,A/B/C
+altitude_m,kept,Selected by variance+f_regression on train set,A/B/C
+fertilizer_kg,kept,Selected by variance+f_regression on train set,A/B/C
+avg_temp_c,kept,Selected by variance+f_regression on train set,A/B/C
+soil_ph,kept,Selected by variance+f_regression on train set,A/B/C
+farmer_age,kept,Selected by variance+f_regression on train set,A/B/C
+farm_size_ha,kept,Selected by variance+f_regression on train set,A/B/C
+year,kept,Selected by variance+f_regression on train set,A/B/C
+fertilizer_kg_per_ha,kept,Selected by variance+f_regression on train set,A/B/C
+is_improved_seed,kept,Selected by variance+f_regression on train set,A/B/C
+seed_rank,kept,Selected by variance+f_regression on train set,A/B/C
+temp_deviation_from_optimum,kept,Selected by variance+f_regression on train set,A/B/C
+fertilizer_log1p,kept,Selected by variance+f_regression on train set,A/B/C
+farm_size_log,kept,Selected by variance+f_regression on train set,A/B/C
+irrigated_flag,kept,Selected by variance+f_regression on train set,A/B/C
+low_yield_risk,kept,Selected by variance+f_regression on train set,A/B/C
