@@ -33,6 +33,8 @@ def main():
 
     # no leakage columns
     assert_true("yield_t_ha" not in train.columns, "Source target column leaked into model-ready data")
+    assert_true("num__low_yield_risk" not in train.columns, "Derived risk label leaked into model features")
+    assert_true("low_yield_risk" in train.columns, "Risk label missing from model-ready outputs")
 
     # check NaNs (allow in raw id columns only not expected here)
     for df, name in [(train, "train"), (val, "val"), (test, "test")]:

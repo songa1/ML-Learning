@@ -1,0 +1,6 @@
+question,answer,evidence
+A. Expected maize yield per hectare,About 2.6 t/ha overall; central 80% is 1.68-3.48 t/ha.,Section 7A: yield distribution and province x season table
+B. Do fertiliser and improved seed increase yield?,Hybrid seed +0.96 t/ha (+53%); improved practice +0.37 t/ha (+16%); high vs low fertiliser +0.22 t/ha (+9%).,"Section 7B: group means, practice x seed cross-tab, per-hectare fertiliser check"
+"C. Do rainfall, temperature, altitude and irrigation affect yield?",Rainfall is the clear positive factor (+0.35); temperature and altitude are weak; irrigation shows no advantage in these records.,Section 7C: correlations and grouped means
+"D. Do results differ by province, district and season?","Season is the largest difference (A 2.86, B 2.51, C 2.00 t/ha); province 2.47-2.65; districts 2.34-2.83.","Section 7D: consistency checks, summaries and district range"
+E. Which farms are at high risk of a very low harvest?,"Season C, local seed, low fertiliser, Eastern and Western farms have the highest risk; threshold 1.95 t/ha.",Section 7E: risk rates and leakage audit

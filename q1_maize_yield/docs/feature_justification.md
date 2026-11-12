@@ -1,15 +1,14 @@
 # Q1 Feature Justification
 
-| Feature | Decision | Reason |
-|---|---|---|
-| `fertilizer_kg` | Derived | Combines NPK and urea in kg/ha with manure converted from tonnes/ha to kg/ha. |
-| `fertilizer_kg_per_ha` | Kept | The revised source fertiliser fields are already normalised by hectare. |
-| `is_improved_seed` | Created | Encodes the improved/traditional farming-practice distinction. |
-| `seed_rank` | Created | Provides a simple ordered indicator for the practice category. |
-| `altitude_band` | Created | Represents broad elevation zones for agronomic comparison. |
-| `temp_deviation_from_optimum` | Created | Measures distance outside the assumed 18–27°C suitable range. |
-| `rain_per_temp` | Created | Relates rainfall to temperature while retaining both source measurements. |
-| `rainfall_log`, `fertilizer_log1p`, `farm_size_log` | Created | Reduces skew in heavily tailed measurements. |
-| `irrigated_flag` | Created | Encodes irrigation status numerically. |
-| `season_x_irrigation` | Created | Captures a possible interaction between season and irrigation. |
-| `yield_t_ha` | Excluded | Source target; including it would leak the answer into the model. |
+                    feature     status                                         definition question
+       fertilizer_kg_per_ha    Created    NPK + urea + manure converted to one kg/ha rate        B
+           is_improved_seed    Created 1 when seed_variety is not Local; 0 for local seed        B
+              altitude_band    Created                     Lowland, mid, or highland band        C
+temp_deviation_from_optimum    Created                   Degrees outside the 18-27 C band        C
+              rain_per_temp    Created            Rainfall divided by average temperature        C
+               rainfall_log    Created                          Log transform of rainfall        C
+           fertilizer_log1p    Created                   Log transform of fertiliser rate        B
+              farm_size_log    Created                         Log transform of farm area        A
+             irrigated_flag    Created               1 when irrigation is recorded as Yes        C
+        season_x_irrigation    Created                     Season and irrigation combined      C/D
+             low_yield_risk Label only      Bottom 20% of training yield; excluded from X        E

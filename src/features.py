@@ -8,8 +8,8 @@ from .config import SEED
 def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     out = df.copy()
     out["fertilizer_kg_per_ha"] = out["fertilizer_kg"]
-    out["is_improved_seed"] = out["farming_practice"].eq("Improved").astype(int)
-    out["seed_rank"] = out["is_improved_seed"]
+    # Improved seed is a property of the variety, not of the farming-practice label.
+    out["is_improved_seed"] = (~out["seed_variety"].eq("Local")).astype(int)
     out["altitude_band"] = pd.cut(out["altitude_m"], bins=[-np.inf, 1400, 2000, np.inf], labels=["lowland", "mid", "highland"])
     t = out["avg_temp_c"]
     out["temp_deviation_from_optimum"] = np.where(t < 18, 18 - t, np.where(t > 27, t - 27, 0))

@@ -16,7 +16,8 @@ RAW_FILE = RAW_DIR / "maize_yield_rwanda_rw.csv"
 STANDIN_FILE = RAW_DIR / "maize_yield_rwanda_SYNTHETIC_STANDIN.csv"
 
 TARGET_COL = "yield_kg_per_ha"
-LEAKAGE_COLS = []
+# Derived from the target after the split; it is a label for risk reporting, never a feature.
+LEAKAGE_COLS = ["low_yield_risk"]
 ID_COLS = ["record_id"]
 
 COLUMNS = [

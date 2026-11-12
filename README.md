@@ -58,8 +58,11 @@ python run_all.py
 4. Cleaning and preprocessing
 5. Feature engineering and selection
 6. Finalisation and verification
+7. Answers to the cooperative questions A–E
 
 The revised Q1 source is `maize_yield_rwanda_rw.csv`. The acquisition notebook preserves this file unchanged. Its target is `yield_t_ha`, which the cleaning workflow converts to the model target `yield_kg_per_ha`; NPK, urea, and manure are combined into a comparable fertiliser-per-hectare measure. The old synthetic stand-in is no longer used by the Q1 notebooks.
+
+The final step answers the five cooperative questions with tables and charts: expected yield per hectare (A), fertiliser and improved-seed comparisons at a fair per-hectare rate (B), rainfall/temperature/altitude/irrigation effects (C), province, district and season differences (D), and high-risk farms (E). The detailed write-up is in [cooperative_answers.md](q1_maize_yield/docs/cooperative_answers.md). The derived `low_yield_risk` label is excluded from model features so the risk answer does not leak the harvest result.
 
 Important Q1 outputs are written to:
 
