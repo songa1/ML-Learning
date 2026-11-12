@@ -3,14 +3,7 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parent
-NBS = [
-    ROOT / "q1_maize_yield/notebooks/00_environment_test.ipynb",
-    ROOT / "q1_maize_yield/notebooks/01_acquire.ipynb",
-    ROOT / "q1_maize_yield/notebooks/02_eda.ipynb",
-    ROOT / "q1_maize_yield/notebooks/03_clean.ipynb",
-    ROOT / "q1_maize_yield/notebooks/04_features.ipynb",
-    ROOT / "q1_maize_yield/notebooks/05_finalise.ipynb",
-]
+NBS = [ROOT / "q1_maize_yield/notebooks/q1_maize_yield_workflow.ipynb"]
 
 for nb in NBS:
     print(f"Executing {nb.name} ...")

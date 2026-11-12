@@ -2,7 +2,7 @@ import hashlib
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from .config import DISTRICT_TO_PROVINCE, SEASON_START_MONTH, TARGET_COL
+from .config import DISTRICT_TO_PROVINCE, TARGET_COL
 
 MISSING_TOKENS = {"", " ", "na", "n/a", "none", "null", "unknown", "?", "-999", "-1"}
 
@@ -32,15 +32,14 @@ def standardize_text(df: pd.DataFrame) -> pd.DataFrame:
     mapping = {
         "season": {"season a": "A", "a": "A", "season-a": "A", "season b": "B", "b": "B", "season-b": "B", "season c": "C", "c": "C", "season-c": "C"},
         "irrigation": {"yes": "Yes", "y": "Yes", "1": "Yes", "true": "Yes", "no": "No", "n": "No", "0": "No", "false": "No"},
-        "pest_incidence": {"low": "Low", "medium": "Medium", "high": "High"},
-        "soil_type": {"clay": "Clay", "loam": "Loam", "sandy": "Sandy"},
-        "seed_variety": {"local": "Local", "improved": "Improved", "hybrid": "Hybrid"},
+        "soil_type": {"clay": "Clay", "clay loam": "Clay loam", "loam": "Loam", "sandy loam": "Sandy loam", "volcanic": "Volcanic"},
+        "farming_practice": {"traditional": "Traditional", "improved": "Improved"},
     }
     for col, mp in mapping.items():
         if col in out.columns:
             out[col] = out[col].map(lambda v: mp.get(_norm(v), v))
 
-    for col in ["district", "province", "farm_id", "cooperative_id"]:
+    for col in ["district", "province", "record_id"]:
         if col in out.columns:
             out[col] = out[col].astype(str).str.strip().str.lower()
 
@@ -61,56 +60,25 @@ def parse_number(series: pd.Series) -> pd.Series:
     return pd.to_numeric(s, errors="coerce")
 
 
-def convert_farm_size_ha(df: pd.DataFrame) -> pd.Series:
-    size = parse_number(df["farm_size"])
-    unit = df["farm_size_unit"].astype(str).str.strip().str.lower()
-    unit = unit.replace({"m2": "m2", "sqm": "m2", "m²": "m2", "square meter": "m2", "ha": "ha", "hectare": "ha", "hectares": "ha", "acre": "acre", "acres": "acre", "are": "are"})
-    out = size.copy()
-    out[unit == "m2"] = size[unit == "m2"] / 10000.0
-    out[unit == "acre"] = size[unit == "acre"] * 0.404686
-    out[unit == "are"] = size[unit == "are"] * 0.01
-    return out
-
-
-def parse_dates(series: pd.Series) -> pd.Series:
-    s = series.astype(str).str.strip()
-    serial = pd.to_numeric(s, errors="coerce")
-    dt = pd.to_datetime(s, errors="coerce", dayfirst=True)
-    excel_mask = serial.between(40000, 60000)
-    dt.loc[excel_mask] = pd.to_datetime("1899-12-30") + pd.to_timedelta(serial.loc[excel_mask], unit="D")
-    return dt
-
-
-def expected_season(month: int) -> str:
-    if month in [9, 10, 11, 12, 1]:
-        return "A"
-    if month in [2, 3, 4, 5, 6]:
-        return "B"
-    return "C"
-
-
 def clean_q1(df_raw: pd.DataFrame, clog) -> pd.DataFrame:
     df = standardize_text(df_raw)
     before_shape = df.shape
 
-    for col in ["altitude_m", "fertilizer_kg", "rainfall_mm", "avg_temp_c", "soil_ph", "farmer_age", "harvest_weight_kg", "yield_kg_per_ha"]:
+    for col in ["year", "altitude_m", "rainfall_mm", "avg_temp_c", "soil_ph", "npk_kg_ha",
+                "urea_kg_ha", "manure_t_ha", "plant_density_per_ha", "farm_area_ha",
+                "pest_incidence_index", "yield_t_ha"]:
         df[col] = parse_number(df[col])
 
-    df["farm_size_ha"] = convert_farm_size_ha(df)
-    df["planting_dt"] = parse_dates(df["planting_date"])
-    df["year"] = df["planting_dt"].dt.year
+    df["fertilizer_kg"] = df["npk_kg_ha"] + df["urea_kg_ha"] + (df["manure_t_ha"] * 1000)
+    df["farm_size_ha"] = df["farm_area_ha"]
+    df[TARGET_COL] = df["yield_t_ha"] * 1000
+    df["pest_incidence"] = pd.cut(df["pest_incidence_index"], [-np.inf, 0.33, 0.66, np.inf], labels=["Low", "Medium", "High"])
+    clog.add("derive_canonical_fields", "fertilizer_kg,farm_size_ha,yield_kg_per_ha,pest_incidence", "derive model fields from source columns", len(df), before_shape, df.shape, "map the revised source schema to consistent Q1 model units")
 
-    season_from_date = df["planting_dt"].dt.month.map(lambda m: expected_season(m) if pd.notna(m) else np.nan)
-    season_conflict = (df["season"].isin(["A", "B", "C"])) & season_from_date.notna() & (df["season"] != season_from_date)
-    n_conflict = int(season_conflict.sum())
-    df.loc[season_conflict, "season"] = season_from_date[season_conflict]
-    clog.add("season_fix", "season,planting_date", "align season with planting date month", n_conflict, before_shape, df.shape, "ensures one consistent season label")
-
-    # Date range filter
-    bad_date = (df["year"].notna()) & (~df["year"].between(2023, 2025))
-    n_bad_date = int(bad_date.sum())
-    df.loc[bad_date, ["planting_dt", "year"]] = np.nan
-    clog.add("date_range", "planting_date", "outside 2023-2025 set to missing", n_bad_date, before_shape, df.shape, "assignment period constraint")
+    bad_year = (df["year"].notna()) & (~df["year"].between(2015, 2030))
+    n_bad_year = int(bad_year.sum())
+    df.loc[bad_year, "year"] = np.nan
+    clog.add("year_range", "year", "outside 2015-2030 set to missing", n_bad_year, before_shape, df.shape, "remove impossible source years")
 
     # Duplicates
     n0 = len(df)
@@ -118,43 +86,30 @@ def clean_q1(df_raw: pd.DataFrame, clog) -> pd.DataFrame:
     n1 = len(df)
     clog.add("drop_exact_duplicates", "all", "remove exact duplicate rows", n0 - n1, n0, n1, "duplicate submissions")
 
-    # Near duplicates: farm+season+year, keep most complete
+    # Near duplicates: record_id should identify one observation.
     df["_completeness"] = df.notna().sum(axis=1)
     n_before = len(df)
-    df = df.sort_values("_completeness", ascending=False).drop_duplicates(subset=["farm_id", "season", "year"], keep="first")
+    df = df.sort_values("_completeness", ascending=False).drop_duplicates(subset=["record_id"], keep="first")
     n_after = len(df)
     df = df.drop(columns=["_completeness"])
-    clog.add("dedupe_near", "farm_id,season,year", "keep most complete record", n_before - n_after, n_before, n_after, "resolve near-duplicate farm-season-year entries")
+    clog.add("dedupe_near", "record_id", "keep most complete record", n_before - n_after, n_before, n_after, "resolve repeated source identifiers")
 
     # Impossible value handling
     rules = {
-        "yield_kg_per_ha": lambda s: s <= 0,
+        TARGET_COL: lambda s: s <= 0,
         "farm_size_ha": lambda s: s <= 0,
         "fertilizer_kg": lambda s: s < 0,
         "rainfall_mm": lambda s: (s < 0) | (s > 5000),
         "avg_temp_c": lambda s: (s < 0) | (s > 60),
         "altitude_m": lambda s: (s < 500) | (s > 3500),
         "soil_ph": lambda s: (s < 4) | (s > 8),
-        "farmer_age": lambda s: (s < 18) | (s > 100),
+        "plant_density_per_ha": lambda s: s <= 0,
     }
     for col, fn in rules.items():
         bad = fn(df[col]) & df[col].notna()
         n_bad = int(bad.sum())
         df.loc[bad, col] = np.nan
         clog.add("set_invalid_nan", col, "apply agronomic plausibility rule", n_bad, "valid+invalid", "invalid->NaN", "protect data quality before imputation")
-
-    # correct obvious temp typo (e.g. 250 -> 25.0)
-    typo_temp = (df["avg_temp_c"] > 80) & (df["avg_temp_c"] < 400)
-    n_typo = int(typo_temp.sum())
-    df.loc[typo_temp, "avg_temp_c"] = df.loc[typo_temp, "avg_temp_c"] / 10
-    clog.add("fix_temp_scale", "avg_temp_c", "divide by 10 for likely decimal shift", n_typo, "e.g.250", "25.0", "common data-entry typo")
-
-    # Recompute yield using harvest and farm size when both are available and mismatch >10%
-    recomputed = df["harvest_weight_kg"] / df["farm_size_ha"]
-    mismatch = df[TARGET_COL].notna() & recomputed.notna() & ((df[TARGET_COL] - recomputed).abs() / recomputed.abs().clip(lower=1) > 0.1)
-    n_mismatch = int(mismatch.sum())
-    df.loc[mismatch, TARGET_COL] = recomputed[mismatch]
-    clog.add("recompute_yield", "yield_kg_per_ha", "replace mismatched target with harvest/size", n_mismatch, "reported", "recomputed", "physical consistency of target")
 
     # Drop rows with missing target
     n_before = len(df)
@@ -163,7 +118,7 @@ def clean_q1(df_raw: pd.DataFrame, clog) -> pd.DataFrame:
     clog.add("drop_missing_target", TARGET_COL, "drop unusable target rows", n_before - n_after, n_before, n_after, "supervised dataset requires target")
 
     # Winsorize a few skewed numerics
-    for col in ["fertilizer_kg", "rainfall_mm", "yield_kg_per_ha"]:
+    for col in ["fertilizer_kg", "rainfall_mm", TARGET_COL]:
         s = df[col]
         lo, hi = s.quantile([0.01, 0.99])
         clipped = s.clip(lo, hi)
@@ -176,9 +131,6 @@ def clean_q1(df_raw: pd.DataFrame, clog) -> pd.DataFrame:
 
 def add_time_features(df: pd.DataFrame) -> pd.DataFrame:
     out = df.copy()
-    out["planting_month"] = out["planting_dt"].dt.month
-    out["planting_quarter"] = out["planting_dt"].dt.quarter
-    start_month = out["season"].str.lower().map(SEASON_START_MONTH)
-    start_dt = pd.to_datetime(dict(year=out["year"].fillna(2024).astype(int), month=start_month.fillna(1).astype(int), day=1), errors="coerce")
-    out["days_from_season_start"] = (out["planting_dt"] - start_dt).dt.days
+    out["year_season"] = out["year"].astype("Int64").astype(str) + "_" + out["season"].astype(str)
+    out["rainfall_per_temp"] = out["rainfall_mm"] / out["avg_temp_c"].replace(0, np.nan)
     return out

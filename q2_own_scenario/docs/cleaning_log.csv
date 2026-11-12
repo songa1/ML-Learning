@@ -1,0 +1,15 @@
+step,columns,rule,n_affected,before,after,justification
+strip_whitespace,all text columns,trim leading and trailing spaces,0,"(1278, 31)","(1278, 31)",avoid false label variants caused by stray spaces
+normalise_names,"school_name,district",collapse internal spaces; title-case district,23,"(1278, 31)","(1278, 31)",one consistent label per school and district
+set_missing_tokens,all text columns,empty and placeholder text -> missing,13505,"(1278, 31)","(1278, 31)",distinguish genuinely absent values from text placeholders
+parse_numeric,"alevel_avg_pct_2023_24,alevel_rank_in_category,alevel_n_schools_in_category,olevel_avg_pct_2023_24,olevel_rank_national,olevel_n_schools_ranked,wda_n_accredited_trades,wda_match_score",extract numbers from text,0,"(1278, 31)","(1278, 31)",allow arithmetic and range checks
+invalid_range,alevel_avg_pct_2023_24,"values outside [0, 100] -> missing",0,"(1278, 31)","(1278, 31)","remove impossible percentages, ranks, or counts"
+invalid_range,olevel_avg_pct_2023_24,"values outside [0, 100] -> missing",0,"(1278, 31)","(1278, 31)","remove impossible percentages, ranks, or counts"
+invalid_range,alevel_rank_in_category,"values outside [1, inf] -> missing",0,"(1278, 31)","(1278, 31)","remove impossible percentages, ranks, or counts"
+invalid_range,olevel_rank_national,"values outside [1, inf] -> missing",0,"(1278, 31)","(1278, 31)","remove impossible percentages, ranks, or counts"
+invalid_range,wda_n_accredited_trades,"values outside [0, inf] -> missing",0,"(1278, 31)","(1278, 31)","remove impossible percentages, ranks, or counts"
+normalize_wda_status,wda_status,map ownership spellings to Public/Private,189,"(1278, 31)","(1278, 31)",one label per ownership meaning
+normalize_labels,"gender_intake,school_category",map source labels to readable categories,1294,"(1278, 31)","(1278, 31)",consistent categories for encoding and reporting
+drop_exact_duplicates,all columns,remove identical rows,0,1278,1278,duplicate extracts inflate the same offer
+dedupe_offer_key,"school_code,combination_code",keep one row per school x combination,0,1278,1278,the unit of analysis is one offer
+drop_missing_target,"alevel_avg_pct_2023_24,school_code,combination_code",drop rows without a usable target or key,53,1278,1225,no outcome means the record cannot be supervised

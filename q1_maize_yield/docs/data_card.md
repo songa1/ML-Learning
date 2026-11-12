@@ -1,10 +1,8 @@
-# Data Card (Q1 Maize)
+# Q1 Data Card
 
-- Purpose: prepare a machine-learning-ready maize dataset for questions A-E.
-- Source: MCSU merged district forms (or stand-in when source unavailable).
-- Size (usable): 1192 rows across train/validation/test.
-- Target: `yield_kg_per_ha`.
-- Key cleaning: text normalization, unit conversion to hectares, date parsing, deduplication, impossible value handling, leakage control.
-- Key features: fertilizer per hectare, planting timing, seed and irrigation indicators, climate interactions.
-- Limitations: data-entry noise, potential district/cooperative reporting bias, stand-in usage if real file missing.
-- Reproducibility: `python run_all.py`.
+- Target: `yield_kg_per_ha` (derived from source `yield_t_ha` by multiplying by 1,000).
+- Records: train=998, validation=214, test=214.
+- Revised source fields: record ID, year, season, geography, weather, soil, seed, farming practice, fertiliser, density, area, irrigation and pest index.
+- Leakage control: `yield_t_ha` is excluded from model features; no harvest-weight field is present in the revised source.
+- Prepared: 2026-11-12.
+- Limitation: this is a prepared dataset, not a trained or deployed prediction model.

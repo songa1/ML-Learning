@@ -1,23 +1,23 @@
-# Data Dictionary
+# Q1 Data Dictionary
 
-      column_name                    meaning    data_type           unit           allowed_values_or_notes known_to_be_post_harvest?
-          farm_id                  Farm code       string            n/a                        identifier                        No
-         province              Province name       string            n/a Eastern/Southern/Northern/Western                        No
-         district              District name       string            n/a                    district label                        No
-   cooperative_id           Cooperative code       string            n/a                            C001..                        No
-       altitude_m              Farm altitude      numeric         meters                   approx 900-2800                        No
-           season            Cropping season  categorical            n/a                             A/B/C                        No
-    planting_date              Planting date         date           date                         2023-2025                        No
-        farm_size            Farm size value numeric/text          mixed               with farm_size_unit                        No
-   farm_size_unit             Farm size unit  categorical ha/m2/acre/are                     unit variants                        No
-     seed_variety                  Seed type  categorical            n/a             Local/Improved/Hybrid                        No
-    fertilizer_kg   Total fertilizer applied      numeric             kg                  whole farm total                        No
-      rainfall_mm                   Rainfall      numeric             mm                 seasonal rainfall                        No
-       avg_temp_c        Average temperature      numeric             °C                    season average                        No
-        soil_type              Soil category  categorical            n/a                   Clay/Loam/Sandy                        No
-          soil_ph                    Soil pH      numeric             pH                        approx 4-8                        No
-   pest_incidence              Pest pressure      ordinal            n/a                   Low/Medium/High                        No
-       irrigation            Irrigation used  categorical            n/a                            Yes/No                        No
-       farmer_age                 Farmer age      numeric          years                    adult expected                        No
-harvest_weight_kg             Harvest weight      numeric             kg         post-harvest leakage risk                       Yes
-  yield_kg_per_ha Yield per hectare (target)      numeric          kg/ha                            target                       Yes
+         column_name                meaning data_type                          unit post_harvest_or_target
+           record_id Observation identifier    string            unique record code                     No
+                year       Observation year   integer                     2015-2030                     No
+              season        Cropping season  category                         A/B/C                     No
+            province               Province  category               Rwanda province                     No
+            district               District  category               Rwanda district                     No
+          altitude_m               Altitude   numeric                        metres                     No
+         rainfall_mm               Rainfall   numeric                   millimetres                     No
+          avg_temp_c    Average temperature   numeric               degrees Celsius                     No
+             soil_ph           Soil acidity   numeric                            pH                     No
+           soil_type          Soil category  category                    soil class                     No
+        seed_variety           Seed variety  category                 variety label                     No
+    farming_practice       Farming practice  category          Traditional/Improved                     No
+           npk_kg_ha         NPK fertiliser   numeric                         kg/ha                     No
+          urea_kg_ha        Urea fertiliser   numeric                         kg/ha                     No
+         manure_t_ha                 Manure   numeric                     tonnes/ha                     No
+plant_density_per_ha          Plant density   numeric                     plants/ha                     No
+        farm_area_ha              Farm area   numeric                      hectares                     No
+          irrigation             Irrigation  category                        Yes/No                     No
+pest_incidence_index   Pest incidence index   numeric                     0-1 index                     No
+          yield_t_ha           Yield target   numeric tonnes/ha; converted to kg/ha                    Yes

@@ -4,7 +4,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parent
-NOTEBOOKS = sorted((ROOT / "q2_own_scenario" / "notebooks").glob("0*.ipynb"))
+NOTEBOOKS = [ROOT / "q2_own_scenario" / "notebooks" / "q2_student_pathways_workflow.ipynb"]
 
 if not NOTEBOOKS:
     raise SystemExit("No Q2 notebooks found. Run tools/build_q2_notebooks.py first.")

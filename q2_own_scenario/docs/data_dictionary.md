@@ -1,0 +1,34 @@
+# Q2 Data Dictionary
+
+                      column                 group                                                                             description                             role
+                    district             Geography                                                    District where the school is located                          Feature
+               district_code             Geography                                                                  Official district code                       Identifier
+                      sector             Geography                                 Sector where the school is located; finer than district                       Identifier
+                 sector_code             Geography                                                                    Official sector code                       Identifier
+                 school_name              Identity                                                  School name as published in the source                       Identifier
+                 school_code              Identity                                       Unique school code used to join the source tables                       Identifier
+             school_category        School context General Education, TVET, TTC, Professional Education, Nine-Twelve YBE, or Special Needs                          Feature
+            combination_code             Programme                                           Code of the A-level combination or TVET trade                          Feature
+            combination_name             Programme                                                   Full name of the combination or trade                      Descriptive
+               gender_intake             Programme                                                       Mixed or single-sex intake policy                          Feature
+               boarding_note        School context                                       Free-text boarding note; only two offers have one                      Descriptive
+            ranking_category             Programme                                            NESA ranking section the school is ranked in Feature and stratification group
+      alevel_avg_pct_2023_24       A-level outcome                   Average A-level percentage for this school and combination in 2023/24                           Target
+     alevel_rank_in_category       A-level outcome                                              Rank of the school within its NESA section                          Leakage
+alevel_n_schools_in_category       A-level outcome                                           Number of schools ranked in that NESA section                          Leakage
+      olevel_avg_pct_2023_24 Prior O-level results                                            School average O-level percentage in 2023/24                          Feature
+        olevel_rank_national Prior O-level results                                                            School national O-level rank                          Feature
+     olevel_n_schools_ranked Prior O-level results                      Number of schools in the national O-level ranking (constant 1,871) Used only to derive rank percent
+   nesa_name_in_alevel_table            Provenance                                    School name in the NESA A-level table, where matched                       Identifier
+                      wda_sn        WDA provenance                                                         Row number in the WDA TVET list                       Identifier
+             wda_match_score        WDA provenance                                    Fuzzy-match confidence between school and WDA record                       Identifier
+            wda_match_method        WDA provenance                                                          How the WDA record was matched                       Identifier
+             wda_school_name        WDA provenance                                                             School name in the WDA list                       Identifier
+                wda_province        WDA provenance                                                                Province in the WDA list                       Identifier
+                wda_district        WDA provenance                                                                District in the WDA list                       Identifier
+                  wda_sector        WDA provenance                                                                  Sector in the WDA list                       Identifier
+                  wda_status        School context                            Ownership label for a WDA-listed school (many raw spellings)                      Descriptive
+     wda_n_accredited_trades        School context                                                     Number of accredited trades offered                          Feature
+       wda_accredited_trades        School context                                                              Names of accredited trades                      Descriptive
+       wda_accredited_levels        School context                                                        Accredited levels for the trades                      Descriptive
+          wda_non_accredited        School context                                                        Trades listed but not accredited                      Descriptive

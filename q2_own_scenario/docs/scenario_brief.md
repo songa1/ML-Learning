@@ -1,5 +1,7 @@
 # Q2 Scenario Brief
 
+> **Implementation update (12 November 2026):** The public data now available is school-level, so the implemented workflow uses one row per school × A-level combination and the target `alevel_avg_pct_2023_24`. The original student-level target (`alevel_total_points`) remains the plan once approved anonymised student records are collected. This notebook prepares the option-level benchmark that the future student-level recommender will use.
+
 ## Title
 
 Predicting A-Level Performance to Recommend the Best-Fit School and Combination for Senior 3 Leavers
@@ -19,11 +21,13 @@ SPAU needs a recommender that estimates the expected A-level result for each can
 ## Prediction targets
 
 - **Primary problem:** Regression.
-- **Primary target:** `alevel_total_points`, the A-level aggregate points for one student-school-combination record.
-- **Secondary analysis:** `high_performer`, optionally derived as the top third of results. The threshold must be calculated from the training data only.
+- **Current unit of analysis:** one school × one A-level subject combination (or TVET trade) offered in the 2023/24 NESA results.
+- **Current primary target:** `alevel_avg_pct_2023_24`, the school-combination average A-level percentage (0–100).
+- **Planned student-level target:** `alevel_total_points`, the A-level aggregate points for one student-school-combination record, once approved anonymised survey records exist.
+- **Secondary analysis:** `high_performer`, the top third of results. The threshold must be calculated from the training data only; the current notebook uses the training top third (about 72.5).
 - Recommendation happens after prediction by ranking expected outcomes across candidate schools and combinations. It is not a claim that the model determines a student's future.
 
-## Candidate features known before A-level starts
+## Candidate features for the planned student-level model
 
 - S3/O-level subject grades and aggregate.
 - Gender, age, and coarse district or sector of origin.
@@ -35,7 +39,9 @@ SPAU needs a recommender that estimates the expected A-level result for each can
 - Chosen subject combination.
 - Previous-year school pass rate.
 
-Post-outcome information must not be used as a feature. Examples include university admission, A-level subject marks, and whether the student repeated a year.
+Post-outcome information must not be used as a feature. In the current data, `alevel_rank_in_category` and `alevel_n_schools_in_category` are computed from the same A-level results and are excluded. In a future student-level file, university admission, A-level subject marks, and repeat-year status must also be excluded.
+
+**What the current public data supports:** district and province, school category, combination and programme family, intake policy, prior O-level average and national rank, WDA listing and accredited-trade breadth, and programme breadth. It does **not** contain student grades, fees, distance, boarding availability, or facilities; those must be joined before an individual recommendation is shown.
 
 ## Data plan
 
@@ -46,7 +52,7 @@ Use and compare at least two sources, in this order:
 
 The target is at least 1,000 records and 8 or more columns containing both numeric and categorical variables. Raw data should retain realistic quality problems, including missing values, duplicates, inconsistent school-name spellings, and outliers, so the preparation workflow can find and document them.
 
-No Q2 data is being downloaded or generated in this scaffold phase. If real student-level data cannot be obtained in time, any simulated portion must be labelled synthetic in the source log and data card, and the lecturer must be informed. Synthetic data must never be presented as real Rwanda student records.
+**Data actually used (current notebook):** the merged school-level extract of NESA 2023/24 A-level and O-level rankings and the WDA 2020/21 accredited TVET list, with 1,278 school × combination offers. Provenance, coverage, and licence caveats are recorded in `source_log.md`; the earlier synthetic student fixture is no longer used by the Q2 workflow. No student-level records have been acquired yet, so the current model-ready dataset supports an option benchmark only.
 
 ## Ethics, fairness, and data protection
 

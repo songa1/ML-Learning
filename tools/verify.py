@@ -32,16 +32,15 @@ def main():
         assert_true(df.columns.tolist() == train.columns.tolist(), f"{name} columns mismatch")
 
     # no leakage columns
-    leak_cols = [c for c in train.columns if "harvest_weight" in c]
-    assert_true(len(leak_cols) == 0, "Leakage columns detected")
+    assert_true("yield_t_ha" not in train.columns, "Source target column leaked into model-ready data")
 
     # check NaNs (allow in raw id columns only not expected here)
     for df, name in [(train, "train"), (val, "val"), (test, "test")]:
-        assert_true(df.drop(columns=["farm_id"], errors="ignore").isna().sum().sum() == 0, f"NaN found in {name}")
+        assert_true(df.drop(columns=["record_id"], errors="ignore").isna().sum().sum() == 0, f"NaN found in {name}")
 
     # disjoint farm_id
-    if "farm_id" in train.columns:
-        tr, va, te = set(train["farm_id"].astype(str)), set(val["farm_id"].astype(str)), set(test["farm_id"].astype(str))
+    if "record_id" in train.columns:
+        tr, va, te = set(train["record_id"].astype(str)), set(val["record_id"].astype(str)), set(test["record_id"].astype(str))
         assert_true(len(tr & va) == 0 and len(tr & te) == 0 and len(va & te) == 0, "farm_id overlap across splits")
 
     # train scaling mean approx zero for numeric transformed features

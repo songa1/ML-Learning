@@ -15,7 +15,7 @@ def split_train_val_test(df: pd.DataFrame):
 
 
 def build_preprocessor(train_df: pd.DataFrame):
-    feature_cols = [c for c in train_df.columns if c not in [TARGET_COL] + LEAKAGE_COLS + ["planting_date", "planting_dt"]]
+    feature_cols = [c for c in train_df.columns if c not in [TARGET_COL] + LEAKAGE_COLS + ["yield_t_ha", "record_id"]]
     X_train = train_df[feature_cols].copy()
 
     numeric_cols = list(X_train.select_dtypes(include=["number"]).columns)

@@ -12,17 +12,18 @@ NOTEBOOK_DIR = Q1_DIR / "notebooks"
 FIGURE_DIR = Q1_DIR / "figures"
 DOCS_DIR = Q1_DIR / "docs"
 
-RAW_FILE = RAW_DIR / "maize_yield_rwanda_raw.csv"
+RAW_FILE = RAW_DIR / "maize_yield_rwanda_rw.csv"
 STANDIN_FILE = RAW_DIR / "maize_yield_rwanda_SYNTHETIC_STANDIN.csv"
 
 TARGET_COL = "yield_kg_per_ha"
-LEAKAGE_COLS = ["harvest_weight_kg"]
-ID_COLS = ["farm_id", "cooperative_id"]
+LEAKAGE_COLS = []
+ID_COLS = ["record_id"]
 
 COLUMNS = [
-    "farm_id", "province", "district", "cooperative_id", "altitude_m", "season", "planting_date",
-    "farm_size", "farm_size_unit", "seed_variety", "fertilizer_kg", "rainfall_mm", "avg_temp_c",
-    "soil_type", "soil_ph", "pest_incidence", "irrigation", "farmer_age", "harvest_weight_kg", "yield_kg_per_ha"
+    "record_id", "year", "season", "province", "district", "altitude_m", "rainfall_mm",
+    "avg_temp_c", "soil_ph", "soil_type", "seed_variety", "farming_practice",
+    "npk_kg_ha", "urea_kg_ha", "manure_t_ha", "plant_density_per_ha", "farm_area_ha",
+    "irrigation", "pest_incidence_index", "yield_t_ha"
 ]
 
 DISTRICT_TO_PROVINCE = {

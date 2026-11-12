@@ -1,5 +1,7 @@
 # Q2 Scenario Proposal Form
 
+> **Implementation update (12 November 2026):** Public school-level data has been acquired, so the implemented workflow uses one row per school × A-level combination and the target `alevel_avg_pct_2023_24`. The student-level unit and `alevel_total_points` target below remain the plan once approved anonymised records are collected.
+
 ## 1. Scenario identification
 
 - **Scenario title:** Predicting A-Level Performance to Recommend the Best-Fit School and Combination for Senior 3 Leavers
@@ -15,10 +17,11 @@
 
 ## 3. Target and unit of analysis
 
-- **Unit of analysis:** One anonymised student-school-combination record.
-- **Primary target:** `alevel_total_points` (A-level aggregate points).
-- **Optional secondary target:** `high_performer`, defined as the top third of outcomes using a training-set-only threshold.
-- **Recommendation method:** Predict outcomes for each eligible candidate option and rank the predictions. The model will support guidance, not make an automatic final decision.
+- **Current unit of analysis:** One school × one A-level subject combination (or TVET trade) offered in the 2023/24 NESA results. This is the level at which public data is available.
+- **Current primary target:** `alevel_avg_pct_2023_24` (school-combination average A-level percentage, 0–100).
+- **Planned student-level unit and target:** One anonymised student-school-combination record with `alevel_total_points` (A-level aggregate points), once approved survey records exist.
+- **Optional secondary target:** `high_performer`, defined as the top third of outcomes using a training-set-only threshold (currently about 72.5).
+- **Recommendation method:** Use the option-level benchmark to score each eligible candidate option, then rank the predictions with student eligibility and family constraints. The model will support guidance, not make an automatic final decision.
 
 ## 4. Proposed input variables
 
@@ -33,7 +36,7 @@
 - **Source 2:** Approved anonymised student-level records collected by the group through a Google Form or KoboToolbox survey of former Senior 3 completers.
 - **Minimum planned size:** At least 1,000 records and 8 or more columns, with numeric and categorical variables.
 - **Quality requirement:** Retain and document realistic raw-data issues such as missing values, duplicate records, inconsistent school-name spellings, and outliers.
-- **Current status:** No Q2 data has been acquired or generated during scaffold creation.
+- **Current status:** Public school-level data has been acquired: a merged NESA 2023/24 A-level/O-level extract with 1,278 school × combination offers, the long-format NESA ranking table, the WDA 2020/21 accredited TVET list, and a combination-to-ranking-section map. The Q2 notebook prepares 1,225 offers with a target. No approved student-level records have been collected yet.
 
 ## 6. Ethics, fairness, and limitations
 
@@ -52,4 +55,4 @@ The group will not present simulated data as real. If real student-level outcome
 ## 8. Approval and implementation status
 
 - **Approval needed before collection:** Confirm lecturer/stakeholder permission, survey consent wording, privacy controls, and source licences.
-- **Implementation status:** Scenario and empty directory scaffold prepared. Q2 data acquisition, cleaning, modelling, and recommendation work are intentionally deferred.
+- **Implementation status:** The school-level preparation workflow is implemented, executed, and verified. Student-level acquisition and the recommendation interface remain deferred until approved anonymised records and student/family inputs (grades, fees, distance, boarding) are available.
